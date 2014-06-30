@@ -7,7 +7,7 @@ int main()
     printf("Hello user! Let's check your number.\n");
     printf("Please, enter the number: ");
     scanf("%d", &enteringNumber);
-    for(counter1=enteringNumber-1;counter1>1;--counter1)
+    for(counter1==enteringNumber-1;counter1>1;--counter1)
     {
         if(enteringNumber%counter1==0)
         {
