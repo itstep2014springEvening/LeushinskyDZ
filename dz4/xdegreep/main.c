@@ -9,7 +9,7 @@ int main()
     scanf("%d", &X);
     printf("Please, enter P: ");
     scanf("%d", &P);
-    for(counter1=0; counter1<P; ++counter1)
+    for(counter1=0; counter1<abs(P); ++counter1)
     {
         degreeResult=degreeResult*X;
     }
