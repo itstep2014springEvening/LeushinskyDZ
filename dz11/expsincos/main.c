@@ -59,6 +59,32 @@ int main()
             printf("%f,    %f,    %f,    %f\n", x, oursin, mathsin, fabs(mathsin-oursin));
         }
     }
+    break;
+    case 3:
+    {
+        double epsilon=0.000001, mathcos;
+        printf("x             our cos      math cos     math-our\n");
+        for(double x=-2.0; x<=2.1; x=x+0.1)
+        {
+            int counter1=1;
+            double ourcos=1;
+            double factorial=1.0;
+            double plusfactorual1=1.0;
+            double variable=1.0;
+            while(fabs(variable)>epsilon)
+            {
+
+                factorial=factorial*counter1*plusfactorual1;
+                variable=pow(x, counter1)/factorial;
+                ourcos=ourcos+variable;
+                counter1=(counter1+1);
+                plusfactorual1=(counter1-1)*(-1);
+            }
+            mathcos=cos(x);
+            printf("%f,    %f,    %f,    %f\n", x, ourcos, mathcos, fabs(mathcos-ourcos));
+        }
+    }
+    break;
     }
     return 0;
 }
