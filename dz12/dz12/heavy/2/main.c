@@ -3,30 +3,13 @@
 
 int main()
 {
-    int ivanSpeed, vladSpeed, distance, ivanFinished, vladFinished, counter1, ivanDistance, vladDistance;
-    printf("Hello user!\n");
-    printf("Please, enter Ivan's speed(m/s): ");
+    int ivanSpeed, vladSpeed, distance, ivanTime, vladTime, counter1, counter2;
+    printf("Enter Ivan's speed: ");
     scanf("%d", &ivanSpeed);
-    printf("Please, enter Vlad's speed(m/s): ");
+    printf("Enter Vlad's speed: ");
     scanf("%d", &vladSpeed);
-    printf("Please, enter distance(m): ");
+    printf("Enter distance: ");
     scanf("%d", &distance);
-    ivanDistance==distance;
-    vladDistance==distance;
-    for(counter1=0; counter1<distance; ++counter1)
-    {
-        ivanFinished=ivanDistance/ivanSpeed;
-        vladFinished=vladDistance/vladSpeed;
-        ivanDistance=ivanFinished;
-        vladDistance=vladFinished;
-    }
-    if(ivanFinished==vladFinished)
-    {
-        printf("Friendship WINS!");
-    }
-    else
-    {
-        ivanFinished>vladFinished?printf("Ivan FIRST!=%d", ivanFinished):printf("Vlad FIRST!=%d", vladFinished);
-    }
+    for()
     return 0;
 }
