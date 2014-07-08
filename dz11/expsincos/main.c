@@ -4,18 +4,24 @@
 
 int main()
 {
-    int counter1=1;
-    double x=2.0, exponent=1.0, factorial=1.0, epsilon=0.000001, variable=1.0;
+    double epsilon=0.000001, mathexponent;
     printf("Hello user!\n");
-    for(x=-2.0; x<2.0; x=x+0.1)
+    printf("x             our exp      math exp     math-our\n");
+    for(double x=-2.0; x<=2.1; x=x+0.1)
     {
-        for(;fabs(variable)>epsilon;++counter1)
+        int counter1=1;
+        double ourexponent=1.0;
+        double factorial=1.0;
+        double variable=1.0;
+        while(fabs(variable)>epsilon)
         {
             factorial=factorial*counter1;
             variable=pow(x, counter1)/factorial;
-            exponent=exponent+variable;
+            ourexponent=ourexponent+variable;
+            ++counter1;
         }
-        printf("e%f\n", exponent);
+        mathexponent=exp(x);
+        printf("%f,    %f,    %f,    %f\n", x, ourexponent, mathexponent, fabs(mathexponent-ourexponent));
     }
     return 0;
 }
