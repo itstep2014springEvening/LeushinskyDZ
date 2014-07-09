@@ -4,29 +4,103 @@
 
 int main()
 {
-<<<<<<< HEAD
-    double exponentour, exponentmath, x=1.0, counter1;
-    printf("Hello user!\n");
-    exponentmath=exp(x);
-    for(counter1=-2.0;counter1<=2.0;counter1=+0.1)
-        exponentour=exponentour;
-
-
-    printf("x    exp(our)    exp(math)    exp(m-o)\n");
-    printf("%d       %f            %f            %f", x, exponentour, exponentmath,exponentmath-exponentour);
-=======
-    double x, exponent=1.0, factorial=1.0, epsilon=0.001;
-    printf("Hello user!\n");
-    for(x=-2.0;x<2.0;x=x+0.1)
+    int choice;
+    printf("Hello user! What you want?\n\n");
+    printf("1.Exponent\n");
+    printf("2.Sin\n");
+    printf("3.Cos\n");
+    printf("0.Exit\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    switch(choice)
     {
-        while(exponent>epsilon)
+    case 1:
+    {
+        double epsilon=0.000001, mathexponent;
+        printf("x             our exp      math exp     math-our\n");
+        for(double x=-2.0; x<=2.1; x=x+0.1)
         {
-            exponent=exponent pow(factorial)+x/factorial;
-            factorial++;
+            int counter1=1;
+            double ourexponent=1.0;
+            double factorial=1.0;
+            double variable=1.0;
+            while(fabs(variable)>epsilon)
+            {
+                factorial=factorial*counter1;
+                variable=pow(x, counter1)/factorial;
+                ourexponent=ourexponent+variable;
+                ++counter1;
+            }
+            mathexponent=exp(x);
+            printf("%f    %f    %f    %f\n", x, ourexponent, mathexponent, fabs(mathexponent-ourexponent));
         }
-       printf("%d\n", x);
-
     }
->>>>>>> d6d1545fbf43b3f7a39086a5b7938c99a4318a14
+    break;
+    case 2:
+    {
+        double epsilon=0.000001, mathsin;
+        printf("x             our sin      math sin     math-our\n");
+        for(double x=-2.0; x<=2.1; x=x+0.1)
+        {
+            int counter1=1;
+            double oursin=0.0;
+            double factorial=1.0;
+            double plusfactorual1=1.0;
+            double variable=1.0;
+            while(fabs(variable)>epsilon)
+            {
+                factorial=factorial*counter1*plusfactorual1;
+                variable=pow(x, counter1)/factorial;
+                oursin=oursin+variable;
+                counter1=(counter1+2);
+                plusfactorual1=(counter1-1)*(-1);
+            }
+            mathsin=sin(x);
+            printf("%f    %f    %f    %f\n", x, oursin, mathsin, fabs(mathsin-oursin));
+        }
+    }
+    break;
+    case 3:
+    {
+        double epsilon=0.000001, mathcos;
+        printf("x             our cos      math cos     math-our\n");
+        for(double x=-2.0; x<=2.1; x=x+0.1)
+        {
+            int counter1=1;
+            double ourcos=1.0;
+            double factorial=1.0;
+            double plusfactorual1=1.0;
+            double variable=1.0;
+            while(fabs(variable)>epsilon)
+            {
+                factorial=factorial*counter1*plusfactorual1;
+                variable=pow(x, counter1)/factorial;
+                ourcos=ourcos+variable;
+                if(counter1>1)
+                {
+                    counter1=(counter1+2);
+                }
+                else
+                {
+                    counter1=(counter1+1);
+                }
+                plusfactorual1=(counter1-1)*(-1);
+            }
+            mathcos=cos(x);
+            printf("%f    %f    %f    %f\n", x, ourcos-x, mathcos, fabs(mathcos-(ourcos-x)));
+        }
+    }
+    break;
+    case 0:
+    {
+        printf("Goodbye, user1");
+    }
+    break;
+    default:
+        {
+            printf("\nPlease, enter 0-3");
+        }
+        break;
+    }
     return 0;
 }
