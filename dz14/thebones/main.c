@@ -4,12 +4,12 @@
 int main()
 {
     int humanTurn1, humanTurn2, PCTurn1, PCTurn2, humanWin=0, PCWin=0;
+    srand(time(NULL));
     for(int turnNumber=1; turnNumber<=5; ++turnNumber)
     {
-        int likeABoolean=1;
-        srand(time(NULL));
-        humanTurn1=rand()%5+2;
-        PCTurn1=rand()%5+2;
+        int notABoolean=1;
+        humanTurn1=rand()%6+1;
+        PCTurn1=rand()%6+1;
         humanTurn2=rand()%6+1;
         PCTurn2=rand()%6+1;
         printf("YOUR BONES=%d\n", humanTurn1+humanTurn2);
@@ -18,8 +18,8 @@ int main()
         printf("COMPUTER BONES=%d\n", PCTurn1+PCTurn2);
         throw(PCTurn1);
         throw(PCTurn2);
-        humanTurn1+humanTurn2>PCTurn1+PCTurn2?likeABoolean--:likeABoolean++;
-        switch(likeABoolean)
+        humanTurn1+humanTurn2>PCTurn1+PCTurn2?notABoolean--:notABoolean++;
+        switch(notABoolean)
         {
         case 0:
             printf("YOU WIN THIS ROUND\n");
