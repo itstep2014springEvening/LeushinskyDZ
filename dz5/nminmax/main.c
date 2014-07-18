@@ -12,17 +12,18 @@ int main()
     }
     else
     {
+        min=a;
         for(int counter1=0; counter1<numberOfNumbers; ++counter1)
         {
             printf("Enter %d number: ", counter1+1);
             scanf("%d", &a);
             if(a>max)
             {
-                max=a+0;
+                max=a;
             }
             if(min>a)
             {
-                min=a+0;
+                min=a;
             }
         }
         printf("MAX=%d\nMIN=%d", max,min);
