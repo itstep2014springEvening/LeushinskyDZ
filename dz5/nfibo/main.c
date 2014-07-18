@@ -3,6 +3,20 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int amountOfFibonachiNumbers, fibo2=1, fibo1=0;
+    printf ("Enter amount of Fibonachi numbers: ");
+    scanf ("%d", &amountOfFibonachiNumbers);
+    while (amountOfFibonachiNumbers>0)
+    {
+        printf ("%d\n", fibo2);
+        fibo1+=fibo2;
+        --amountOfFibonachiNumbers;
+        if (amountOfFibonachiNumbers>0)
+        {
+            printf ("%d\n", fibo1);
+            fibo2+=fibo1;
+            --amountOfFibonachiNumbers;
+        }
+    }
     return 0;
 }

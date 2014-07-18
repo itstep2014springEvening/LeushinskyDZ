@@ -3,7 +3,7 @@
 
 int main()
 {
-    int numberOfNumbers,a,b,c,min=1,max=1;
+    int numberOfNumbers,a,min=1,max=1;
     printf("Enter amount of numbers: ");
     scanf("%d", &numberOfNumbers);
     if(numberOfNumbers<=0)
