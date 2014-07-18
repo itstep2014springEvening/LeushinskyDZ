@@ -6,7 +6,8 @@ int main()
     int amountOfFibonachiNumbers, fibo2=1, fibo1=0;
     printf ("Enter amount of Fibonachi numbers: ");
     scanf ("%d", &amountOfFibonachiNumbers);
-    while (amountOfFibonachiNumbers>0)
+    printf("%d\n", fibo1);
+    while (amountOfFibonachiNumbers-1>0)
     {
         printf ("%d\n", fibo2);
         fibo1+=fibo2;
