@@ -3,18 +3,16 @@
 
 int main()
 {
-    int enteredNumber, sum=1, randomName;
+    int enteredNumber, sum, inverseNumber=0, processingNumber;
     printf("Enter your number: ");
     scanf("%d", &enteredNumber);
-    for(;enteredNumber>0;)
+    processingNumber=enteredNumber;
+    while(enteredNumber>0)
     {
-
         sum=enteredNumber%10;
-        sum=sum+0;
-        enteredNumber=enteredNumber/10;
-printf("%d,%d\n", enteredNumber,sum);
-
+        inverseNumber=(inverseNumber*10)+sum;
+        enteredNumber/=10;
     }
-    printf("%d", sum);
+    processingNumber==inverseNumber?printf("%d = %d => palindrome.",processingNumber,inverseNumber):printf("%d != %d => not a palindrome.",processingNumber,inverseNumber);
     return 0;
 }
