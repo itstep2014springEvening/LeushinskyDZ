@@ -4,9 +4,8 @@
 int main()
 {
     int size=10, ourArray [size], usingMassiveLength, max=1, min=1;
-    printf("123!\n");
+    printf("Enter massive length(<10)\n");
     scanf("%d", &usingMassiveLength);
-    ourArray [usingMassiveLength];
     for(int counter1=0;counter1<usingMassiveLength;++counter1)
     {
         ourArray[counter1]=rand();
