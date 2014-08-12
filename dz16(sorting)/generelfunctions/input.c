@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 void input (int array[], int size)
 {
     for (int counter=0; counter<size ; ++counter)
