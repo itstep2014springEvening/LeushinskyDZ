@@ -9,13 +9,13 @@ int main()
     int ourArray [arrayMaxSize];
     int varNumberForSort1=0,varNumberForSort2=1, max=0;
     input (ourArray, size);
-    for(int counter2=0; counter2<size; ++counter2)
+    for(int counter=0; counter<size; ++counter)
     {
-        if(ourArray[counter2]>ourArray[max])
+        if(ourArray[counter]>ourArray[max])
         {
-            varNumberForSort1=ourArray[counter2];
-            ourArray[max]=ourArray[counter2];
-            ourArray[counter2]=varNumberForSort1;
+            varNumberForSort1=ourArray[counter];
+            ourArray[max]=ourArray[counter];
+            ourArray[counter]=varNumberForSort1;
         }
     }
 output (ourArray, size);
