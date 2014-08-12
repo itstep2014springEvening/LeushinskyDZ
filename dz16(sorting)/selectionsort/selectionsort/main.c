@@ -6,7 +6,7 @@
 int main()
 {
     printf("Hello world!\n");
-    int size=7;
+    int size=5;
     int ourArray [arraymaxsize];
     int varNumberForSort1=0,varNumberForSort2=1, max=0;
     input (ourArray, size);
@@ -19,6 +19,6 @@ int main()
             ourArray[counter2]=varNumberForSort1;
         }
     }
-void output (int array[], int size);
+output (ourArray, size);
     return 0;
 }
