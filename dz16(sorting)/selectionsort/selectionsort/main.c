@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../generelfunctions/input.h"
-#include "../../generelfunctions/output.h"
+#include "../../generelfunctions/generelfunctions.h"
 
 int main()
 {
