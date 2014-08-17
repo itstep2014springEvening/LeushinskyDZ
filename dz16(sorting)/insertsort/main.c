@@ -12,24 +12,19 @@ int main()
     return 0;
 }
 
-void insertsort (int ourArray, int size)
+void insertsort (int ourArray[], int size)
 {
-    int firstElement, secondElement;
-    for(int counter1=0;counter1<size;++counter1)
+    int firstElement, secondElement, temporaryVariable;
+    for(int counter1=1;counter1<size;++counter1)
     {
-        for(int counter2=counter1;counter2>0;--counter2)
+        for(int counter2=counter1;counter2>=0;--counter2)
         {
-            if(ourArray[counter2]<ourArray[counter2-1])
+            if(ourArray[counter2]>ourArray[counter2+1])
             {
-               change (ourArray, counter2, counter2-1);
+                temporaryVariable=ourArray[counter2+1];
+                ourArray[counter2+1]=ourArray[counter2];
+                ourArray[counter2]=temporaryVariable;
             }
         }
     }
-}
-
-void change
-{
-    int temp=ourArray[firstElement];
-                ourArray[firstElement]=ourArray[secondElement];
-                ourArray[secondElement]=temp;
 }
