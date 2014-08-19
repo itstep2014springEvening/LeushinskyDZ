@@ -12,7 +12,7 @@ int main()
         scanf("%c", &currentValue);
         if(currentValue>='0' && currentValue<='9')
         {
-            stack[++top]=(double)(currentValue-('1'-1));
+            stack[++top]=(double)(currentValue-48);
 
         }
         if(currentValue=='+')
