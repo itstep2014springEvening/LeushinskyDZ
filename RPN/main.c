@@ -4,14 +4,32 @@
 int main()
 {
     printf("!REVERSE POLISH NOTATION!");
-    int stack [256];
-    int top=-1,value;
-    //stack[++top]=value;//push
-    //value=stack[top--];//pop
-    //value=stack[top];//onTop
-    //top<0;//isEmpty
-    //top=-1;//clear
+    double stack [256];
+    char currentValue;
+    int top=-1, temporaryVariableOne=0, temporaryVariableTwo=0;
+    do
+    {
+        scanf("%c", &currentValue);
+        if(currentValue>='0' && currentValue<='9')
+        {
+            stack[++top]=(double)(currentValue-('1'-1));
 
-
+        }
+        if(currentValue=='+')
+        {
+            ++top;
+            temporaryVariableTwo=stack[--top];
+            temporaryVariableOne=stack[--top];
+            stack[top]=temporaryVariableTwo+temporaryVariableOne;
+        }
+        if(currentValue=='=')
+        {
+            break;
+        }
+    }
+    while(currentValue != '=');
+    printf("%f", stack[top]);
     return 0;
 }
+
+
