@@ -3,42 +3,53 @@
 
 int main()
 {
-    int arrayMaxSize=256;
-    char ourArray[arrayMaxSize];
-    int top=0;
-    char head;
-    do
+    const int arrayMaxSize=10000;
+    int size=0;
+    char programm[arrayMaxSize];
+    char temp;
+    printf("Enter code:\n");
+    while (temp!=10)
     {
-        scanf("%c", &head);
-        switch (head)
+        programm[size]=temp=getchar();
+        ++size;
+    }
+    size-=1;
+    int stack[100];
+    int top = -1;
+    unsigned char memory[arrayMaxSize];
+    int head = 0;
+    for (int i=0; i<size; ++i)
+    {
+        switch (programm[i])
         {
         case '+':
-            ++ourArray[top];
+            memory[head]++;
             break;
         case '-':
-            --ourArray[top];
-            break;
-        case '>':
-            ++top;
+            memory[head]--;
             break;
         case '<':
-            --top;
+            --head;
+            break;
+        case '>':
+            ++head;
             break;
         case '.':
-            printf("%c", ourArray[top],top);
+            putchar(memory[head]);
             break;
         case ',':
-
+            memory[head]=getchar();
             break;
         case '[':
-
+            stack[++top]=i;
             break;
         case ']':
-
+            if (memory[head]!=0)
+            {
+                i=stack[top--]-1;
+            }
             break;
         }
     }
-    while(head!=';');
-
     return 0;
 }
