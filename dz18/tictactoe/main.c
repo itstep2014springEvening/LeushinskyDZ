@@ -6,6 +6,7 @@ int main()
     int m=5,n=5;
     int ourMatrix [m][n];
     output(ourMatrix,m,n);
+
     return 0;
 }
 
@@ -19,4 +20,12 @@ void output (int ourMatrix[][3], int m, int n)
         }
         printf("\n");
     }
+}
+
+void yourTurn (int ourMatrix[][3], int m, int n)
+{
+    printf("Your turn, player.\n");
+    printf("Enter your position:\n");
+
+
 }
