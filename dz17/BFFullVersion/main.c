@@ -28,7 +28,6 @@ int main()
             printf("%c", ourArray[top],top);
             break;
         case ',':
-
             break;
         case '[':
 
