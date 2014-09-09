@@ -4,14 +4,13 @@
 int main()
 {
     printf("Simpletron is ready, enter your code.\n");
-    int top=-1, adress=0, operation=0, instructions=0, read=0, battery=0, turn=0;
+    int adress=0, operation=0, instructions=0, read=0, battery=0, top=-1;
     int memory[99];
     while(read!=-99999)
     {
-        printf("%2d ", turn);
+        printf("%2d ", top+1);
         scanf("%d", &read);
-        memory[turn]=read;
-        turn++;
+        memory[++top]=read;
     }
     printf("Your code was loaded.\n");
     do
