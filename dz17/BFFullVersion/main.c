@@ -38,10 +38,7 @@ int main()
             putchar(memory[head]);
             break;
         case ',':
-<<<<<<< HEAD
-=======
             memory[head]=getchar();
->>>>>>> 0047fb0807796b41c1af6ef01af58af35590bd31
             break;
         case '[':
             stack[++top]=i;
