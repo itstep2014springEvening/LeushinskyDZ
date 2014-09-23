@@ -1,51 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
- typedef struct _Fraction
-    {
-        int numerator;
-        int denominator;
-    } Fraction;
-Fraction input(int var1ForFr1, int var2ForFr1, char slash);
-Fraction output(int var1ForFr1, int var2ForFr1, char slash);
+typedef struct _Fraction
+{
+    int numerator;
+    int denominator;
+} Fraction;
+
+Fraction input();
+//Fraction output(int var1ForFr1, int var2ForFr1, char slash);
 Fraction multiply(Fraction fractionA, Fraction fractionB);
+
 int main()
 {
-    Fraction fractionA;
-    int var1ForFr1, var2ForFr1;
-    scanf("%d", &var1ForFr1);
-    fractionA.numerator=var1ForFr1;
-    scanf("%d", &var2ForFr1);
-    fractionA.denominator=var2ForFr1;
-
-    Fraction fractionB;
-    int var1ForFr2, var2ForFr2;
-    scanf("%d", &var1ForFr2);
-    fractionB.numerator=var1ForFr2;
-    scanf("%d", &var2ForFr2);
-    fractionB.denominator=var2ForFr2;
-
+    Fraction fractionA, fractionB;
+    input(fractionA);
+    input(fractionB);
     multiply(fractionA, fractionB);
-
-
-
-
-
-    printf("%d/%d", multiply.numerator,multiply.denominator );
-
-
-
-
-
     return 0;
 }
 
- Fraction multiply(Fraction fractionA, Fraction fractionB)
-    {
-        Fraction result;
-        result.numerator=fractionA.numerator*fractionB.numerator;
-        result.denominator=fractionA.denominator*fractionB.denominator;
-        return result;
-    }
+Fraction input()
+{
+    Fraction fraction;
+    int var1ForFr1, var2ForFr1;
+    scanf("%d", &var1ForFr1);
+    fraction.numerator=var1ForFr1;
+    scanf("%d", &var2ForFr1);
+    fraction.denominator=var2ForFr1;
+    return fraction;
+}
+
+Fraction multiply(Fraction fractionA, Fraction fractionB)
+{
+    Fraction result;
+    result.numerator=fractionA.numerator*fractionB.numerator;
+    result.denominator=fractionA.denominator*fractionB.denominator;
+    printf("%d/%d",result.numerator,result.denominator);
+    return result;
+}
+
 
 
 
