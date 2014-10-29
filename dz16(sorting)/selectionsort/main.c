@@ -1,40 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../generelfunctions/generelfunctions.h"
-int maxIndex (int ourArray[], int size);
-void changeMax (int ourArray[], int temporaryVariable1, int temporaryVariable2);
 
 int main()
 {
-    int size=5;
-    int ourArray [arrayMaxSize];
-    int temporaryVariable=0, max=0;
-    input (ourArray, size);
-    for (int i=0; i<size; ++i)
-    {
-        int index=maxIndex(ourArray, size-i);
-        changeMax (ourArray, size-i-1, index);
-    }
-    output (ourArray, size);
+    const int N = 10000;
+    int a[N];
+    int n;
+    printf("Enter array size: ");
+    scanf("%d", &n);
+    input(a, n);
+    selection(a,n);
+    output(a, n);
     return 0;
 }
 
-int maxIndex (int ourArray[], int size)
+void output(int a[], int size)
 {
-    int max=0;
-    for(int counter=0; counter<size; ++counter)
+    for( int i=0; i<size; ++i)
     {
-        if(ourArray[max]<ourArray[counter])
-            max=counter;
+        printf("%d\n",a[i]);
+
     }
-    return max;
+    printf("\n");
 }
 
-void changeMax (int ourArray[], int temporaryVariable1, int temporaryVariable2)
+void input(int a[], int size)
 {
-    int varForChange=ourArray[temporaryVariable1];
-    ourArray[temporaryVariable1]=ourArray[temporaryVariable2];
-    ourArray[temporaryVariable2]=varForChange;
+    for(int i=0; i<size; ++i)
+    {
+        a[i]=rand();
+    }
 }
 
-
+void selection(int a[], int size)
+{
+    int min,temp;
+    for (int i=0; i<size; ++i)
+    {
+        min=i;
+        for (int j=i+1; j<size; ++j)
+        {
+            if (a[j]<a[min])
+            {
+                min=j;
+            }
+        }
+        temp=a[i];
+        a[i]=a[min];
+        a[min]=temp;
+    }
+}
