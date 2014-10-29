@@ -1,37 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int check (int field[][3])
+int main()
 {
-    int result=0, j=0, i=0, check;
-    for (i=0; i<3; ++i)
-    {
-        if (field[i][j]==field[i][j+1] && field[i][j+2]==field[i][j+1] && field[i][j]!=0)
-            result=field[i][j];
-    }
-    i=0;
-    for (j=0; j<3; ++j)
-    {
-        if (field[i][j]==field[i+1][j] && field[i+2][j]==field[i+1][j] && field[i][j]!=0)
-            result=field[i][j];
-    }
-    j=0, i=0;
-    if (field[i][j]==field[i+1][j+1] && field[i+2][j+2]==field[i+1][j+1] && field[i][j]!=0)
-        result=field[i][j];
-    j=0, i=0;
-    if (field[i][j+2]==field[i+1][j+1] && field[i+2][j]==field[i][j+2] && field[i][j+2]!=0)
-        result=field[i][j+2];
-    return result;
+    int x=3, y=3;
+    int field[3][3]= {0};
+    printf ("Let's play!\n");
+    inputField (field, x, y);
+    return 0;
 }
 
 void inputField (int field[][3], int x, int y)
 {
-    int m=3, n=3, result=0, who=2;
+    int result=0, who=2;
     do
     {
         for (int a=0; a<x; ++a)
         {
-            printf ("#######\n");
+            //printf ("#######\n");
             for (int b=0; b<y; ++b)
             {
                 if (b==0)
@@ -45,7 +31,7 @@ void inputField (int field[][3], int x, int y)
             }
             printf ("\n");
         }
-        printf ("#######\n");
+        //printf ("#######\n");
         int i=1, j=1, command;
         if (who%2==0)
         {
@@ -70,16 +56,31 @@ void inputField (int field[][3], int x, int y)
     }
     while (result==0);
     if (result==1)
-        printf ("The first player is winner!");
+        printf ("The first player WIN!");
     else
-        printf ("The second player is winner!");
+        printf ("The second WIN!");
 }
 
-int main()
+int check (int field[][3])
 {
-    int x=3, y=3;
-    int field[3][3]= {0};
-    printf ("Let's play!\n");
-    inputField (field, x, y);
-    return 0;
+    int result=0, j=0, i=0, check;
+    for (i=0; i<3; ++i)
+    {
+        if (field[i][j]==field[i][j+1] && field[i][j+2]==field[i][j+1] && field[i][j]!=0)
+            result=field[i][j];
+    }
+    i=0;
+    for (j=0; j<3; ++j)
+    {
+        if (field[i][j]==field[i+1][j] && field[i+2][j]==field[i+1][j] && field[i][j]!=0)
+            result=field[i][j];
+    }
+    j=0, i=0;
+    if (field[i][j]==field[i+1][j+1] && field[i+2][j+2]==field[i+1][j+1] && field[i][j]!=0)
+        result=field[i][j];
+    j=0, i=0;
+    if (field[i][j+2]==field[i+1][j+1] && field[i+2][j]==field[i][j+2] && field[i][j+2]!=0)
+        result=field[i][j+2];
+    return result;
 }
+
