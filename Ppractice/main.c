@@ -3,15 +3,9 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    int a=2;
-
-    int *pa=malloc(sizeof(int));
-    *pa=a;
-
-    int *p=malloc(sizeof(int));
-    p=&a;
-
-    printf("%d, %d", *p, *pa);
+    int a=5,b;
+    b=&a;
+    int *c=b;
+    printf("%d", *c);
     return 0;
 }
