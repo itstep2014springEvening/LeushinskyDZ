@@ -21,6 +21,7 @@ int main()
     printf("5. Exit.\n");
     scanf("%d", &menuChooses);
 
+
     switch (menuChooses)
 {
 case 1:
