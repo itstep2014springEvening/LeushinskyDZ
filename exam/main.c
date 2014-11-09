@@ -114,7 +114,7 @@ void addRecord(Mountain mountain)
     printf("mountainHasAGlacier\n");
     scanf("%s", &mountain.mountainHasAGlacier);*/
     FILE *fp;
-    fp=fopen("Mountains_DB.txt", "a+t");
+    fp=fopen("Mountains DB.txt", "a+t");
     if(fp=NULL)
     {
         printf("Error");
