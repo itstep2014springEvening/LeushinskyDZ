@@ -13,6 +13,7 @@ typedef struct _Mountain
 
 void DBCreator();
 void addRecord(Mountain mountain);
+void DBLoader(Mountain mountain);
 
 
 
@@ -26,7 +27,7 @@ int main()
         printf("Hello, user. What do you want?\n\n");
         printf("1. Create new DB.\n");
         printf("2. Add a new record.\n");
-        printf("3. Edit a record.\n");
+        printf("3. Load DB.\n");
         printf("4. Delete record.\n");
         printf("5. Sort fields.\n");
         printf("0. Exit.\n");
@@ -44,7 +45,7 @@ int main()
         addRecord(mountain);
             break;
         case 3:
-
+    DBLoader(mountain);
             break;
         case 4:
 
@@ -68,9 +69,26 @@ int main()
     return 0;
 }
 
-void DBLoader()
+void DBLoader(Mountain mountain)
 {
+    system("cls");
+    char readFromFile [256];
+     printf("mountainName\n");
+   scanf("%s", &mountain.mountainName);
+    FILE *fp;
+    fp=fopen("Mountains_DB.txt", "a+t");
+    if(fp==NULL)
+    {
+        printf("Error");
+        exit(1);
+    }
+    fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
+    printf("Catch from file\n");
+    fread(readFromFile, sizeof(readFromFile), 1, fp);
+    printf("%s", readFromFile);
 
+    fclose(fp);
+    exit(1);
 }
 
 void DBSaver()
