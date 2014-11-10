@@ -100,14 +100,17 @@ void DBCreator()
 
 void addRecord(Mountain mountain)
 {
-    char mountainName[256];
+    char jsutNewStroke [256]="\n";
+    size_t readStatus;
     system("cls");
     printf("Let's add a record.\n");
-    printf("mountainName\n");
-    scanf("%s", &mountainName);
-    /*printf("mountainLocation\n");
+   printf("mountainName\n");
+   scanf("%s", &mountain.mountainName);
+    printf("mountainLocation\n");
     scanf("%s", &mountain.mountainLocation);
-    printf("mountainHeight\n");
+    printf("%s\n", mountain.mountainName);
+    printf("%s\n", mountain.mountainName);
+    /*printf("mountainHeight\n");
     scanf("%d", &mountain.mountainHeight);
     printf("mountainSlopeAngle\n");
     scanf("%d", &mountain.mountainSlopeAngle);
@@ -115,14 +118,17 @@ void addRecord(Mountain mountain)
     scanf("%s", &mountain.mountainHasAGlacier);*/
     FILE *fp;
     fp=fopen("Mountains_DB.txt", "a+t");
-    if(fp=NULL)
+    if(fp==NULL)
     {
         printf("Error");
         exit(1);
     }
-    fwrite(mountainName, sizeof mountainName, 1, fp);
+    readStatus=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
+    readStatus=fwrite(jsutNewStroke, strlen(jsutNewStroke), 1, fp);
+    readStatus=fwrite(mountain.mountainLocation, strlen(mountain.mountainLocation), 1, fp);
+
     fclose(fp);
-    exit(0);
+    exit(1);
 
 }
 
