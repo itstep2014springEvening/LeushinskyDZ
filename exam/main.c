@@ -72,7 +72,7 @@ int main()
 void DBLoader(Mountain mountain)
 {
     system("cls");
-    char readFromFile [256];
+    char readFromFile[256];
      printf("mountainName\n");
    scanf("%s", &mountain.mountainName);
     FILE *fp;
@@ -82,10 +82,18 @@ void DBLoader(Mountain mountain)
         printf("Error");
         exit(1);
     }
-    fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
+    int count;
+    int writedElements;
+    writedElements=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
     printf("Catch from file\n");
-    fread(readFromFile, sizeof(readFromFile), 1, fp);
-    printf("%s", readFromFile);
+   // printf("%d", writedElements);
+    count=fread(mountain.mountainName, sizeof (mountain.mountainName), 1, fp);
+    if(count==0)
+    {
+        printf("!");
+    }
+    //printf("%d", count);
+   printf("%s", readFromFile);
 
     fclose(fp);
     exit(1);
