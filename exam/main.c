@@ -73,10 +73,10 @@ void DBLoader(Mountain mountain)
 {
     system("cls");
     char readFromFile [256];
-     printf("mountainName\n");
-   scanf("%s", &mountain.mountainName);
+    // printf("mountainName\n");
+  // scanf("%s", &mountain.mountainName);
     FILE *fp;
-    fp=fopen("Mountains_DB.txt", "r");
+    fp=fopen("Mountains_DB.txt", "a+t");
     /*if(fp==NULL)
     {
         printf("Error");
@@ -88,8 +88,8 @@ void DBLoader(Mountain mountain)
     //writedElements=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
     printf("Catch from file\n");
    // printf("%d", writedElements);
-    while (fscanf (fp, "%s", &(mountain.mountainName)) != "\n") {
-		//printf("%s", &(mountain.mountainName));
+    while (fscanf (fp, "%s", &(mountain.mountainName)) != EOF) {
+		printf("%s", &(mountain.mountainName));
 		i++;
     }
     if(count==0)
@@ -97,7 +97,7 @@ void DBLoader(Mountain mountain)
         printf("!");
     }
     //printf("%d", count);
-   printf("%s", mountain.mountainName);
+  // printf("%s", mountain.mountainName);
 
     fclose(fp);
     exit(1);
@@ -136,10 +136,8 @@ void addRecord(Mountain mountain)
     printf("Let's add a record.\n");
    printf("mountainName\n");
    scanf("%s", &mountain.mountainName);
-    printf("mountainLocation\n");
-    scanf("%s", &mountain.mountainLocation);
-    printf("%s\n", mountain.mountainName);
-    printf("%s\n", mountain.mountainName);
+   // printf("mountainLocation\n");
+   // scanf("%s", &mountain.mountainLocation);
     /*printf("mountainHeight\n");
     scanf("%d", &mountain.mountainHeight);
     printf("mountainSlopeAngle\n");
@@ -147,15 +145,15 @@ void addRecord(Mountain mountain)
     printf("mountainHasAGlacier\n");
     scanf("%s", &mountain.mountainHasAGlacier);*/
     FILE *fp;
-    fp=fopen("Mountains_DB.txt", "a+t");
+    fp=fopen("Mountains_DB.txt", "r+t");
     if(fp==NULL)
     {
         printf("Error");
         exit(1);
     }
     readStatus=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
-    readStatus=fwrite(jsutNewStroke, strlen(jsutNewStroke), 1, fp);
-    readStatus=fwrite(mountain.mountainLocation, strlen(mountain.mountainLocation), 1, fp);
+   // readStatus=fwrite(jsutNewStroke, strlen(jsutNewStroke), 1, fp);
+
 
     fclose(fp);
     exit(1);
