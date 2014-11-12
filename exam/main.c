@@ -20,6 +20,8 @@ void deleteRecord();
 void outputDB();
 void saveDB();
 void loadDB();
+void mysortHeight();
+void mysortSlopeAngle();
 
 int main()
 {
@@ -31,9 +33,10 @@ int main()
         printf("1. Create new DB.\n");
         printf("2. Add record.\n");
         printf("3. Delete record.\n");
-        printf("4. Sort DB.\n");
-        printf("5. Save DB.\n");
-        printf("6. Load DB.\n");
+        printf("4. Otput DB.\n");
+        printf("5. Sort DB.\n");
+        printf("6. Save DB.\n");
+        printf("7. Load DB.\n");
         printf("0. Exit.\n\n\n");
         scanf("%d", &choice);
         switch (choice)
@@ -51,10 +54,13 @@ int main()
             outputDB();
             break;
         case 5:
+            sortDB();
+            break;
+        case 6:
             saveDB();
             break;
-      case 6:
-           loadDB();
+        case 7:
+            loadDB();
             break;
         case 0:
             system("cls");
@@ -102,7 +108,7 @@ void addRecord()
     scanf("%d", &Mountain_list[slot].mountainHeight);
     printf("Enter mountain slope angle:\n");
     scanf("%d", &Mountain_list[slot].mountainSlopeAngle);
-    printf("Mountain as a glacier(enter yes or no):\n");
+    printf("Mountain has a glacier(enter yes or no):\n");
     scanf("%s", &Mountain_list[slot].mountainHasAGlacier);
 }
 
@@ -117,6 +123,27 @@ void deleteRecord()
         Mountain_list[slot].mountainName[0]='\0';
     }
     return;
+}
+
+void sortDB()
+{
+    int choice;
+    printf("Sort by:\n");
+    printf("1. Height.\n");
+    printf("2. Slope angle.\n");
+    scanf("%d", &choice);
+    switch(choice)
+    {
+    case 1:
+        mysortHeight();
+        break;
+    case 2:
+        mysortSlopeAngle();
+        break;
+    default:
+        printf("Error.\n");
+        break;
+    }
 }
 
 void outputDB()
@@ -134,7 +161,94 @@ void outputDB()
             printf("Gl-r:%s\n", Mountain_list[i].mountainHasAGlacier);
         }
     }
-            printf("\n");
+    printf("\n");
+}
+
+void mysortHeight()
+{
+    int firstElement, secondElement, counter=0;
+    for(int i=0; i<MAX; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            counter++;
+        }
+    }
+    for(int i=0; i<counter-1; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            if(Mountain_list[i].mountainHeight>Mountain_list[i+1].mountainHeight)
+            {
+                firstElement=Mountain_list[i].mountainHeight;
+                secondElement=Mountain_list[i+1].mountainHeight;
+                Mountain_list[i].mountainHeight=secondElement;
+                Mountain_list[i+1].mountainHeight=firstElement;
+            }
+
+        }
+    }
+    for(int i=0; i<MAX; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            printf("Rec:N%d  ", i+1);
+            printf("Name:%s  ", Mountain_list[i].mountainName);
+            printf("Loc:%s  ", Mountain_list[i].mountainLocation);
+            printf("He-t:%dm  ", Mountain_list[i].mountainHeight);
+            printf("Sl.a:%d'%'  ", Mountain_list[i].mountainSlopeAngle);
+            printf("Gl-r:%s\n", Mountain_list[i].mountainHasAGlacier);
+        }
+    }
+}
+
+void mysortSlopeAngle()
+{
+    int firstElement, secondElement, counter=0;
+    for(int i=0; i<MAX; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            counter++;
+        }
+    }
+    for(int i=0; i<counter-1; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            if(Mountain_list[i].mountainSlopeAngle>Mountain_list[i+1].mountainSlopeAngle)
+            {
+                firstElement=Mountain_list[i].mountainSlopeAngle;
+                secondElement=Mountain_list[i+1].mountainSlopeAngle;
+                Mountain_list[i].mountainSlopeAngle=secondElement;
+                Mountain_list[i+1].mountainSlopeAngle=firstElement;
+            }
+
+        }
+    }
+    for(int i=0; i<MAX; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+            printf("Rec:N%d  ", i+1);
+            printf("Name:%s  ", Mountain_list[i].mountainName);
+            printf("Loc:%s  ", Mountain_list[i].mountainLocation);
+            printf("He-t:%dm  ", Mountain_list[i].mountainHeight);
+            printf("Sl.a:%d'%'  ", Mountain_list[i].mountainSlopeAngle);
+            printf("Gl-r:%s\n", Mountain_list[i].mountainHasAGlacier);
+        }
+    }
+}
+
+void mysortName()
+{
+    for(int i=0; i<MAX; ++i)
+    {
+        if(Mountain_list[i].mountainName[0])
+        {
+
+        }
+    }
 }
 
 void saveDB()
@@ -152,11 +266,11 @@ void saveDB()
         {
             if(fwrite(&Mountain_list[i],sizeof(struct Mountain), 1, fp)!=1)
             {
-                 printf("Error DB writing.\n");
+                printf("Error DB writing.\n");
             }
         }
     }
-    printf("DB saved./n");
+    printf("DB saved.\n");
     fclose(fp);
 }
 
@@ -182,21 +296,21 @@ void loadDB()
         }
     }
     printf("DB loaded.\n");
-  fclose(fp);
+    fclose(fp);
 }
 
 int find_free()
 {
-  int freeSlot;
-  for(freeSlot=0; Mountain_list[freeSlot].mountainName[0] && freeSlot<MAX; ++freeSlot)
-  {
-       if(freeSlot==MAX) return -1;
-  }
-  return freeSlot;
+    int freeSlot;
+    for(freeSlot=0; Mountain_list[freeSlot].mountainName[0] && freeSlot<MAX; ++freeSlot)
+    {
+        if(freeSlot==MAX) return -1;
+    }
+    return freeSlot;
 }
 
 void init_mass_struct()
 {
-  int i;
-  for(i=0; i<MAX; ++i) Mountain_list[i].mountainName[0] = '\0';
+    int i;
+    for(i=0; i<MAX; ++i) Mountain_list[i].mountainName[0] = '\0';
 }
