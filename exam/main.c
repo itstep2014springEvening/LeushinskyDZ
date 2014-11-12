@@ -4,7 +4,6 @@
 
 #define MAX 100
 
-
 struct Mountain
 {
     char mountainName [256];
@@ -15,12 +14,12 @@ struct Mountain
 } Mountain_list[MAX];
 
 int find_free();
-void DBCreator();
+void createDB();
 void addRecord();
-void DBLoader();
-
-
-
+void deleteRecord();
+void outputDB();
+void saveDB();
+void loadDB();
 
 int main()
 {
@@ -28,16 +27,15 @@ int main()
     init_mass_struct();
     for(;;)
     {
-        printf("Hello, user. What do you want?\n\n");
+        printf("Program started. Select:\n\n");
         printf("1. Create new DB.\n");
         printf("2. Add record.\n");
         printf("3. Delete record.\n");
         printf("4. Sort DB.\n");
         printf("5. Save DB.\n");
         printf("6. Load DB.\n");
-        printf("0. Exit.\n");
+        printf("0. Exit.\n\n\n");
         scanf("%d", &choice);
-
         switch (choice)
         {
         case 1:
@@ -50,7 +48,7 @@ int main()
             deleteRecord();
             break;
         case 4:
-            sortDB();
+            outputDB();
             break;
         case 5:
             saveDB();
@@ -74,7 +72,6 @@ int main()
 
 void createDB()
 {
-
     system("cls");
     FILE *fp;
     fp=fopen("Mountain_DB", "wb");
@@ -83,8 +80,7 @@ void createDB()
         printf("Error DB creating.\n");
         exit(0);
     }
-    system("cls");
-    printf("DB created.\n");
+    printf("DB created.\n\n");
     return;
 }
 
@@ -98,7 +94,6 @@ void addRecord()
         printf("DB is full");
         return 0;
     }
-
     printf("Enter mountain name:\n");
     scanf("%s", &Mountain_list[slot].mountainName);
     printf("Enter mountain location:\n");
@@ -111,12 +106,12 @@ void addRecord()
     scanf("%s", &Mountain_list[slot].mountainHasAGlacier);
 }
 
-
 void deleteRecord()
 {
     int slot;
     printf("Enter record N: ");
     scanf("%d", &slot);
+    slot=slot-1;
     if(slot>=0 && slot<MAX)
     {
         Mountain_list[slot].mountainName[0]='\0';
@@ -124,21 +119,22 @@ void deleteRecord()
     return;
 }
 
-void sortDB()
+void outputDB()
 {
+    system("cls");
     for(int i=0; i<MAX; ++i)
     {
         if(Mountain_list[i].mountainName[0])
         {
-            printf("Record N%d\n\n", i+1);
-            printf("Mountain name - %s\n", Mountain_list[i].mountainName);
-            printf("Mountain location - %s\n", Mountain_list[i].mountainLocation);
-            printf("Mountain height - %d\n", Mountain_list[i].mountainHeight);
-            printf("Mountain slope angle - %d\n", Mountain_list[i].mountainSlopeAngle);
-            printf("Mountain has a glacier - %s\n\n\n", Mountain_list[i].mountainHasAGlacier);
+            printf("Rec:N%d  ", i+1);
+            printf("Name:%s  ", Mountain_list[i].mountainName);
+            printf("Loc:%s  ", Mountain_list[i].mountainLocation);
+            printf("He-t:%dm  ", Mountain_list[i].mountainHeight);
+            printf("Sl.a:%d'%'  ", Mountain_list[i].mountainSlopeAngle);
+            printf("Gl-r:%s\n", Mountain_list[i].mountainHasAGlacier);
         }
     }
-    return;
+            printf("\n");
 }
 
 void saveDB()
@@ -150,18 +146,24 @@ void saveDB()
         printf("Error DB opening.");
         exit(1);
     }
-    for(i=0; i<MAX; i++)
-    if(*Mountain_list[i].mountainName)
-      if(fwrite(&Mountain_list[i],
-         sizeof(struct Mountain), 1, fp)!=1)
-           printf("Ошибка при записи файла.\n");
+    for(int i=0; i<MAX; i++)
+    {
+        if(*Mountain_list[i].mountainName)
+        {
+            if(fwrite(&Mountain_list[i],sizeof(struct Mountain), 1, fp)!=1)
+            {
+                 printf("Error DB writing.\n");
+            }
+        }
+    }
+    printf("DB saved./n");
     fclose(fp);
 }
 
 void loadDB()
 {
     FILE *fp;
-    fp=fopen("Mountain_DB", "wb");
+    fp=fopen("Mountain_DB", "rb");
     if(fp==NULL)
     {
         printf("Error DB opening.");
@@ -170,15 +172,17 @@ void loadDB()
     init_mass_struct();
     for(int i=0; i<MAX; i++)
     {
-        fread(&Mountain_list[i],sizeof(struct Mountain), 1, fp);
-        if(feof(fp))
+        if(fread(&Mountain_list[i],sizeof(struct Mountain), 1, fp)!=1)
         {
-            break;
-            printf("Error DB opening.\n");
+            if(feof(fp))
+            {
+                break;
+                printf("Error DB reading.\n");
+            }
         }
     }
+    printf("DB loaded.\n");
   fclose(fp);
-
 }
 
 int find_free()
