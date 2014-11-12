@@ -19,11 +19,7 @@ void DBCreator();
 void addRecord();
 void DBLoader();
 
-void init_mass_struct()
-{
-  int i;
-  for(i=0; i<MAX; ++i) Mountain_list[i].mountainName[0] = '\0';
-}
+
 
 
 int main()
@@ -32,7 +28,6 @@ int main()
     init_mass_struct();
     for(;;)
     {
-
         printf("Hello, user. What do you want?\n\n");
         printf("1. Create new DB.\n");
         printf("2. Add record.\n");
@@ -60,9 +55,9 @@ int main()
         case 5:
             saveDB();
             break;
-       /*  case 6:
-            loadDB();
-            break;*/
+      case 6:
+           loadDB();
+            break;
         case 0:
             system("cls");
             printf("Bye-bye, user.");
@@ -81,12 +76,8 @@ void createDB()
 {
 
     system("cls");
-    //char DBName [256];
-    //printf("Hello, user. Let's create new DB.\n");
-    //printf("Enter new DB name: ");
-    //scanf("%s", &DBName);
     FILE *fp;
-    fp=fopen("Mountains_DB.txt", "a+t");
+    fp=fopen("Mountain_DB", "wb");
     if(fp=NULL)
     {
         printf("Error DB creating.\n");
@@ -120,41 +111,9 @@ void addRecord()
     scanf("%s", &Mountain_list[slot].mountainHasAGlacier);
 }
 
-/*
-    char readFromFile [256];
-    // printf("mountainName\n");
-  // scanf("%s", &mountain.mountainName);
-    FILE *fp;
-    fp=fopen("Mountains_DB.txt", "a+t");
-    if(fp==NULL)
-    {
-        printf("Error");
-        exit(1);
-    }
-    int count;
-    char i=0;
-    int writedElements;
-    //writedElements=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
-    printf("Catch from file\n");
-   // printf("%d", writedElements);
-    while (fscanf (fp, "%s", &(mountain.mountainName)) != EOF) {
-		printf("%s", &(mountain.mountainName));
-		i++;
-    }
-    if(count==0)
-    {
-        printf("!");
-    }
-    //printf("%d", count);
-  // printf("%s", mountain.mountainName);
-
-    fclose(fp);
-    exit(1);
-*/
 
 void deleteRecord()
 {
-    system("cls");
     int slot;
     printf("Enter record N: ");
     scanf("%d", &slot);
@@ -167,12 +126,11 @@ void deleteRecord()
 
 void sortDB()
 {
-    system("cls");
     for(int i=0; i<MAX; ++i)
     {
         if(Mountain_list[i].mountainName[0])
         {
-            printf("Record N%d\n\n", i);
+            printf("Record N%d\n\n", i+1);
             printf("Mountain name - %s\n", Mountain_list[i].mountainName);
             printf("Mountain location - %s\n", Mountain_list[i].mountainLocation);
             printf("Mountain height - %d\n", Mountain_list[i].mountainHeight);
@@ -186,72 +144,43 @@ void sortDB()
 void saveDB()
 {
     FILE *fp;
-    char buffer [256];
-    fp=fopen("Mountain_DB.txt", "a+");
+    fp=fopen("Mountain_DB", "wb");
     if(fp==NULL)
     {
         printf("Error DB opening.");
         exit(1);
     }
-    fwrite(Mountain_list[0].mountainName, sizeof buffer, 1, fp);
+    for(i=0; i<MAX; i++)
+    if(*Mountain_list[i].mountainName)
+      if(fwrite(&Mountain_list[i],
+         sizeof(struct Mountain), 1, fp)!=1)
+           printf("Ошибка при записи файла.\n");
     fclose(fp);
-    fp=fopen("Mountain_DB.txt", "a+");
-    if(fp==NULL)
-    {
-        printf("Error DB opening.");
-        exit(1);
-    }
-    fwrite(Mountain_list[0].mountainLocation, sizeof buffer, 1, fp);
-   // fwrite(Mountain_list[0].mountainHeight, sizeof buffer, 1, fp);
-    //fwrite(Mountain_list[0].mountainSlopeAngle, sizeof buffer, 1, fp);
-    //fwrite(Mountain_list[0].mountainHasAGlacier, sizeof buffer, 1, fp);
-
 }
 
-/*
-void addRecord(Mountain mountain)
+void loadDB()
 {
-    char jsutNewStroke [256]="\n";
-    size_t readStatus;
-    system("cls");
-    printf("Let's add a record.\n");
-   printf("mountainName\n");
-   scanf("%s", &mountain.mountainName);
-   // printf("mountainLocation\n");
-   // scanf("%s", &mountain.mountainLocation);
-    printf("mountainHeight\n");
-    scanf("%d", &mountain.mountainHeight);
-    printf("mountainSlopeAngle\n");
-    scanf("%d", &mountain.mountainSlopeAngle);
-    printf("mountainHasAGlacier\n");
-    scanf("%s", &mountain.mountainHasAGlacier);
     FILE *fp;
-    fp=fopen("Mountains_DB.txt", "r+t");
+    fp=fopen("Mountain_DB", "wb");
     if(fp==NULL)
     {
-        printf("Error");
+        printf("Error DB opening.");
         exit(1);
     }
-    readStatus=fwrite(mountain.mountainName, strlen(mountain.mountainName), 1, fp);
-   // readStatus=fwrite(jsutNewStroke, strlen(jsutNewStroke), 1, fp);
-
-
-    fclose(fp);
-    exit(1);
-
-}
-
-void deleteRecord()
-{
-
-}
-
-void DBSort()
-{
+    init_mass_struct();
+    for(int i=0; i<MAX; i++)
+    {
+        fread(&Mountain_list[i],sizeof(struct Mountain), 1, fp);
+        if(feof(fp))
+        {
+            break;
+            printf("Error DB opening.\n");
+        }
+    }
+  fclose(fp);
 
 }
 
-*/
 int find_free()
 {
   int freeSlot;
@@ -262,9 +191,8 @@ int find_free()
   return freeSlot;
 }
 
-
-
-
-
-
-
+void init_mass_struct()
+{
+  int i;
+  for(i=0; i<MAX; ++i) Mountain_list[i].mountainName[0] = '\0';
+}
