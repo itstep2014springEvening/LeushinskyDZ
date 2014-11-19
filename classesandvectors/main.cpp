@@ -7,7 +7,7 @@ class Vector
 public:
     Vector(double x, double y, double z);
     Vector();
-    Vector input(Vector var);
+    //Vector input(Vector variable);
     void output();
     Vector sum(Vector b);
     Vector res(Vector b);
@@ -17,12 +17,17 @@ private:
     double x;
     double y;
     double z;
+
 };
 
 int main()
 {
     cout << "Hello world!" << endl;
     Vector a(3,5,7);
+    Vector b(1,2,3);
+    //Vector input();
+    cout << "a"; a.output();
+    cout << "b"; b.output();
     return 0;
 }
 
@@ -33,15 +38,21 @@ Vector::Vector(double x, double y, double z)
     this->z=z;
 }
 
-Vector Vector::input(Vector var)
+void Vector::output()
+{
+    cout <<"{" << this->x << "," << this->y << "," << this->z << "}" << endl;
+}
+
+/*Vector Vector::input(Vector variable)
 {
     cout << "Entering vector" << endl;
     cout << "Enter vector x coordinate: " << endl;
-    cin >> var.x;
+    cin >> variable.x;
     cout << "Enter vector y coordinate: " << endl;
-    cin >> var.y;
+    cin >> variable.y;
     cout << "Enter vector z coordinate: " << endl;
-    cin >> var.z;
-    return var;
-}
+    cin >> variable.z;
+    return variable;
+}*/
+
 
