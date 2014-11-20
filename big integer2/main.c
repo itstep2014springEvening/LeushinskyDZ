@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-const int maxlen = 10000;
+const int maxlen = 100;
 const int sys = 10000;
 
 void getlong (int array[]);
