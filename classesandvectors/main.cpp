@@ -11,7 +11,7 @@ public:
     void output();
     Vector sum(Vector b);
     Vector res(Vector b);
-    double dot(Vector b, double sumOfCoordinates);
+    double dot(Vector b);
     Vector vect(Vector b);
 private:
     double x;
@@ -22,14 +22,13 @@ private:
 int main()
 {
     cout << "Hello world!" << endl;
-    double sumOfCoordinates=0.0;
     Vector a(3.5,5,7);
     Vector b(8.7,2.1,3);
     cout << "a"; a.output();
     cout << "b"; b.output();
     cout << "Sum"; (a.sum(b)).output();
     cout << "Res"; (a.res(b)).output();
-    cout << "Dot" << "{" <<a.dot(b, sumOfCoordinates)<< "}" <<endl;
+    cout << "Dot" << "{" <<a.dot(b)<< "}" <<endl;
     cout << "Vect"; (a.vect(b)).output();
     return 0;
 }
@@ -64,8 +63,9 @@ Vector Vector::res(Vector b)
     return result;
 }
 
-double Vector::dot(Vector b, double sumOfCoordinates)
+double Vector::dot(Vector b)
 {
+    double sumOfCoordinates=0.0;
     Vector result(0,0,0);
     result.x=this->x*b.x;
     result.y=this->y*b.y;
