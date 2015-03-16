@@ -1,0 +1,16 @@
+Классы - коллекции.
+
+Лист, дерево, array. - мы уже знаем.
+
+Новые:
+
+1arrayList (аналог Vector в с++).
+1.1Stack реализует стек                  <-это надстройка над arrayList.
+1.2Queue реализует очередь без приоритетов               <-это надстройка над arrayList.
+2.Sorted List - отсортированный массив.
+3.Sorted dictionary - аналог в С -> map.
+В с# нет прямой аналогии multimap(несколько ключей и одно значение).
+4.List dictionary - аналог в с++ unordered map.
+5.Хэш-таблица.
+System.Collections.Specialized ->там лежат дополнительные вещи, похожие на указанные сверху.
+NameValueCollection - неотсортированный механизм , аналог unordered map.
