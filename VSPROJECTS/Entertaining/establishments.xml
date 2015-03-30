@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<establishments>
+	<shebang typeof="bar" opentime="12:00" closetime="20:00" typeofpeople="company" agelimit="18"> "Печёный хряк" </shebang>
+	<shebang typeof="club" opentime="14:00" closetime="21:00" typeofpeople="company" agelimit="21"> "Буржуй пролетариат" </shebang>
+	<shebang typeof="bath" opentime="16:00" closetime="22:00" typeofpeople="company" agelimit="9"> "Горячий стояк" </shebang>
+</establishments>
+	
+	
