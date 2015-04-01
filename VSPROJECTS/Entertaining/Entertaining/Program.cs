@@ -40,12 +40,27 @@ namespace Entertaining
           //  zcompany = Console.ReadLine();
           //  Console.WriteLine("Ваш возраст: ");
           //  zage = int.Parse(Console.ReadLine());
+            
             organizations.ForEach(e =>
             {
-                if (e.OpenTime < ztime && ztime < e.CloseTime/*&&zage>e.AgeLimit&&zcompany*/)
+
+
+                if (e.OpenTime > e.CloseTime)
                 {
-                    Console.WriteLine(e.Type+e.Name);
+                    e.CloseTime = e.CloseTime.AddDays(1);
+                    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage>e.AgeLimit&&zcompany*/)
+                    {
+                        Console.WriteLine(e.Type + e.Name);
+                    }
                 }
+                else
+                {
+                    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage>e.AgeLimit&&zcompany*/)
+                    {
+                        Console.WriteLine(e.Type + e.Name);
+                    }
+                }
+
             });
             //organizations.ForEach(element=>{Console.WriteLine("{0}",element.OpenTime<ztime);});
            //organizations.ForEach(element =>
