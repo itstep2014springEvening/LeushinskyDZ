@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <establishments>
 	<bars>
 		<bar opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21"> "Печёный хряк" </bar>
-		<bar opentime="19:30" closetime="02:30" typeofpeople="company" agelimit="21> "Толчёный грек" </bar>
+		<bar opentime="19:30" closetime="02:30" typeofpeople="company" agelimit="21"> "Толчёный грек" </bar>
 		<bar opentime="20:00" closetime="03:00" typeofpeople="company" agelimit="21"> "Патлатый гном" </bar>
 	</bars>
 	<clubs>
@@ -27,7 +27,7 @@
 	</rumochnaias>
 	<brothels>
 		<brothel opentime="19:00" closetime="04:00" typeofpeople="one" agelimit="21"> "Толстые причины" </brothel>
-		<brothel opentime="21:00" closetime="08:00" typeofpeople="one" agelimit="21> "Банный стояк" </brothel>
+		<brothel opentime="21:00" closetime="08:00" typeofpeople="one" agelimit="21"> "Банный стояк" </brothel>
 		<brothel opentime="23:00" closetime="09:00" typeofpeople="company" agelimit="21"> "Твоя фантазия" </brothel>
 	</brothels>
 	<weddingpalaces>

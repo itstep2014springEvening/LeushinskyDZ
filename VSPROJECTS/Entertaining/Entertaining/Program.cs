@@ -14,20 +14,43 @@ namespace Entertaining
         static void Main(string[] args)
         {
             XmlDocument xmld = new XmlDocument();
-            string DesiredTimeBegin = "";
-            string DesiredTimeEnd = "";
-            int NumberOfPeople = 0;
-            int MinimumAge = 0;
-           
             string filepath = @"C:\vans\git\LeushinskyDZ\VSPROJECTS\Entertaining\establishments.xml";
-            
             FileStream fs = new FileStream(filepath, FileMode.Open);
             xmld.Load(fs);
-            string typeofent = xmld.GetElementsByTagName("shebang")[1].FirstChild.Value;
-            string typeofent2 = xmld.GetElementsByTagName("shebang")[1].Attributes.Item(4).Value;
+            string DesiredTime = "";
+            string NumberOfPeople = "";
+            string MinimumAge = "";
+
+            Console.WriteLine("Здравствуйте, юзер. Куда пойдём?");
+            Console.WriteLine("Сформируйте запрос.");
+            Console.WriteLine("Введите время: ");
+            DesiredTime = Console.ReadLine();
+            Console.WriteLine("Сколько вас:");
+            NumberOfPeople = Console.ReadLine();
+            if(DesiredTime=="1")
+            {
+                DesiredTime = "one";
+            }
+            if(DesiredTime=="2")
+            {
+                DesiredTime = "pare";
+            }
+            //проверка на company
+            Console.WriteLine("Сколько лет вам:");
+            MinimumAge = Console.ReadLine();
 
 
-            Console.WriteLine(typeofent2);
+            // Console.WriteLine(xmld.GetElementsByTagName("bars")[0].FirstChild.InnerText); = печёный хряк
+            // Console.WriteLine(xmld.GetElementsByTagName("bars")[0].FirstChild.Attributes.Item(1).Value); = 02:00
+
+
+
+
+            // NumberOfPeople = (int)xmld.GetElementsByTagName("shebang")[1].Attributes.Item(4).Value;
+            // NumberOfPeople = Convert.ToInt32(10);
+
+
+            // Console.WriteLine(typeofent);
         }
     }
 }
