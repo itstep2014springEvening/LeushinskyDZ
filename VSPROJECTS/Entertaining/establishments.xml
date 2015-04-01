@@ -56,9 +56,9 @@
 		<disco opentime="22:35" closetime="04:00" typeofpeople="company" agelimit="23"> "Третий лишний" </disco>
 	</discos>
 	<restaurants>
-		<theater opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="18"> "Лосось" </theater>
-		<theater opentime="18:00" closetime="23:00" typeofpeople="company" agelimit="21"> "Карамора" </theater>
-		<theater opentime="19:00" closetime="23:30" typeofpeople="one" agelimit="18"> "Аркебуза" </theater>
+		<restaurant opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="18"> "Лосось" </restaurant>
+		<restaurant opentime="18:00" closetime="23:00" typeofpeople="company" agelimit="21"> "Карамора" </restaurant>
+		<restaurant opentime="19:00" closetime="23:30" typeofpeople="one" agelimit="18"> "Аркебуза" </restaurant>
 	</restaurants>
 	<spotingclubs>
 		<spotingclub opentime="10:00" closetime="14:00" typeofpeople="pair" agelimit="14"> "Хомяк" </spotingclub>
