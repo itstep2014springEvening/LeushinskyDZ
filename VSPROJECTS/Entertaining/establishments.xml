@@ -3,58 +3,57 @@
   <!--<bar opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21" name="Печёный хряк"  ignored="wwwwww">
   
   </bar>-->
-		<bar opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21"> "Печёный хряк" </bar>
-		<bar opentime="19:30" closetime="02:30" typeofpeople="company" agelimit="21"> "Толчёный грек" </bar>
-		<bar opentime="20:00" closetime="03:00" typeofpeople="company" agelimit="21"> "Патлатый гном" </bar>
+		<Бар opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21" name="Печёный хряк"/>
+		<Бар opentime="19:30" closetime="02:30" typeofpeople="company" agelimit="21" name="Толчёный грек"/>
+		<Бар opentime="20:00" closetime="03:00" typeofpeople="company" agelimit="21" name="Патлатый гном"/>
+  
+		<Клуб opentime="20:00" closetime="03:00" typeofpeople="company" agelimit="18" name="Мэсто"/>
+		<Клуб opentime="21:00" closetime="03:00" typeofpeople="company" agelimit="21" name="Паккарди"/>
+		<Клуб opentime="22:00" closetime="03:00" typeofpeople="company" agelimit="18" name="Курнатур"/>
 	
+		<Театр opentime="17:00" closetime="22:00" typeofpeople="one" agelimit="4" name="Петровский"/>
+		<Театр opentime="17:30" closetime="22:20" typeofpeople="pair" agelimit="6" name="Большой Ортесский"/>
+		<Театр opentime="18:15" closetime="23:10" typeofpeople="company" agelimit="14" name="Малый Агнессов"/>
 	
-		<club opentime="20:00" closetime="04:00" typeofpeople="company" agelimit="18"> "Мэсто" </club>
-		<club opentime="21:00" closetime="05:00" typeofpeople="company" agelimit="21"> "Паккарди" </club>
-		<club opentime="22:00" closetime="06:00" typeofpeople="company" agelimit="18"> "Курнатур" </club>
+		<Кинотеатр opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="4" name="Беоарон"/>
+		<Кинотеатр opentime="18:00" closetime="22:00" typeofpeople="pair" agelimit="12" name="Последний кадр"/>
+		<Кинотеатр opentime="20:00" closetime="22:00" typeofpeople="company" agelimit="18" name="Слайс"/>
 	
-		<theater opentime="17:00" closetime="22:00" typeofpeople="one" agelimit="4"> "Петровский" </theater>
-		<theater opentime="17:30" closetime="22:20" typeofpeople="pair" agelimit="6"> "Большой Ортесский" </theater>
-		<theater opentime="18:15" closetime="23:10" typeofpeople="company" agelimit="14"> "Малый Агнессов" </theater>
+		<Рюмочная opentime="20:00" closetime="02:00" typeofpeople="company" agelimit="21" name="На посошок"/>
+		<Рюмочная opentime="21:00" closetime="02:30" typeofpeople="pair" agelimit="21" name="Больше чем меньше"/>
+		<Рюмочная opentime="21:00" closetime="03:00" typeofpeople="company" agelimit="21" name="Завтрашний день"/>
 	
-		<cinema opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="4"> "Беоарон" </cinema>
-		<cinema opentime="18:00" closetime="22:00" typeofpeople="pair" agelimit="12"> "Последний кадр" </cinema>
-		<cinema opentime="20:00" closetime="22:00" typeofpeople="company" agelimit="18"> "Слайс" </cinema>
+		<Бордель opentime="19:00" closetime="03:00" typeofpeople="one" agelimit="21" name="Толстые причины"/>
+		<Бордель opentime="21:00" closetime="03:00" typeofpeople="one" agelimit="21" name="Банный стояк"/>
+		<Бордель opentime="23:00" closetime="03:00" typeofpeople="company" agelimit="21" name="Твоя фантазия"/>
 	
-		<rumochnaia opentime="20:00" closetime="02:00" typeofpeople="company" agelimit="21"> "На посошок" </rumochnaia>
-		<rumochnaia opentime="21:00" closetime="02:30" typeofpeople="pair" agelimit="21"> "Больше чем меньше" </rumochnaia>
-		<rumochnaia opentime="21:00" closetime="04:00" typeofpeople="company" agelimit="21"> "Завтрашний день" </rumochnaia>
+		<ЗАГС opentime="10:00" closetime="18:00" typeofpeople="pair" agelimit="18" name="Твоя ошибка"/>
+		<ЗАГС opentime="11:00" closetime="18:15" typeofpeople="pair" agelimit="18" name="Это того не стоит"/>
+		<ЗАГС opentime="10:30" closetime="18:45" typeofpeople="pair" agelimit="18" name="Мы сожалеем"/>
 	
-		<brothel opentime="19:00" closetime="04:00" typeofpeople="one" agelimit="21"> "Толстые причины" </brothel>
-		<brothel opentime="21:00" closetime="08:00" typeofpeople="one" agelimit="21"> "Банный стояк" </brothel>
-		<brothel opentime="23:00" closetime="09:00" typeofpeople="company" agelimit="21"> "Твоя фантазия" </brothel>
+		<Школа opentime="08:00" closetime="15:00" typeofpeople="one" agelimit="6" name="Средняя школа Уркаганова"/>
+		<Школа opentime="08:15" closetime="15:30" typeofpeople="one" agelimit="6" name="Средняя школа Раскольникова"/>
+		<Школа opentime="08:45" closetime="16:00" typeofpeople="one" agelimit="7" name="Средняя школа Ковалёва"/>
 	
-		<weddingpalace opentime="10:00" closetime="18:00" typeofpeople="pair" agelimit="18"> "Твоя ошибка" </weddingpalace>
-		<weddingpalace opentime="11:00" closetime="18:15" typeofpeople="pair" agelimit="18"> "Это того не стоит" </weddingpalace>
-		<weddingpalace opentime="10:30" closetime="18:45" typeofpeople="pair" agelimit="18"> "Мы сожалеем" </weddingpalace>
+		<Колледж opentime="11:00" closetime="17:00" typeofpeople="one" agelimit="16" name="Труд делает свободным"/>
+		<Колледж opentime="11:25" closetime="17:55" typeofpeople="one" agelimit="16" name="Потеря памяти"/>
+		<Колледж opentime="12:00" closetime="18:05" typeofpeople="one" agelimit="14" name="На завод"/>
 	
-		<school opentime="08:00" closetime="15:00" typeofpeople="one" agelimit="6"> "Средняя школа Уркаганова" </school>
-		<school opentime="08:15" closetime="15:30" typeofpeople="one" agelimit="6"> "Средняя школа Раскольникова" </school>
-		<school opentime="08:45" closetime="16:00" typeofpeople="one" agelimit="7"> "Средняя школа Ковалёва" </school>
+		<ВУЗ opentime="14:00" closetime="19:00" typeofpeople="one" agelimit="17" name="Институт Эйс"/>
+		<ВУЗ opentime="14:15" closetime="19:10" typeofpeople="one" agelimit="17" name="Институт Хогинга"/>
+		<ВУЗ opentime="14:25" closetime="19:20" typeofpeople="one" agelimit="18" name="Институт лазерных исследований"/>
 	
-		<college opentime="11:00" closetime="17:00" typeofpeople="one" agelimit="16"> "Труд делает свободным" </college>
-		<college opentime="11:25" closetime="17:55" typeofpeople="one" agelimit="16"> "Потеря памяти" </college>
-		<college opentime="12:00" closetime="18:05" typeofpeople="one" agelimit="14"> "На завод" </college>
+		<Дискотека opentime="20:45" closetime="02:00" typeofpeople="company" agelimit="21" name="Последний вальс"/>
+		<Дискотека opentime="21:10" closetime="03:00" typeofpeople="pair" agelimit="18" name="Хиты 80-х"/>
+		<Дискотека opentime="22:35" closetime="03:00" typeofpeople="company" agelimit="23" name="Третий лишний"/>
 	
-		<univercity opentime="14:00" closetime="19:00" typeofpeople="one" agelimit="17"> "Институт Эйс" </univercity>
-		<univercity opentime="14:15" closetime="19:10" typeofpeople="one" agelimit="17"> "Институт Хогинга" </univercity>
-		<univercity opentime="14:25" closetime="19:20" typeofpeople="one" agelimit="18"> "Институт лазерных исследований" </univercity>
+		<Ресторан opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="18" name="Сладкий хлеб"/>
+		<Ресторан opentime="18:00" closetime="23:00" typeofpeople="company" agelimit="21" name="Карамора"/>
+		<Ресторан opentime="19:00" closetime="23:30" typeofpeople="one" agelimit="18" name="Аркебуза"/>
 	
-		<disco opentime="20:45" closetime="02:00" typeofpeople="company" agelimit="21"> "Последний вальс" </disco>
-		<disco opentime="21:10" closetime="03:00" typeofpeople="pair" agelimit="18"> "Хиты 80-х" </disco>
-		<disco opentime="22:35" closetime="04:00" typeofpeople="company" agelimit="23"> "Третий лишний" </disco>
-	
-		<restaurant opentime="17:00" closetime="22:00" typeofpeople="pair" agelimit="18"> "Лосось" </restaurant>
-		<restaurant opentime="18:00" closetime="23:00" typeofpeople="company" agelimit="21"> "Карамора" </restaurant>
-		<restaurant opentime="19:00" closetime="23:30" typeofpeople="one" agelimit="18"> "Аркебуза" </restaurant>
-	
-		<spotingclub opentime="10:00" closetime="14:00" typeofpeople="pair" agelimit="14"> "Хомяк" </spotingclub>
-		<spotingclub opentime="11:00" closetime="15:00" typeofpeople="one" agelimit="16"> "Булочка" </spotingclub>
-		<spotingclub opentime="17:00" closetime="21:00" typeofpeople="company" agelimit="18"> "Жирдяй" </spotingclub>
+		<Спортклуб opentime="10:00" closetime="14:00" typeofpeople="pair" agelimit="14" name="Хомяк"/>
+		<Спортклуб opentime="11:00" closetime="15:00" typeofpeople="one" agelimit="16" name="Булочка"/>
+		<Спортклуб opentime="17:00" closetime="21:00" typeofpeople="company" agelimit="18" name="Жирдяй"/>
 	
 </establishments>
 	

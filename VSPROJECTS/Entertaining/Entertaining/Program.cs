@@ -15,7 +15,9 @@ namespace Entertaining
     {
         private static void Main(string[] args)
         {
+            
             DateTime ztime;
+            int izcompany;
             string zcompany;
             int zage;
             string filepath = @"C:\vans\git\LeushinskyDZ\VSPROJECTS\Entertaining\establishments.xml";
@@ -28,8 +30,7 @@ namespace Entertaining
                      try
                      {
                          return new Organization(element.Name.LocalName,
-                             //element.Attribute("name").Value,
-                        element.Value,
+                        element.Attribute("name").Value,
                         element.Attribute("opentime").Value,
                         element.Attribute("closetime").Value,
                         element.Attribute("typeofpeople").Value,
@@ -45,63 +46,62 @@ namespace Entertaining
                  })
                  .Where(organization => organization != null)
                  .ToList();
-            Console.WriteLine("Составьте запрос");
-            Console.WriteLine("Желаемое время: ");
-            ztime = DateTime.ParseExact(Console.ReadLine(), "HH:mm", null);
-            Console.WriteLine("Сколько вас: ");
-            int izcompany = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ваш возраст: ");
-            zage = int.Parse(Console.ReadLine());
-
+            Console.WriteLine("Привет пользователь! Куда пойдём?");
+            Console.WriteLine("Составь-ка запрос: ");
+            Console.WriteLine("Желаемое время: (пример - 21:00)");
+            try
+            {
+                ztime = DateTime.ParseExact(Console.ReadLine(), "HH:mm", null);
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Неправильный ввод времени, попробуйте ещё раз.");
+                ztime = DateTime.Now;
+                return;
+            }
+            if(ztime>=new DateTime(2015, 4,2,00,00,00)&&ztime<=new DateTime(2015, 4,2,03,00,00))
+            {
+                ztime = ztime.AddDays(1);
+            }
+            
+            Console.WriteLine("Сколько вас: (пример - 5)");
+            try
+            {
+                izcompany = int.Parse(Console.ReadLine());
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Неправильный ввод количества людей, попробуйте ещё раз.");
+                izcompany = 0;
+                return;
+            }
+            Console.WriteLine("Ваш возраст: (пример - 21)");
+            try
+            {
+                zage = int.Parse(Console.ReadLine());
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Неправильный ввод возраста, попробуйте ещё раз.");
+                zage = 0;
+                return;
+            }
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("\nМожем пойти в ...\n");
             organizations.ForEach(e =>
             {
-               
-                    
                     switch (izcompany)
                     {
                         case 1: zcompany = "one"; break;
                         case 2: zcompany = "pair"; break;
                         default: zcompany = "company"; break;
                     }
-                    if (e.OpenTime < ztime && ztime.AddDays(-1) < e.CloseTime.AddDays(1) && zage >= e.AgeLimit && zcompany == e.TypeOfPeople)
+                    if (e.OpenTime < ztime && ztime < e.CloseTime && zage >= e.AgeLimit && zcompany == e.TypeOfPeople)
                     {
-                        Console.WriteLine(e.Type + e.Name);
+                        Console.WriteLine(e.Type + " - " + e.Name);
                     }
                 
-
-                //if (e.OpenTime > e.CloseTime)
-                //{
-                //    e.CloseTime = e.CloseTime;
-                //    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage < e.AgeLimit/*&&zcompany*/)
-                //    {
-                //        Console.WriteLine(e.Type + e.Name);
-                //    }
-                //}
-                //else
-                //{
-                //    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage < e.AgeLimit/*&&zcompany*/)
-                //    {
-                //        Console.WriteLine(e.Type + e.Name);
-                //    }
-                //}
-                //if(zage>=e.AgeLimit)
-                //{
-                //    //Console.WriteLine(e.Type + e.Name);
-                //    
-                //    if(zcompany==e.TypeOfPeople)
-                //    {
-                //        Console.WriteLine(e.Type + e.Name);
-                //    }
-                //}
-
-
             });
-            //organizations.ForEach(element=>{Console.WriteLine("{0}",element.OpenTime<ztime);});
-            //organizations.ForEach(element =>
-            //     {
-            //         Console.WriteLine(element);
-            //     });
-           // Console.ReadKey();
             return;
 
         }
