@@ -18,24 +18,37 @@ namespace Entertaining
             DateTime ztime;
             string zcompany;
             int zage;
-            string filepath = @"C:\vans\git\LeushinskyDZ\VSPROJECTS\Entertaining\establishments.xml";
+            string filepath = @"D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\establishments.xml";
             var organizations = XDocument.
                  Load(new StreamReader(File.OpenRead(filepath)))
                  .Root
                  .Elements()
-                 .Select(element => element.Elements())
-                 .SelectMany(element => element)
-                 .Select(element => new Organization(element.Name.LocalName,
-                     element.Value,
-                     element.Attribute("opentime").Value,
-                     element.Attribute("closetime").Value,
-                     element.Attribute("typeofpeople").Value,
-                     element.Attribute("agelimit").Value
-                     ))
+                 .Select(element =>
+                 {
+                     try
+                     {
+                         return new Organization(element.Name.LocalName,
+                             //element.Attribute("name").Value,
+                        element.Value,
+                        element.Attribute("opentime").Value,
+                        element.Attribute("closetime").Value,
+                        element.Attribute("typeofpeople").Value,
+                        element.Attribute("agelimit").Value
+                        );
+                     }
+                     catch (Exception)
+                     {
+                         
+                        return null;
+                     }
+                    
+                 })
+                 .Where(organization => organization != null)
                  .ToList();
             Console.WriteLine("Составьте запрос");
-           // Console.WriteLine("Желаемое время: ");
-           // ztime = DateTime.ParseExact(Console.ReadLine(), "HH:mm", null);
+            Console.WriteLine("Желаемое время: ");
+            ztime = DateTime.ParseExact(Console.ReadLine(), "HH:mm", null);
+
             Console.WriteLine("Сколько вас: ");
             int  izcompany = int.Parse(Console.ReadLine());
             Console.WriteLine("Ваш возраст: ");
@@ -43,37 +56,40 @@ namespace Entertaining
 
             organizations.ForEach(e =>
             {
-
-                
+                if(e.OpenTime>e.CloseTime)
+                if (e.OpenTime < ztime.AddDays(1) && ztime.AddDays(1) < e.CloseTime)
+                {
+                    Console.WriteLine(e.Type + e.Name);
+                }
                 //if (e.OpenTime > e.CloseTime)
                 //{
-                //    e.CloseTime = e.CloseTime.AddDays(1);
-                //    if (/*e.OpenTime < ztime && ztime < e.CloseTime &&*/zage<e.AgeLimit/*&&zcompany*/)
+                //    e.CloseTime = e.CloseTime;
+                //    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage < e.AgeLimit/*&&zcompany*/)
                 //    {
                 //        Console.WriteLine(e.Type + e.Name);
                 //    }
                 //}
                 //else
                 //{
-                //    if (/*e.OpenTime < ztime && ztime < e.CloseTime &&*/zage<e.AgeLimit/*&&zcompany*/)
+                //    if (e.OpenTime < ztime && ztime < e.CloseTime /*&&zage < e.AgeLimit/*&&zcompany*/)
                 //    {
                 //        Console.WriteLine(e.Type + e.Name);
                 //    }
                 //}
-                if(zage>=e.AgeLimit)
-                {
-                    //Console.WriteLine(e.Type + e.Name);
-                    switch (izcompany)
-                    {
-                        case 1: zcompany = "one"; break;
-                        case 2: zcompany = "pair"; break;
-                        default: zcompany = "company"; break;
-                    }
-                    if(zcompany==e.TypeOfPeople)
-                    {
-                        Console.WriteLine(e.Type + e.Name);
-                    }
-                }
+                //if(zage>=e.AgeLimit)
+                //{
+                //    //Console.WriteLine(e.Type + e.Name);
+                //    switch (izcompany)
+                //    {
+                //        case 1: zcompany = "one"; break;
+                //        case 2: zcompany = "pair"; break;
+                //        default: zcompany = "company"; break;
+                //    }
+                //    if(zcompany==e.TypeOfPeople)
+                //    {
+                //        Console.WriteLine(e.Type + e.Name);
+                //    }
+                //}
                
 
             });
@@ -82,7 +98,7 @@ namespace Entertaining
             //     {
             //         Console.WriteLine(element);
             //     });
-            // Console.ReadKey();
+             //Console.ReadKey();
             return;
 
         }
@@ -120,10 +136,14 @@ namespace Entertaining
             {
                 throw new ArgumentException("ageLimit");
             }
+
+          
             Type = type;
             Name = name;
             OpenTime = openTimeAsDateTime;
-            CloseTime = closeTimeAsDateTime;
+            CloseTime = openTimeAsDateTime > closeTimeAsDateTime 
+                                    ? closeTimeAsDateTime.AddDays(1)
+                                    : closeTimeAsDateTime;
             TypeOfPeople = typeOfPeople;
             AgeLimit = ageLimitAsStringAgeLimit;
 
