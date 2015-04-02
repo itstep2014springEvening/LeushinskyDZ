@@ -3,8 +3,8 @@
   <!--<bar opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21" name="Печёный хряк"  ignored="wwwwww">
   
   </bar>-->
-		<bar closetime="02:00" typeofpeople="company" agelimit="21"> "Печёный хряк" </bar>
-		<bar opentime="19:30"  typeofpeople="company" agelimit="21"> "Толчёный грек" </bar>
+		<bar opentime="19:00" closetime="02:00" typeofpeople="company" agelimit="21"> "Печёный хряк" </bar>
+		<bar opentime="19:30" closetime="02:30" typeofpeople="company" agelimit="21"> "Толчёный грек" </bar>
 		<bar opentime="20:00" closetime="03:00" typeofpeople="company" agelimit="21"> "Патлатый гном" </bar>
 	
 	
