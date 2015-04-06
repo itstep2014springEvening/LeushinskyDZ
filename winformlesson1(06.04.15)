@@ -1,0 +1,94 @@
+LINQ
+
+
+
+Practic
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Lesson1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+
+            int hParam = 2000;
+            int lParam = 0;
+            int nextIteration = 0;
+            InitializeComponent();
+            string inBoxText = string.Format("Загадайте число от {0} до {1}!",lParam, hParam);
+            string inBoxQuestion = string.Format("Ваше число больше {0}?", (hParam+lParam)/2);
+
+
+            MessageBox.Show(inBoxText,"Магическая программа", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+
+            while(lParam!=hParam)
+            {
+
+                inBoxQuestion = string.Format("Ваше число больше {0}?", hParam = (hParam + lParam) / 2);
+            if (DialogResult == MessageBox.Show(inBoxQuestion,
+                            "Шаг 1", MessageBoxButtons.YesNo, MessageBoxIcon.Hand))
+            {
+                
+                inBoxQuestion = string.Format("Ваше число больше {0}?", hParam = (hParam + lParam) / 2);
+                MessageBox.Show(inBoxQuestion,
+                            "Шаг 1", MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
+            }
+            else
+            {
+                
+                inBoxQuestion = string.Format("Ваше число больше {0}?", lParam = ((lParam + hParam) / 2) - 1);
+                MessageBox.Show(inBoxQuestion,
+                            "Шаг 1", MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
+            }
+                }
+            //{
+            //    Button btn = new Button();
+            //    btn.Size = new Size(50, 50);
+            //    btn.Text = "IT'S A BUTTON!!!";
+               
+            //    btn.Click += btn_Click;
+            //    btn.MouseUp += btn_MouseUp;
+            //    this.Controls.Add(btn);
+            //}
+            //else
+            //{
+
+            //}
+        }
+
+        void btn_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                MessageBox.Show("U pressed left");
+            }
+            else if (e.Button == MouseButtons.Right)
+            {
+                MessageBox.Show("U pressed right");
+            }
+
+        }
+
+        void btn_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
