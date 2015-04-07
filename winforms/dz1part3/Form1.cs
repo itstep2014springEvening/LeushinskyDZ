@@ -18,7 +18,7 @@ namespace dz1part3
             int lParam = 0;
             int hParam = 50;
             int nCounter = 0;
-            MessageBox.Show("Сыграем в угадай число. Загадайте число и правдиво отвечайте на вопросы");
+            MessageBox.Show("Сыграем в угадай число. Загадайте число и правдиво отвечайте на вопросы!");
             while (lParam!=hParam)
             {
                 if (DialogResult.Yes==MessageBox.Show("Ваше число меньше или равно " + ((lParam+hParam)/2).ToString() + " ?",
@@ -34,7 +34,7 @@ namespace dz1part3
                 }
 
             }
-            MessageBox.Show("Ваше число: " + lParam.ToString());
+            MessageBox.Show("Ваше число: " + lParam.ToString() + ". Вы угадали с: " + nCounter + "раз");
             
            // int a = 0;
            // int b = 2000;
