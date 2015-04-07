@@ -36,12 +36,6 @@ namespace dz1part3
             }
             MessageBox.Show("Ваше число: " + lParam.ToString());
             
-
-
-
-
-
-
            // int a = 0;
            // int b = 2000;
            // int x = 0;
