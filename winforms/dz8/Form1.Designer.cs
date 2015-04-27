@@ -95,15 +95,13 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Size = new System.Drawing.Size(758, 518);
-            this.splitContainer1.SplitterDistance = 244;
+            this.splitContainer1.SplitterDistance = 222;
             this.splitContainer1.TabIndex = 0;
             // 
             // treeView1
             // 
             this.treeView1.CheckBoxes = true;
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.ImageIndex = 0;
-            this.treeView1.ImageList = this.imageList1;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "Node0";
@@ -129,8 +127,7 @@
             treeNode10.Text = "Получатели";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode10});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(244, 518);
+            this.treeView1.Size = new System.Drawing.Size(222, 518);
             this.treeView1.TabIndex = 0;
             // 
             // splitContainer2
@@ -151,7 +148,7 @@
             this.splitContainer2.Panel2.Controls.Add(this.label5);
             this.splitContainer2.Panel2.Controls.Add(this.label4);
             this.splitContainer2.Panel2.Controls.Add(this.textBox2);
-            this.splitContainer2.Size = new System.Drawing.Size(510, 518);
+            this.splitContainer2.Size = new System.Drawing.Size(532, 518);
             this.splitContainer2.SplitterDistance = 212;
             this.splitContainer2.TabIndex = 0;
             // 
@@ -164,7 +161,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(510, 212);
+            this.tabControl1.Size = new System.Drawing.Size(532, 212);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -179,7 +176,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(502, 186);
+            this.tabPage1.Size = new System.Drawing.Size(524, 186);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Главное";
             this.tabPage1.UseVisualStyleBackColor = true;
