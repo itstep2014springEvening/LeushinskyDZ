@@ -129,6 +129,7 @@
             treeNode10});
             this.treeView1.Size = new System.Drawing.Size(222, 518);
             this.treeView1.TabIndex = 0;
+            this.treeView1.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterCheck);
             // 
             // splitContainer2
             // 
@@ -243,7 +244,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(502, 183);
+            this.tabPage2.Size = new System.Drawing.Size(524, 186);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Редактирование получателей";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -253,7 +254,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(502, 183);
+            this.tabPage3.Size = new System.Drawing.Size(524, 186);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Настройки";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -266,6 +267,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "Добавить в расписание";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
