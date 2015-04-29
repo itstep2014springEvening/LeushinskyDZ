@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace day10.Properties
+namespace Day10.Properties
 {
 
 

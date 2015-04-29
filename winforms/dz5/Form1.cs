@@ -1,100 +1,305 @@
-﻿//http://habrahabr.ru/post/213809/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dz5
+namespace Day5
 {
-    
     public partial class Form1 : Form
     {
-        List<Car> Cars = new List<Car>();
-        Timer RaceTimer = new Timer();
-        Car car1 = new Car();
-        Car car2 = new Car();
+        List<Car> cars = new List<Car>();
+        List<string> roadsNumber = new List<string>() { "1", "2", "3", "4", "5", "6", "7" };
+        List<bool> carsFinish = new List<bool>() { false, false, false, false, false, false, false };
+        List<string> carModels = new List<string>() { "Запорожец", "Лада", "Гелик", "БМВ", "Белаз"};
+        List<string> counterFinish = new List<string>() { "Первый", "Второй", "Третий", "Четвертый", "Пятый", "Шестой", "Седьмой" };
+        string winnerMessage = "";
+
+        List<Thread> carsThread = new List<Thread>();
+        delegate void CarSpeed(int index);
+
+        Car firstCar;
+        Color winerColor;
+
+        int locationY = 40;
+        int carCounter = 0;
+        bool pauseFlag = false;
+        bool yellowFlag = false;
+
+        Random rnd = new Random();
+
         public Form1()
         {
             InitializeComponent();
-            trackBar1.Minimum = 0;
-            trackBar1.Maximum = 10;
-            RaceTimer.Tick += RaceTimer_Tick;
-            RaceTimer.Interval = 1;
-            
-            label1.Text = "F\nI\nN\nI\nS\nH";
-            
-            
-            car1.CarFinished += car1_CarFinished;
-            car2.CarFinished += car2_CarFinished;
-            car1.Location = new Point(124,152);
-            car1.Size = new Size(75,23);
-            car1.Text = "BMW";
-            car1.BringToFront();
-            this.Controls.Add(car1);
-            car2.Location = new Point(124, 206);
-            car2.Size = new Size(75, 23);
-            car2.Text = "LADA";
-            car2.BringToFront();
-            this.Controls.Add(car2);
-
-        }
-
-        void car2_CarFinished()
-        {
-            
-        }
-
-        void car1_CarFinished()
-        {
-            MessageBox.Show("AHAHA OLOLO");
-       
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBox1.DataSource = roadsNumber;
+            comboBox2.DataSource = carModels;
+            comboBox2.SelectedIndex = rnd.Next(carModels.Count);
 
+            button2.Enabled = false;
+            button3.Enabled = false;
+
+            progressBar1.Style = ProgressBarStyle.Marquee;
+            progressBar1.MarqueeAnimationSpeed = 0;
+            progressBar2.Style = ProgressBarStyle.Marquee;
+            progressBar2.MarqueeAnimationSpeed = 0;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Start();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-            RaceTimer.Start();
-        
-            //button1.Left += 7;
+            Stop();
         }
 
-        void RaceTimer_Tick(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            
-            Random r = new Random();
-            car1.Left+=r.Next(1,5)+trackBar1.Value;
-            car2.Left += r.Next(1, 6) + trackBar1.Value;
-            foreach(var car in Cars)
-            {
-                if ((car.Left + car.Width) >= groupBox1.Left)
-                {
-                    RaceTimer.Stop();
-                    car.CarFinish();
-                }
-            }
-            
-                
-               
+            Pause();
         }
-        
 
         private void button4_Click(object sender, EventArgs e)
         {
-            RaceTimer.Stop();
-            car1.Left = 124;
-            car2.Left = 124;
-            
+            Add();
+        }
+
+        void Form1_Finish(object sender, EventArgs e)
+        {
+            Car car = (Car)sender;
+            winnerMessage += String.Format(counterFinish[carCounter] + " автомобиль " + car.CarName + " на " + car.CarRoad + " дорожке!\n");
+        }
+
+        private void Add()
+        {
+            cars.Add(new Car() { CarName = comboBox2.Text, CarRoad = comboBox1.Text, Location = new Point(20, locationY), Text = comboBox2.Text });
+            carsThread.Add(new Thread(ThreadProcess));
+            cars.Last().Finish += Form1_Finish;
+            this.Controls.Add(cars.Last());
+            cars.Last().BringToFront();
+            cars.Last().BackColor = Color.White;
+            firstCar = cars.Last();
+            yellowFlag = true;
+
+            locationY += 30;
+
+            roadsNumber.Remove(comboBox1.Text);
+
+            comboBox2.SelectedIndex = rnd.Next(carModels.Count);
+
+            if (roadsNumber.Count != 0)
+            {
+                comboBox1.DataSource = null;
+                comboBox1.DataSource = roadsNumber;
+                comboBox1.SelectedIndex = 0;
+            }
+            else
+            {
+                comboBox1.Enabled = false;
+                comboBox2.Enabled = false;
+
+                button4.Enabled = false;
+
+                comboBox1.DataSource = null;
+                comboBox1.DataSource = roadsNumber = new List<string>() { "1", "2", "3", "4", "5", "6", "7" };
+                comboBox2.SelectedIndex = rnd.Next(carModels.Count);
+            }
+        }
+
+        private void ThreadProcess(object index)
+        {
+            CarSpeed carSpeed = new CarSpeed(MoveCar);
+            while (true)
+            {
+                Invoke(carSpeed, new object[] { index });
+                Thread.Sleep(100);
+            }
+        }
+
+        private void MoveCar(int i)
+        {
+            winerColor = Color.FromArgb((byte)rnd.Next(255), (byte)rnd.Next(255), (byte)rnd.Next(255));
+
+            if (carsFinish[i] == false)
+            {
+                if(yellowFlag == true)
+                {
+                    firstCar.BackColor = Color.Yellow;
+                    yellowFlag = false;
+                }
+                if (firstCar.Left < cars[i].Left)
+                {
+                    Car secondCar = firstCar;
+                    firstCar = cars[i];
+                    firstCar.BackColor = Color.Yellow;
+                    secondCar.BackColor = Color.White;
+                }
+
+                cars[i].Left += rnd.Next(1, 10) + trackBar1.Value;
+
+                if ((cars[i].Left + cars[i].Width) >= pictureBox2.Left)
+                {
+                    if (carCounter == 0)
+                    {
+                        cars[i].BackColor = Color.Yellow;
+                    }
+                    else
+                    {
+                        cars[i].BackColor = winerColor;
+                    }
+                    carsThread[i].Abort();
+                    cars[i].OnFinish();
+                    carsFinish[i] = true;
+                    carCounter++;
+                }
+            }
+
+            if (carCounter == cars.Count)
+            {
+                button3.Enabled = false;
+
+                progressBar1.MarqueeAnimationSpeed = 0;
+                progressBar2.MarqueeAnimationSpeed = 0;
+
+                MessageBox.Show(winnerMessage);
+                return;
+            }
+        }
+
+        private void Start()
+        {
+            if (cars.Count > 1)
+            {
+                for (int i = 0; i < carsThread.Count; i++)
+                {
+                    carsThread[i].Start(i);
+                }
+                button1.Enabled = false;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                trackBar1.Enabled = false;
+                comboBox1.Enabled = false;
+                comboBox2.Enabled = false;
+                button4.Enabled = false;
+
+                progressBar1.MarqueeAnimationSpeed = 30;
+                progressBar2.MarqueeAnimationSpeed = 30;
+            }
+            else
+            {
+                MessageBox.Show("Добавьте хотя бы две машины!");
+            }
+        }
+
+        private void Pause()
+        {
+            if (pauseFlag)
+            {
+                for (int i = 0; i < carsThread.Count; i++)
+                {
+                    carsThread[i].Resume();
+                }
+
+                button3.Text = "Пауза";
+                pauseFlag = false;
+
+                progressBar1.MarqueeAnimationSpeed = 30;
+                progressBar2.MarqueeAnimationSpeed = 30;
+            }
+            else
+            {
+                for (int i = 0; i < carsThread.Count; i++)
+                {
+                    carsThread[i].Suspend();
+                }
+
+                button3.Text = "Продолжить";
+                pauseFlag = true;
+
+                progressBar1.MarqueeAnimationSpeed = 0;
+                progressBar2.MarqueeAnimationSpeed = 0;
+            }
+        }
+
+        private void Stop()
+        {
+            for (int i = 0; i < carsThread.Count; i++)
+            {
+                if (carsThread[i].ThreadState == ThreadState.Suspended)
+                {
+                    carsThread[i].Resume();
+                    carsThread[i].Abort();
+                }
+                else
+                {
+                    carsThread[i].Abort();
+                }
+            }
+            carsThread = new List<Thread>();
+
+            button1.Enabled = true;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button3.Text = "Пауза";
+            trackBar1.Enabled = true;
+            comboBox1.Enabled = true;
+            comboBox2.Enabled = true;
+            button4.Enabled = true;
+
+            progressBar1.MarqueeAnimationSpeed = 0;
+            progressBar2.MarqueeAnimationSpeed = 0;
+
+            carCounter = 0;
+            locationY = 40;
+            pauseFlag = false;
+            yellowFlag = false;
+            winnerMessage = "";
+
+            carsFinish = new List<bool>() { false, false, false, false, false, false, false };
+
+            comboBox1.DataSource = null;
+            comboBox1.DataSource = roadsNumber = new List<string>() { "1", "2", "3", "4", "5", "6", "7" };
+
+            while(cars.Count != 0)
+            {
+                this.Controls.Remove(cars.Last());
+                cars.Remove(cars.Last());
+            }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            for(int i = 0; i < carsThread.Count; i++)
+            {
+                if(carsThread[i].ThreadState != ThreadState.Stopped)
+                {
+                    carsThread[i].Abort();
+                }
+            }
+        }
+    }
+    class Car : Button
+    {
+        public string CarName { get; set; }
+        public string CarRoad { get; set; }
+        public event EventHandler Finish;
+
+        public void OnFinish()
+        {
+            if(Finish != null)
+            {
+                Finish(this, EventArgs.Empty);
+            }
         }
     }
 }
