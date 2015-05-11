@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Day10.Properties
+namespace WPF.Properties
 {
 
 

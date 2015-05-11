@@ -8,11 +8,11 @@ namespace dz8
 {
     public class MailEvents
     {
-        string Message;
-        string Recipient;
-        string Occasion;
-        DateTime EventDate;
-        DateTime EventTime;
+        public string Message;
+        public string Recipient;
+        public string Occasion;
+        public DateTime EventDate;
+        public DateTime EventTime;
         //MailEvents (string message, string recipient, string occasion, DateTime eventDate, DateTime eventTime)
         //{
 
