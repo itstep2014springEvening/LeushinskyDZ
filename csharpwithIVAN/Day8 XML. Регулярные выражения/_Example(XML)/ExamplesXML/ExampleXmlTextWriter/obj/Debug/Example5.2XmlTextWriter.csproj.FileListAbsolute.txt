@@ -10,3 +10,6 @@ G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\D
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\bin\Debug\ExampleXmlTextWriter.exe
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\bin\Debug\ExampleXmlTextWriter.pdb
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\obj\Debug\Example5.2XmlTextWriter.csprojResolveAssemblyReference.cache
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day8 XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\bin\Debug\ExampleXmlTextWriter.exe.config
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day8 XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\obj\Debug\ExampleXmlTextWriter.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day8 XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter\obj\Debug\ExampleXmlTextWriter.pdb

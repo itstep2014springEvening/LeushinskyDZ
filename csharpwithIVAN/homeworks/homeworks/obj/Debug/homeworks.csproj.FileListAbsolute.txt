@@ -1,0 +1,6 @@
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\bin\Debug\homeworks.exe.config
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\bin\Debug\homeworks.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\bin\Debug\homeworks.pdb
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\obj\Debug\homeworks.csprojResolveAssemblyReference.cache
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\obj\Debug\homeworks.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\homeworks\obj\Debug\homeworks.pdb

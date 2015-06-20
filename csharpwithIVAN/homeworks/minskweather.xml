@@ -1,0 +1,65 @@
+﻿<rss xmlns:gismeteo="http://www.gismeteo.ru" version="2.0">
+<channel>
+<title>
+GISMETEO.RU: Погода в России. Точный прогноз погоды (метеопрогноз) на сегодня, завтра, выходные, неделю.
+</title>
+<link>http://www.gismeteo.ru</link>
+<description>
+Текущая погода и точный прогноз погоды по всему миру
+</description>
+<ttl>60</ttl>
+<image>
+<title>
+GISMETEO.RU: Погода в России. Точный прогноз погоды (метеопрогноз) на сегодня, завтра, выходные, неделю.
+</title>
+<width>142</width>
+<height>18</height>
+<link>http://www.gismeteo.ru</link>
+<url>http://img.gismeteo.ru/images/gismeteo2.gif</url>
+</image>
+<item>
+<title>Минск: День 20 Jun, Sat</title>
+<link>http://www.gismeteo.ru/city/daily/4248/?398148</link>
+<description>
+Малооблачно, температура 19..21 С, давление 738..740 мм рт.ст., ветер Северо-Западный, 1 м/с
+</description>
+<category>Погода</category>
+<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c1.png" length="2000" type="image/gif"/>
+<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source>
+<guid>928158</guid>
+</item>
+<item>
+<title>Минск: Вечер 20 Jun, Sat</title>
+<link>http://www.gismeteo.ru/city/daily/4248/?627905</link>
+<description>
+Облачно, температура 18..20 С, давление 738..740 мм рт.ст., ветер Северо-Западный, 2 м/с
+</description>
+<category>Погода</category>
+<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c2.png" length="2000" type="image/gif"/>
+<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source>
+<guid>422947</guid>
+</item>
+<item>
+<title>Минск: Ночь 21 Jun, Sun</title>
+<link>http://www.gismeteo.ru/city/daily/4248/?642490</link>
+<description>
+Пасмурно, температура 13..15 С, давление 738..740 мм рт.ст., ветер Северо-Западный, 3 м/с
+</description>
+<category>Погода</category>
+<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c3.png" length="2000" type="image/gif"/>
+<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source>
+<guid>441618</guid>
+</item>
+<item>
+<title>Минск: Утро 21 Jun, Sun</title>
+<link>http://www.gismeteo.ru/city/daily/4248/?938895</link>
+<description>
+Малооблачно, температура 14..16 С, давление 737..739 мм рт.ст., ветер Северо-Западный, 4 м/с
+</description>
+<category>Погода</category>
+<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c1.png" length="2000" type="image/gif"/>
+<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source>
+<guid>480379</guid>
+</item>
+</channel>
+</rss>
