@@ -1,0 +1,7 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\bin\Debug\ExampleXmlTextReader.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\obj\Debug\ExampleXmlTextReader.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\obj\Debug\ExampleXmlTextReader.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\bin\Debug\books.xml
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\bin\Debug\ExampleXmlTextReader.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\bin\Debug\ExampleXmlTextReader.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader\obj\Debug\Example4.1XmlTextReader.csprojResolveAssemblyReference.cache

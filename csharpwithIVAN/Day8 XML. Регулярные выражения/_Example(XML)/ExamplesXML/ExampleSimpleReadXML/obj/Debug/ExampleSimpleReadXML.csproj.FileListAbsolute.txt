@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\bin\Debug\ExampleSimpleReadXML.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\bin\Debug\ExampleSimpleReadXML.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\bin\Debug\ExampleSimpleReadXML.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\obj\Debug\ExampleSimpleReadXML.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\obj\Debug\ExampleSimpleReadXML.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleSimpleReadXML\obj\Debug\ExampleSimpleReadXML.pdb

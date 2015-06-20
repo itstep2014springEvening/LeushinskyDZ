@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<bookstore>
+  <book category="PROGRAMMING ">
+    <title lang="ru">Платформа .NET</title>
+    <author>Э. Троелсен</author>
+    <year>2013</year>
+    <price>60.99</price>
+  </book>
+  <book category="WEB">
+    <title lang="en">Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2010</year>
+    <price>39.95</price>
+  </book>
+  <NewPaper>
+    <title>С# 6.0</title>
+    <autor>Ivanov I.I.</autor>
+    <pages>10</pages>
+    <price>5.00</price>
+  </NewPaper>
+</bookstore>

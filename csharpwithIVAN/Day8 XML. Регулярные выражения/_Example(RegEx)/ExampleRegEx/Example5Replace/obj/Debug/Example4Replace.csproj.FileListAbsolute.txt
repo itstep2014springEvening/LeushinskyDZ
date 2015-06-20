@@ -1,0 +1,5 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example5Replace\bin\Debug\Example5Replace.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example5Replace\bin\Debug\Example5Replace.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example5Replace\bin\Debug\Example5Replace.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example5Replace\obj\Debug\Example5Replace.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example5Replace\obj\Debug\Example5Replace.pdb

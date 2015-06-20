@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1SimpleReadXML", "ExampleSimpleReadXML\Example1SimpleReadXML.csproj", "{E1184175-5421-45AA-BECC-29305E928126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2XmlDocument", "ExampleXmlDocument\Example2XmlDocument.csproj", "{1DBC3603-815D-48B4-AA21-F28490497AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3EditXmlDocument", "ExampleEditXmlDocument\Example3EditXmlDocument.csproj", "{F421A6E8-0CBF-49F7-AE38-A6C19FD5642C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4.1XmlTextReader", "ExampleXmlTextReader\Example4.1XmlTextReader.csproj", "{7CDCCF79-11AE-4249-8849-95114BC4AF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4.2XmlTextReader", "ExampleXmlTextReader2\Example4.2XmlTextReader.csproj", "{D9AD47A4-6408-4FEA-A8A6-DA330C8F5BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4.3XmlTextReader", "ExampleXmlTextReader3\Example4.3XmlTextReader.csproj", "{7EC3AB6B-EEB4-4CA5-BE4D-7CA2E7D71675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4.4XmlTextReader", "ExampleXmlTextReader4\Example4.4XmlTextReader.csproj", "{7091EC9E-5C87-4DB3-ACA3-FAF3758CF7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example5.1XmlTextWriter", "ExampleXmlTextWriter1\Example5.1XmlTextWriter.csproj", "{4F101A20-80A2-43E3-8F36-934D96504772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example5.2XmlTextWriter", "ExampleXmlTextWriter\Example5.2XmlTextWriter.csproj", "{3384575D-A17C-4916-8168-E3AE1C61A5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example6.1XPath", "ExampleXPath1\Example6.1XPath.csproj", "{BDD28BA9-2C6C-4004-A5FD-C253C6C405B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleXPath2", "ExampleXPath2\ExampleXPath2.csproj", "{F3B2D6C7-D15A-4E8D-A43E-913CBD3DDFF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1184175-5421-45AA-BECC-29305E928126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1184175-5421-45AA-BECC-29305E928126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1184175-5421-45AA-BECC-29305E928126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1184175-5421-45AA-BECC-29305E928126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBC3603-815D-48B4-AA21-F28490497AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBC3603-815D-48B4-AA21-F28490497AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBC3603-815D-48B4-AA21-F28490497AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBC3603-815D-48B4-AA21-F28490497AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F421A6E8-0CBF-49F7-AE38-A6C19FD5642C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F421A6E8-0CBF-49F7-AE38-A6C19FD5642C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F421A6E8-0CBF-49F7-AE38-A6C19FD5642C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F421A6E8-0CBF-49F7-AE38-A6C19FD5642C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDCCF79-11AE-4249-8849-95114BC4AF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDCCF79-11AE-4249-8849-95114BC4AF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDCCF79-11AE-4249-8849-95114BC4AF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDCCF79-11AE-4249-8849-95114BC4AF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AD47A4-6408-4FEA-A8A6-DA330C8F5BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AD47A4-6408-4FEA-A8A6-DA330C8F5BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AD47A4-6408-4FEA-A8A6-DA330C8F5BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AD47A4-6408-4FEA-A8A6-DA330C8F5BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC3AB6B-EEB4-4CA5-BE4D-7CA2E7D71675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC3AB6B-EEB4-4CA5-BE4D-7CA2E7D71675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC3AB6B-EEB4-4CA5-BE4D-7CA2E7D71675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC3AB6B-EEB4-4CA5-BE4D-7CA2E7D71675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7091EC9E-5C87-4DB3-ACA3-FAF3758CF7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7091EC9E-5C87-4DB3-ACA3-FAF3758CF7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7091EC9E-5C87-4DB3-ACA3-FAF3758CF7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7091EC9E-5C87-4DB3-ACA3-FAF3758CF7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F101A20-80A2-43E3-8F36-934D96504772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F101A20-80A2-43E3-8F36-934D96504772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F101A20-80A2-43E3-8F36-934D96504772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F101A20-80A2-43E3-8F36-934D96504772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3384575D-A17C-4916-8168-E3AE1C61A5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3384575D-A17C-4916-8168-E3AE1C61A5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3384575D-A17C-4916-8168-E3AE1C61A5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3384575D-A17C-4916-8168-E3AE1C61A5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD28BA9-2C6C-4004-A5FD-C253C6C405B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD28BA9-2C6C-4004-A5FD-C253C6C405B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD28BA9-2C6C-4004-A5FD-C253C6C405B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD28BA9-2C6C-4004-A5FD-C253C6C405B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B2D6C7-D15A-4E8D-A43E-913CBD3DDFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B2D6C7-D15A-4E8D-A43E-913CBD3DDFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B2D6C7-D15A-4E8D-A43E-913CBD3DDFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B2D6C7-D15A-4E8D-A43E-913CBD3DDFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

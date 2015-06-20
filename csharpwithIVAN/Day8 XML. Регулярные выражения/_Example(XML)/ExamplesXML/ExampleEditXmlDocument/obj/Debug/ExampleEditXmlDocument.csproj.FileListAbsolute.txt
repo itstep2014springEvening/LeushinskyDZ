@@ -1,0 +1,7 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\bin\Debug\ExampleEditXmlDocument.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\bin\Debug\books.xml
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\bin\Debug\ExampleEditXmlDocument.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\bin\Debug\ExampleEditXmlDocument.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\obj\Debug\ExampleEditXmlDocument.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\obj\Debug\ExampleEditXmlDocument.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleEditXmlDocument\obj\Debug\ExampleEditXmlDocument.pdb

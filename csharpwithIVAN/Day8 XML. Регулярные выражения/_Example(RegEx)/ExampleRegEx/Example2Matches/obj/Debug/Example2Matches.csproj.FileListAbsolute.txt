@@ -1,0 +1,12 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\bin\Debug\Example2Matches.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example2Matches\obj\Debug\Example2Matches.csprojResolveAssemblyReference.cache

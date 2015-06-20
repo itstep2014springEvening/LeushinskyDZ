@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\bin\Debug\ExampleXmlTextReader4.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\bin\Debug\books.xml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\bin\Debug\ExampleXmlTextReader4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\bin\Debug\ExampleXmlTextReader4.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\obj\Debug\ExampleXmlTextReader4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader4\obj\Debug\ExampleXmlTextReader4.pdb

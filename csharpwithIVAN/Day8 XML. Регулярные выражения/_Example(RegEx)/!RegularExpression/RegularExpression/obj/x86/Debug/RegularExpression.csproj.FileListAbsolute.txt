@@ -1,0 +1,6 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал (ITstep)\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\bin\Debug\RegularExpression.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал (ITstep)\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\bin\Debug\RegularExpression.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал (ITstep)\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\obj\x86\Debug\RegularExpression.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал (ITstep)\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\obj\x86\Debug\RegularExpression.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\obj\x86\Debug\RegularExpression.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\С#\Day17 Взаимодействие с файловой системой\RegularExpression\RegularExpression\obj\x86\Debug\RegularExpression.pdb

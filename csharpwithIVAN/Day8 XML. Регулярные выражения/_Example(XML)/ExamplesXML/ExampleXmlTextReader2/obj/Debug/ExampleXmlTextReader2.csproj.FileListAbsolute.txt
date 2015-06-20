@@ -1,0 +1,1 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextReader2\bin\Debug\ExampleXmlTextReader2.exe.config

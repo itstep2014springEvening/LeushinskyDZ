@@ -1,0 +1,6 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\bin\Debug\Example1Simple.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\obj\Debug\Example1Simple.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\obj\Debug\Example1Simple.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\bin\Debug\Example1Simple.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\bin\Debug\Example1Simple.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(RegEx)\ExampleRegEx\Example1Simple\obj\Debug\Example1IsMatch.csprojResolveAssemblyReference.cache

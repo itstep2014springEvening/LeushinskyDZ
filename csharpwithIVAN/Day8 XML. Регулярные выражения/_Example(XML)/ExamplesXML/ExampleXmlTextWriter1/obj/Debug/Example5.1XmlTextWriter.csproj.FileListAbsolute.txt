@@ -1,0 +1,8 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\bin\Debug\ExampleXmlTextWriter1.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\bin\Debug\ExampleXmlTextWriter1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\bin\Debug\ExampleXmlTextWriter1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\obj\Debug\ExampleXmlTextWriter1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\obj\Debug\ExampleXmlTextWriter1.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\bin\Debug\ExampleXmlTextWriter1.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\obj\Debug\ExampleXmlTextWriter1.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day8 Использование XML. Регулярные выражения\_Example(XML)\ExamplesXML\ExampleXmlTextWriter1\obj\Debug\ExampleXmlTextWriter1.pdb
