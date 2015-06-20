@@ -1,0 +1,12 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\bin\Debug\Example7.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Exceptions)\Exceptions\Example7\obj\Debug\Example7.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\1.Student\Student\obj\Debug\Student.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\1.Student\Student\bin\Debug\Student.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\1.Student\Student\bin\Debug\Student.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\1.Student\Student\obj\Debug\Student.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\1.Student\Student\obj\Debug\Student.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\Student\obj\Debug\Student.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\Student\obj\Debug\Student.pdb

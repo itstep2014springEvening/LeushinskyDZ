@@ -1,0 +1,5 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\3JaggedArr\bin\Debug\JaggedArr.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\3JaggedArr\bin\Debug\JaggedArr.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\3JaggedArr\obj\Debug\3.JaggedArr.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\3JaggedArr\obj\Debug\JaggedArr.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\3JaggedArr\obj\Debug\JaggedArr.pdb

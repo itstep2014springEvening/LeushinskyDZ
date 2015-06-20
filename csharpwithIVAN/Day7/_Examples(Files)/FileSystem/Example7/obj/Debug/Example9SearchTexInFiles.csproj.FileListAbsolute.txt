@@ -1,0 +1,3 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example7\bin\Debug\Example7.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example7\obj\Debug\Example7.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example7\obj\Debug\Example7.pdb

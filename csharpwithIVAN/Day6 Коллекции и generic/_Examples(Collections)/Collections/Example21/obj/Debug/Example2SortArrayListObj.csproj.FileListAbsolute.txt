@@ -1,0 +1,10 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example21\obj\Debug\Example21.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example21\obj\Debug\Example21.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example21\bin\Debug\Example21.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example21\obj\Debug\Example21.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example21\obj\Debug\Example21.pdb

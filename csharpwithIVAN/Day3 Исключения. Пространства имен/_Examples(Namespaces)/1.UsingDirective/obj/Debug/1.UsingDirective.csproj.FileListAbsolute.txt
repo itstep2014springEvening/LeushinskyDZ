@@ -1,0 +1,5 @@
+\\SERVER\share\!П12814\C#\Day3 Исключения. Пространства имен\_Examples(Namespaces)\1.UsingDirective\obj\Debug\usingDirective1.exe
+\\SERVER\share\!П12814\C#\Day3 Исключения. Пространства имен\_Examples(Namespaces)\1.UsingDirective\obj\Debug\usingDirective1.pdb
+Z:\!П12814\C#\Day3 Исключения. Пространства имен\_Examples(Namespaces)\1.UsingDirective\bin\Debug\usingDirective1.exe.config
+Z:\!П12814\C#\Day3 Исключения. Пространства имен\_Examples(Namespaces)\1.UsingDirective\obj\Debug\usingDirective1.exe
+Z:\!П12814\C#\Day3 Исключения. Пространства имен\_Examples(Namespaces)\1.UsingDirective\obj\Debug\usingDirective1.pdb

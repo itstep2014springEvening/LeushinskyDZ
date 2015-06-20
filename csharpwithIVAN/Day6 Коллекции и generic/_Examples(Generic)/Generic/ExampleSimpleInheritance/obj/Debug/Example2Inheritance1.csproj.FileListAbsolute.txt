@@ -1,0 +1,5 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleSimpleInheritance\bin\Debug\ExampleSimpleInheritance.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleSimpleInheritance\bin\Debug\ExampleSimpleInheritance.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleSimpleInheritance\bin\Debug\ExampleSimpleInheritance.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleSimpleInheritance\obj\Debug\ExampleSimpleInheritance.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleSimpleInheritance\obj\Debug\ExampleSimpleInheritance.pdb

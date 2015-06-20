@@ -1,0 +1,10 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\ArrayFunctions\bin\Debug\ArrayFunctions.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\ArrayFunctions\bin\Debug\ArrayFunctions.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\ArrayFunctions\obj\Debug\2.ArrayFunctions.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\ArrayFunctions\obj\Debug\ArrayFunctions.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\ArrayFunctions\obj\Debug\ArrayFunctions.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\2ArrayFunctions\bin\Debug\ArrayFunctions.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\2ArrayFunctions\bin\Debug\ArrayFunctions.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\2ArrayFunctions\obj\Debug\2.ArrayFunctions.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\2ArrayFunctions\obj\Debug\ArrayFunctions.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\2ArrayFunctions\obj\Debug\ArrayFunctions.pdb

@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\bin\Debug\ExampleLambda.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\obj\Debug\ExampleLambda.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\bin\Debug\ExampleLambda.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\bin\Debug\ExampleLambda.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\obj\Debug\ExampleLambda.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(DelegateEvents)\DelegateEvents\ExampleLambda\obj\Debug\ExampleLambda.pdb

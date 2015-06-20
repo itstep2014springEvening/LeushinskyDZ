@@ -1,0 +1,8 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.pdb

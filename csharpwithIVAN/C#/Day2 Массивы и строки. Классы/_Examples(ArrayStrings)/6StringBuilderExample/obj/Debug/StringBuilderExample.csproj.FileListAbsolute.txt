@@ -1,0 +1,8 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\2. Windows Forms\Day16 Экзамен\StringBuilderExample\StringBuilderExample\bin\Debug\StringBuilderExample.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\2. Windows Forms\Day16 Экзамен\StringBuilderExample\StringBuilderExample\bin\Debug\StringBuilderExample.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\2. Windows Forms\Day16 Экзамен\StringBuilderExample\StringBuilderExample\bin\Debug\StringBuilderExample.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\2. Windows Forms\Day16 Экзамен\StringBuilderExample\StringBuilderExample\obj\Debug\StringBuilderExample.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\2. Windows Forms\Day16 Экзамен\StringBuilderExample\StringBuilderExample\obj\Debug\StringBuilderExample.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderExample\bin\Debug\StringBuilderExample.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderExample\obj\Debug\StringBuilderExample.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderExample\obj\Debug\StringBuilderExample.pdb

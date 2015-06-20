@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day13 Делегаты, события\_Examples(DelegateEvents)\DelegateEvents\Example7EventHandler\bin\Debug\Example7EventHandler.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day13 Делегаты, события\_Examples(DelegateEvents)\DelegateEvents\Example7EventHandler\bin\Debug\Example7EventHandler.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day13 Делегаты, события\_Examples(DelegateEvents)\DelegateEvents\Example7EventHandler\bin\Debug\Example7EventHandler.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day13 Делегаты, события\_Examples(DelegateEvents)\DelegateEvents\Example7EventHandler\obj\Debug\Example7EventHandler.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day13 Делегаты, события\_Examples(DelegateEvents)\DelegateEvents\Example7EventHandler\obj\Debug\Example7EventHandler.pdb

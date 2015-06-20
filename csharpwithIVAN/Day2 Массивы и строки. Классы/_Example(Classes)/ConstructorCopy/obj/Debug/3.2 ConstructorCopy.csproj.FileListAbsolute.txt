@@ -1,0 +1,6 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\bin\Debug\ConstructorCopy.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\bin\Debug\ConstructorCopy.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\bin\Debug\ConstructorCopy.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\obj\Debug\3.2 ConstructorCopy.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\obj\Debug\ConstructorCopy.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\ConstructorCopy\obj\Debug\ConstructorCopy.pdb

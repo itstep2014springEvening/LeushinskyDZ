@@ -1,0 +1,15 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\obj\Debug\Example4.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example4\bin\Debug\Example4.pdb

@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example2\bin\Debug\Example2.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example2\bin\Debug\Example2.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example2\bin\Debug\Example2.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example2\obj\Debug\Example2.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example2\obj\Debug\Example2.pdb

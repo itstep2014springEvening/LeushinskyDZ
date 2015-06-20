@@ -1,0 +1,5 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example3\bin\Debug\Example3.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example3\bin\Debug\Example3.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example3\obj\Debug\Example3.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example3\obj\Debug\Example3.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example3\obj\Debug\Example3.csprojResolveAssemblyReference.cache

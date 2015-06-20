@@ -1,0 +1,12 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\bin\Debug\Parametrs.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\bin\Debug\Parametrs.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\bin\Debug\Parametrs.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\bin\Debug\Parametrs.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\5.Parametrs\Parametrs\obj\Debug\Parametrs.pdb

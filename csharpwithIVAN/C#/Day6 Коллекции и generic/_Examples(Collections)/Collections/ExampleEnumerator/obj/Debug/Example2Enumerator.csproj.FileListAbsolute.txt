@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\bin\Debug\ExampleEnumerator.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\bin\Debug\ExampleEnumerator.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\bin\Debug\ExampleEnumerator.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\bin\Debug\ExampleEnumerator.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\obj\Debug\ExampleEnumerator.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\ExampleEnumerator\obj\Debug\ExampleEnumerator.pdb

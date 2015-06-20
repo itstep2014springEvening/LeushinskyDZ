@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\bin\Debug\ExampleSpecDirs.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\bin\Debug\ExampleSpecDirs.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\bin\Debug\ExampleSpecDirs.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\obj\Debug\ExampleSpecDirs.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\obj\Debug\ExampleSpecDirs.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleSpecDirs\obj\Debug\ExampleSpecDirs.pdb

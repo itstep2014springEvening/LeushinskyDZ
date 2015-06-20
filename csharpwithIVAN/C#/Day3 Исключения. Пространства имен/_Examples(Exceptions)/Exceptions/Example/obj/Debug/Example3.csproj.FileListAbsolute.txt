@@ -1,0 +1,8 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\bin\Debug\Example3.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\bin\Debug\Example3.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\obj\Debug\Example3.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\obj\Debug\Example3.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\obj\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\obj\Debug\Example3.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\bin\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example\bin\Debug\Example3.pdb

@@ -1,0 +1,7 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\1.BinaryOperator\BinaryOperator\bin\Debug\BinaryOperator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\1.BinaryOperator\BinaryOperator\bin\Debug\BinaryOperator.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\1.BinaryOperator\BinaryOperator\obj\Debug\BinaryOperator.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\1.BinaryOperator\BinaryOperator\obj\Debug\BinaryOperator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\1.BinaryOperator\BinaryOperator\obj\Debug\BinaryOperator.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\obj\Debug\BinaryOperator.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\obj\Debug\BinaryOperator.pdb

@@ -1,0 +1,7 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\2.MethodOverlode\MethodOverlode\obj\Debug\MethodOverlode.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\2.MethodOverlode\MethodOverlode\bin\Debug\MethodOverlode.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\2.MethodOverlode\MethodOverlode\bin\Debug\MethodOverlode.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\2.MethodOverlode\MethodOverlode\obj\Debug\MethodOverlode.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\2.MethodOverlode\MethodOverlode\obj\Debug\MethodOverlode.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\2.MethodOverlode\obj\Debug\MethodOverlode.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\2.MethodOverlode\obj\Debug\MethodOverlode.pdb

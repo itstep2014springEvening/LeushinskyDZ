@@ -1,0 +1,7 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\bin\Debug\StringFunctions.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\obj\Debug\StringFunctions.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\4.StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb

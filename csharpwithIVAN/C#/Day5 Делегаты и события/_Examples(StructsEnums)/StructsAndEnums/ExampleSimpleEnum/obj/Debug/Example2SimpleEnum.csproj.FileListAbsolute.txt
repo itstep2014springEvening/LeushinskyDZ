@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\bin\Debug\ExampleSimpleEnum.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\bin\Debug\ExampleSimpleEnum.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\bin\Debug\ExampleSimpleEnum.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\obj\Debug\Example2SimpleEnum.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\obj\Debug\ExampleSimpleEnum.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day5 Делегаты, события. Структуры\_Examples(StructsEnums)\StructsAndEnums\ExampleSimpleEnum\obj\Debug\ExampleSimpleEnum.pdb

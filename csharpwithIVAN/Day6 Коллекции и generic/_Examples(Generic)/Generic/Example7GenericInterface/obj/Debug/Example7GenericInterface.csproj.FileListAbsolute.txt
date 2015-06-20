@@ -1,0 +1,9 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example7GenericInterface\bin\Debug\Example7GenericInterface.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example7GenericInterface\bin\Debug\Example7GenericInterface.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example7GenericInterface\obj\Debug\Example7GenericInterface.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example7GenericInterface\obj\Debug\Example7GenericInterface.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example7GenericInterface\bin\Debug\Example7GenericInterface.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example7GenericInterface\bin\Debug\Example7GenericInterface.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example7GenericInterface\obj\Debug\Example7GenericInterface.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example7GenericInterface\obj\Debug\Example7GenericInterface.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example7GenericInterface\obj\Debug\Example7GenericInterface.pdb

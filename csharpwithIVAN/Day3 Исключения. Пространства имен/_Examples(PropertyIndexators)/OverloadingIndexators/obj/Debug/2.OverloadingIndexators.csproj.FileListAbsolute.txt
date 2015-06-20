@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\OverloadingIndexators\obj\Debug\OverloadingIndexators.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\OverloadingIndexators\obj\Debug\OverloadingIndexators.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\OverloadingIndexators\bin\Debug\OverloadingIndexators.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\OverloadingIndexators\bin\Debug\OverloadingIndexators.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\OverloadingIndexators\obj\Debug\2.OverloadingIndexators.csprojResolveAssemblyReference.cache

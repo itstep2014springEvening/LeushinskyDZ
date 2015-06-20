@@ -1,0 +1,15 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\bin\Debug\Example2GenericClass.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example2\obj\Debug\Example2GenericClass.csprojResolveAssemblyReference.cache

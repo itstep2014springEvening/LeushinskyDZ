@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\bin\Debug\ExamplePath.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\bin\Debug\ExamplePath.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\bin\Debug\ExamplePath.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\obj\Debug\ExamplePath.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\obj\Debug\ExamplePath.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExamplePath\obj\Debug\ExamplePath.csprojResolveAssemblyReference.cache

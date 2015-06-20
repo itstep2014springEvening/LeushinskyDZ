@@ -1,0 +1,2 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\2.MethodOverlode\obj\Debug\MethodOverlode.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\qwqw\2.MethodOverlode\obj\Debug\MethodOverlode.pdb

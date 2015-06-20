@@ -1,0 +1,10 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\bin\Debug\BinaryOperator.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\bin\Debug\BinaryOperator.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\obj\Debug\1.BinaryOperator.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\obj\Debug\BinaryOperator.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\1.BinaryOperator\obj\Debug\BinaryOperator.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\1.BinaryOperator\obj\Debug\BinaryOperator.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\1.BinaryOperator\obj\Debug\BinaryOperator.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\1.BinaryOperator\bin\Debug\BinaryOperator.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\1.BinaryOperator\bin\Debug\BinaryOperator.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\1.BinaryOperator\obj\Debug\1.BinaryOperator.csprojResolveAssemblyReference.cache

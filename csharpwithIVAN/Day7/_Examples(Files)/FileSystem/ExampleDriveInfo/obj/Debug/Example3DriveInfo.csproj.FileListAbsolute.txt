@@ -1,0 +1,8 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\bin\Debug\ExampleDriveInfo.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\bin\Debug\ExampleDriveInfo.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\bin\Debug\ExampleDriveInfo.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\obj\Debug\ExampleDriveInfo.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\obj\Debug\ExampleDriveInfo.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\bin\Debug\ExampleDriveInfo.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\obj\Debug\ExampleDriveInfo.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDriveInfo\obj\Debug\ExampleDriveInfo.pdb

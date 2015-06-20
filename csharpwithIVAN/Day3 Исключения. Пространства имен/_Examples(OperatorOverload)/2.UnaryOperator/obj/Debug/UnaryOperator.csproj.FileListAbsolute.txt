@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\2.UnaryOperator\bin\Debug\UnaryOperator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\2.UnaryOperator\bin\Debug\UnaryOperator.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\2.UnaryOperator\obj\Debug\UnaryOperator.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\2.UnaryOperator\obj\Debug\UnaryOperator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day7 Перегрузка операторов ч1\_Examples(OperatorOverload)\2.UnaryOperator\obj\Debug\UnaryOperator.pdb

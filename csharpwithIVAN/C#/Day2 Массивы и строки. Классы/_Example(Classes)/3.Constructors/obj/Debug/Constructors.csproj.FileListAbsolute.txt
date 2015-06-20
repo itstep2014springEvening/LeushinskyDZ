@@ -1,0 +1,7 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\3.Constructors\Constructors\bin\Debug\Constructors.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\3.Constructors\Constructors\bin\Debug\Constructors.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\3.Constructors\Constructors\obj\Debug\Constructors.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\3.Constructors\Constructors\obj\Debug\Constructors.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\3.Constructors\Constructors\obj\Debug\Constructors.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\3.Constructors\Constructors\obj\Debug\Constructors.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\3.Constructors\Constructors\obj\Debug\Constructors.pdb

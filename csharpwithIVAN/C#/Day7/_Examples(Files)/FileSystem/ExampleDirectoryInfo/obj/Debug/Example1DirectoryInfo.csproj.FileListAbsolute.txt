@@ -1,0 +1,6 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\bin\Debug\ExampleDirectoryInfo.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\bin\Debug\ExampleDirectoryInfo.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\bin\Debug\ExampleDirectoryInfo.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\obj\Debug\Example1DirectoryInfo.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\obj\Debug\ExampleDirectoryInfo.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\ExampleDirectoryInfo\obj\Debug\ExampleDirectoryInfo.pdb

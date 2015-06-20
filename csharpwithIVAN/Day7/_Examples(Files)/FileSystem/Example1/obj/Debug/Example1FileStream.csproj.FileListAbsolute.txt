@@ -1,0 +1,6 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\bin\Debug\Example1.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\bin\Debug\Example1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\bin\Debug\Example1.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\obj\Debug\Example1FileStream.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\obj\Debug\Example1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example1\obj\Debug\Example1.pdb

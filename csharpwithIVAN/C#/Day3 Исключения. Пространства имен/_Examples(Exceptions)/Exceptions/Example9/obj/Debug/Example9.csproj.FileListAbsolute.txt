@@ -1,0 +1,6 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\bin\Debug\Example9.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\bin\Debug\Example9.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\bin\Debug\Example9.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\obj\Debug\Example9.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\obj\Debug\Example9.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example9\obj\Debug\Example9.pdb

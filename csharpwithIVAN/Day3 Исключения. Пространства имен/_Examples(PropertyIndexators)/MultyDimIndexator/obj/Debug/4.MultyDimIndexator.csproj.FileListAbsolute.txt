@@ -1,0 +1,6 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\bin\Debug\MultyDimIndexator.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\bin\Debug\MultyDimIndexator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\bin\Debug\MultyDimIndexator.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\obj\Debug\4.MultyDimIndexator.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\obj\Debug\MultyDimIndexator.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\MultyDimIndexator\obj\Debug\MultyDimIndexator.pdb

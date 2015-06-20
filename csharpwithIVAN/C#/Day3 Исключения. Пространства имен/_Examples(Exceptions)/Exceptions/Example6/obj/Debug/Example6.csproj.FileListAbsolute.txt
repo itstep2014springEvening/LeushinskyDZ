@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example6\bin\Debug\Example6.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example6\bin\Debug\Example6.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example6\bin\Debug\Example6.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example6\obj\Debug\Example6.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day5 Обработка исключений\_Examples(Exceptions)\Exceptions\Example6\obj\Debug\Example6.pdb

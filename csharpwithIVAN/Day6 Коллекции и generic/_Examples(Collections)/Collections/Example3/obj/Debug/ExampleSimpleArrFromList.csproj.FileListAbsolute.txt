@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example3\bin\Debug\Example3.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example3\bin\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example3\bin\Debug\Example3.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example3\obj\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example3\obj\Debug\Example3.pdb

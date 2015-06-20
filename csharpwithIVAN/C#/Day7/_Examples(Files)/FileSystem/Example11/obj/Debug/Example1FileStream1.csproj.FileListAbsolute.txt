@@ -1,0 +1,18 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\obj\Debug\Example1FileStream1.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example1FileStream1.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\bin\Debug\Example11.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие файлами. Сборщик мусора\_Examples(Files)\FileSystem\Example11\obj\Debug\Example11.pdb

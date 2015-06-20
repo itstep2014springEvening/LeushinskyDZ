@@ -1,0 +1,6 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\bin\Debug\MetodModPARAMS.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\obj\Debug\MetodModPARAMS.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\obj\Debug\MetodModPARAMS.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\bin\Debug\MetodModPARAMS.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\bin\Debug\MetodModPARAMS.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\MetodModPARAMS\obj\Debug\2.4 MetodModPARAMS.csprojResolveAssemblyReference.cache

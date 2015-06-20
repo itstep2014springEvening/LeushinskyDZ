@@ -1,0 +1,5 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3IDisposab\bin\Debug\Example3IDisposab.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3IDisposab\bin\Debug\Example3IDisposab.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3IDisposab\bin\Debug\Example3IDisposab.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3IDisposab\obj\Debug\Example3IDisposab.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3IDisposab\obj\Debug\Example3IDisposab.pdb

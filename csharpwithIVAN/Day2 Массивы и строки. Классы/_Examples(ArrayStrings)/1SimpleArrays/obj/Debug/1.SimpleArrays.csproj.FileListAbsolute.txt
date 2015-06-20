@@ -1,0 +1,8 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\SimpleArrays\bin\Debug\SimpleArrays.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\1.ArrayFunctions\SimpleArrays\obj\Debug\1.SimpleArrays.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\bin\Debug\SimpleArrays.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\bin\Debug\SimpleArrays.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\bin\Debug\SimpleArrays.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\obj\Debug\1.SimpleArrays.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\obj\Debug\SimpleArrays.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\Example\1SimpleArrays\obj\Debug\SimpleArrays.pdb

@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example3Stream\bin\Debug\Example3Stream.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example3Stream\bin\Debug\Example3Stream.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example3Stream\bin\Debug\Example3Stream.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example3Stream\obj\Debug\Example3Stream.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day17 Взаимодействие с файловой системой\_Examples(Files)\FileSystem\Example3Stream\obj\Debug\Example3Stream.pdb

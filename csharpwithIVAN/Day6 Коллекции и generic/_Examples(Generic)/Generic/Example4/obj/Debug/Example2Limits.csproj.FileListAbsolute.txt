@@ -1,0 +1,5 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example4\bin\Debug\Example2Limits.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example4\bin\Debug\Example2Limits.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example4\obj\Debug\Example2Limits.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example4\obj\Debug\Example2Limits.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\Example4\obj\Debug\Example2Limits.csprojResolveAssemblyReference.cache

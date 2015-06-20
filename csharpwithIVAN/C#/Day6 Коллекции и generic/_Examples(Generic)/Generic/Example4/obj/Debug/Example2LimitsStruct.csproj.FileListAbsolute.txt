@@ -1,0 +1,5 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example4\bin\Debug\Example2Limits.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example4\bin\Debug\Example2Limits.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example4\obj\Debug\Example2LimitsStruct.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example4\obj\Debug\Example2Limits.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\Example4\obj\Debug\Example2Limits.pdb

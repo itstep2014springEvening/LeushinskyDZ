@@ -1,0 +1,10 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day6 Пространства имен\_Examples(Namespaces)\1.usingDirective\usingDirective\bin\Debug\usingDirective1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day6 Пространства имен\_Examples(Namespaces)\1.usingDirective\usingDirective\bin\Debug\usingDirective1.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day6 Пространства имен\_Examples(Namespaces)\1.usingDirective\usingDirective\obj\Debug\usingDirective.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day6 Пространства имен\_Examples(Namespaces)\1.usingDirective\usingDirective\obj\Debug\usingDirective1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day6 Пространства имен\_Examples(Namespaces)\1.usingDirective\usingDirective\obj\Debug\usingDirective1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Namespaces)\all\1.UsingDirective\obj\Debug\usingDirective1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Namespaces)\all\1.UsingDirective\obj\Debug\usingDirective1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Namespaces)\all\1.UsingDirective\bin\Debug\usingDirective1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Namespaces)\all\1.UsingDirective\bin\Debug\usingDirective1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(Namespaces)\all\1.UsingDirective\obj\Debug\usingDirective.csprojResolveAssemblyReference.cache

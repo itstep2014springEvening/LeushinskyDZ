@@ -1,0 +1,14 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day14 Использование коллекций\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\obj\Debug\Example1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\bin\Debug\Example1.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Collections)\Collections\Example1\obj\Debug\Example1ArrayList.csprojResolveAssemblyReference.cache

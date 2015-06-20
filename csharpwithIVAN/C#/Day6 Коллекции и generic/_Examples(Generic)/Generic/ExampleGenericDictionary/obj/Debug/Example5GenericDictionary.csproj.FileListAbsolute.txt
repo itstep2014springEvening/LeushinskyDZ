@@ -1,0 +1,8 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\ExampleGenericDictionary\bin\Debug\Example5GenericDictionary.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\ExampleGenericDictionary\bin\Debug\Example5GenericDictionary.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\ExampleGenericDictionary\obj\Debug\Example5GenericDictionary.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day15 Введение в Generics\_Examples(Generic)\Generic\ExampleGenericDictionary\obj\Debug\Example5GenericDictionary.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleGenericDictionary\bin\Debug\Example5GenericDictionary.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleGenericDictionary\bin\Debug\Example5GenericDictionary.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleGenericDictionary\obj\Debug\Example5GenericDictionary.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day6 Использование коллекций и generic\_Examples(Generic)\Generic\ExampleGenericDictionary\obj\Debug\Example5GenericDictionary.pdb

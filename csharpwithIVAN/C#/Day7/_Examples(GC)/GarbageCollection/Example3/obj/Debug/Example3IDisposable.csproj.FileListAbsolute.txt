@@ -1,0 +1,11 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\obj\Debug\Example3.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\obj\Debug\Example3.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day16 Сборка мусора\_Examples(GC)\GarbageCollection\Example3\obj\Debug\Example3IDisposable.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3\obj\Debug\Example3.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3\obj\Debug\Example3.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day7 Взаимодействие с файловой системой. Сборщик мусора\_Examples(GC)\GarbageCollection\Example3\bin\Debug\Example3.pdb

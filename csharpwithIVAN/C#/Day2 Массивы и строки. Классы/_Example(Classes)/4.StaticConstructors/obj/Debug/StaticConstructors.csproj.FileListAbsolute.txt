@@ -1,0 +1,7 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\bin\Debug\StaticConstructors.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\bin\Debug\StaticConstructors.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\obj\Debug\StaticConstructors.csprojResolveAssemblyReference.cache
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\obj\Debug\StaticConstructors.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day4 Введение в классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\obj\Debug\StaticConstructors.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\obj\Debug\StaticConstructors.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Example(Classes)\4.StaticConstructors\StaticConstructors\obj\Debug\StaticConstructors.pdb

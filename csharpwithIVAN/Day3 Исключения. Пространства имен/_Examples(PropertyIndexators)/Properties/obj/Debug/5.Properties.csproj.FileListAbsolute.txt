@@ -1,0 +1,6 @@
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\Properties.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\obj\Debug\5.Properties.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(PropertyIndexators)\Properties\bin\Debug\Properties.pdb

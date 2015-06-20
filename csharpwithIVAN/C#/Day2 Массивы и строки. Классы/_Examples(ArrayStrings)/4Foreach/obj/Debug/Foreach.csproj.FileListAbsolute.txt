@@ -1,0 +1,5 @@
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\3.Foreach\Foreach\bin\Debug\Foreach.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\3.Foreach\Foreach\bin\Debug\Foreach.pdb
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\3.Foreach\Foreach\obj\Debug\Foreach.csprojResolveAssemblyReference.cache
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\3.Foreach\Foreach\obj\Debug\Foreach.exe
+G:\С рабочего PC\_Образование\_ITstep\_Учебный материал\1. С#\Day3 Массивы и строки\_Examples(ArrayStrings)\3.Foreach\Foreach\obj\Debug\Foreach.pdb

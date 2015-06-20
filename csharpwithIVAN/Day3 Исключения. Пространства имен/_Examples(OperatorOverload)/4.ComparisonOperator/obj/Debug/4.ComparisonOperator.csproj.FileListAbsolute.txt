@@ -1,0 +1,4 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\4.ComparisonOperator\bin\Debug\ComparisonOperator.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\4.ComparisonOperator\bin\Debug\ComparisonOperator.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\4.ComparisonOperator\obj\Debug\ComparisonOperator.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day3 Обработка исключений. Перегрузка. Индескаторы и свойства\_Examples(OperatorOverload)\all\4.ComparisonOperator\obj\Debug\ComparisonOperator.pdb

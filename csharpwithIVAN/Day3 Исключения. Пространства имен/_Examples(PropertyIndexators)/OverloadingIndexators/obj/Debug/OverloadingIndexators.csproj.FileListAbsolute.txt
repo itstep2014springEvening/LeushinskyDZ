@@ -1,0 +1,5 @@
+C:\Examples\Day9\OverloadingIndexators\obj\Debug\ResolveAssemblyReference.cache
+C:\Examples\Day9\OverloadingIndexators\bin\Debug\OverloadingIndexators.exe
+C:\Examples\Day9\OverloadingIndexators\bin\Debug\OverloadingIndexators.pdb
+C:\Examples\Day9\OverloadingIndexators\obj\Debug\OverloadingIndexators.exe
+C:\Examples\Day9\OverloadingIndexators\obj\Debug\OverloadingIndexators.pdb

@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\bin\Debug\StringBuilderMetods.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\bin\Debug\StringBuilderMetods.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\bin\Debug\StringBuilderMetods.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\obj\Debug\2StringBuilderMetods.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\obj\Debug\StringBuilderMetods.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day2 Массивы и строки. Классы\_Examples(ArrayStrings)\5.StringBuilderExample\StringBuilderMetods\obj\Debug\StringBuilderMetods.pdb

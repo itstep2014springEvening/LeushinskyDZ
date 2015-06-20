@@ -1,0 +1,7 @@
+C:\Examples\Day9\Indexators\obj\Debug\ResolveAssemblyReference.cache
+C:\Examples\Day9\Indexators\bin\Debug\Indexators.exe
+C:\Examples\Day9\Indexators\bin\Debug\Indexators.pdb
+C:\Examples\Day9\Indexators\obj\Debug\Indexators.exe
+C:\Examples\Day9\Indexators\obj\Debug\Indexators.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Indexators\obj\Debug\Indexators.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day9 Индексаторы и свойства\_Examples(PropertyIndexators)\Indexators\obj\Debug\Indexators.pdb
