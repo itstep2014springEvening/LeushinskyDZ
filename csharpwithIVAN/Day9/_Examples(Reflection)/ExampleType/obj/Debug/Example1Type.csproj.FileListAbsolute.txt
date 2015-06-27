@@ -10,3 +10,6 @@ G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\D
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.exe
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.pdb
 G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\obj\Debug\Example1Type.csprojResolveAssemblyReference.cache
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day9\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.exe.config
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day9\_Examples(Reflection)\ExampleType\obj\Debug\ExampleType.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\Day9\_Examples(Reflection)\ExampleType\obj\Debug\ExampleType.pdb

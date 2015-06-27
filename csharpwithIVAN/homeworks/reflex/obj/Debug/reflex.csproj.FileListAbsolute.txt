@@ -1,0 +1,5 @@
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\reflex\bin\Debug\reflex.exe.config
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\reflex\bin\Debug\reflex.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\reflex\bin\Debug\reflex.pdb
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\reflex\obj\Debug\reflex.exe
+D:\Ivan\LeushinskyDZ\csharpwithIVAN\homeworks\reflex\obj\Debug\reflex.pdb
