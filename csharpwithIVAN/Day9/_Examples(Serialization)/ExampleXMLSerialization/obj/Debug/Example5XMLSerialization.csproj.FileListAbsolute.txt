@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\bin\Debug\ExampleXMLSerialization.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\obj\Debug\Example5XMLSerialization.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\bin\Debug\ExampleXMLSerialization.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\bin\Debug\ExampleXMLSerialization.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\obj\Debug\ExampleXMLSerialization.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\Serialization\ExampleXMLSerialization\obj\Debug\ExampleXMLSerialization.pdb

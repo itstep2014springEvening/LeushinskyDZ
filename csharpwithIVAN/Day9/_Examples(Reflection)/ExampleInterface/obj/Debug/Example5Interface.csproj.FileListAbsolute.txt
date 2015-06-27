@@ -1,0 +1,10 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleInterface\bin\Debug\ExampleInterface.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleInterface\bin\Debug\ExampleInterface.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleInterface\bin\Debug\ExampleInterface.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleInterface\obj\Debug\ExampleInterface.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleInterface\obj\Debug\ExampleInterface.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleInterface\bin\Debug\ExampleInterface.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleInterface\obj\Debug\ExampleInterface.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleInterface\obj\Debug\ExampleInterface.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleInterface\bin\Debug\ExampleInterface.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleInterface\bin\Debug\ExampleInterface.pdb

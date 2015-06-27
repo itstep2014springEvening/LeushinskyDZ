@@ -1,0 +1,12 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\obj\Debug\ExampleType.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\obj\Debug\ExampleType.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\bin\Debug\ExampleType.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\bin\Debug\ExampleType.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\bin\Debug\ExampleType.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleType\obj\Debug\Example1Type.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\obj\Debug\ExampleType.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\obj\Debug\ExampleType.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\bin\Debug\ExampleType.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleType\obj\Debug\Example1Type.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleLateBinding\bin\Debug\ExampleLateBinding.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleLateBinding\bin\Debug\ExampleLateBinding.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleLateBinding\bin\Debug\ExampleLateBinding.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleLateBinding\obj\Debug\ExampleLateBinding.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\ExampleLateBinding\obj\Debug\ExampleLateBinding.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleLateBinding\bin\Debug\ExampleLateBinding.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleLateBinding\obj\Debug\ExampleLateBinding.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleLateBinding\obj\Debug\ExampleLateBinding.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleLateBinding\bin\Debug\ExampleLateBinding.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\ExampleLateBinding\bin\Debug\ExampleLateBinding.pdb

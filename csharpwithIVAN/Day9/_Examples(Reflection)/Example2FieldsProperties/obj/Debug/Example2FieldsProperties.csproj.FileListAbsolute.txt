@@ -1,0 +1,11 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\Example2FieldsProperties\obj\Debug\Example2FieldsProperties.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Reflections\Example2FieldsProperties\obj\Debug\Example2FieldsProperties.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.exe.config
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\obj\Debug\Example2FieldsProperties.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\obj\Debug\Example2FieldsProperties.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.exe
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\bin\Debug\Example2FieldsProperties.pdb
+G:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Reflection)\Example2FieldsProperties\obj\Debug\Example2FieldsProperties.csprojResolveAssemblyReference.cache

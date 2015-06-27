@@ -1,0 +1,5 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\ExampleAtributs\bin\Debug\ExampleAtributs.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\ExampleAtributs\bin\Debug\ExampleAtributs.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\ExampleAtributs\bin\Debug\ExampleAtributs.pdb
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\ExampleAtributs\obj\Debug\ExampleAtributs.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\ExampleAtributs\obj\Debug\ExampleAtributs.pdb

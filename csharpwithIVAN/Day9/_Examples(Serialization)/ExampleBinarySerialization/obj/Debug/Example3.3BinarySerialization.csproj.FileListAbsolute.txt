@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\bin\Debug\ExampleBinarySerialization.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\bin\Debug\ExampleBinarySerialization.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\bin\Debug\ExampleBinarySerialization.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\obj\Debug\Example3.3BinarySerialization.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\obj\Debug\ExampleBinarySerialization.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\1. С#_ПС\Day9 Рефлексия. Атрибуты. Сериализация\_Examples(Serialization)\ExampleBinarySerialization\obj\Debug\ExampleBinarySerialization.pdb

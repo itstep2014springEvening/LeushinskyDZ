@@ -1,0 +1,3 @@
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\Example2\bin\Debug\Example2.exe.config
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\Example2\obj\Debug\Example2.exe
+F:\_Работа (нов)\_ITstep\_Учебный материал\1. С#\Day18 Сериализация объектов\_Examples(Serialization)\Serialization\Example2\obj\Debug\Example2.pdb

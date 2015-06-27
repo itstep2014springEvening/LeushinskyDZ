@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfCBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CBook>
+    <id>1</id>
+    <name>Война и мир</name>
+    <Pages>1500</Pages>
+  </CBook>
+  <CBook>
+    <id>2</id>
+    <name>Отцы и дети</name>
+    <Pages>800</Pages>
+  </CBook>
+  <CBook>
+    <id>3</id>
+    <name>Анна Каренина</name>
+    <Pages>860</Pages>
+  </CBook>
+</ArrayOfCBook>

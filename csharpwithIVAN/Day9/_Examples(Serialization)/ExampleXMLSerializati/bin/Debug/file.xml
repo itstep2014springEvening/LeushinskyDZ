@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfCBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CBook Number="1">
+    <Title>Война и мир</Title>
+    <Price>2.6</Price>
+  </CBook>
+  <CBook Number="2">
+    <Title>Отцы и дети</Title>
+    <Price>5.1</Price>
+  </CBook>
+  <CBook Number="3">
+    <Title>Анна Каренина</Title>
+    <Price>7.3</Price>
+  </CBook>
+</ArrayOfCBook>
