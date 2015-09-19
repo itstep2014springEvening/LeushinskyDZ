@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\bin\Debug\ExampleDataSet.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\bin\Debug\ExampleDataSet.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\bin\Debug\ExampleDataSet.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\obj\Debug\ExampleDataSet.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\obj\Debug\ExampleDataSet.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\ExampleDataSet\obj\Debug\ExampleDataSet.pdb

@@ -1,0 +1,12 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.exe.config
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\bin\Debug\Example6.2DataAdapter.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example6.2DataAdapter\obj\Debug\Example6.2DataAdapter.pdb

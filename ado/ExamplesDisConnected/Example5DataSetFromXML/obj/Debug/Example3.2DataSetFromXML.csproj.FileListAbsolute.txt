@@ -1,0 +1,6 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5DataSetFromXML\bin\Debug\Example5DataSetFromXML.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5DataSetFromXML\obj\Debug\Example5DataSetFromXML.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5DataSetFromXML\obj\Debug\Example5DataSetFromXML.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5DataSetFromXML\bin\Debug\Example5DataSetFromXML.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5DataSetFromXML\bin\Debug\Example5DataSetFromXML.pdb
+C:\Users\st\Desktop\ExamplesDisConnected\Example5DataSetFromXML\bin\Debug\Example5DataSetFromXML.exe.config

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<AutoPark>
+  <Cars>
+    <Name>BMW</Name>
+    <Country>Germany</Country>
+    <Price>50000</Price>
+  </Cars>
+  <Cars>
+    <Name>Audi</Name>
+    <Country>Germany</Country>
+    <Price>37500</Price>
+  </Cars>
+  <Drivers>
+    <Name>Ivan</Name>
+    <Age>33</Age>
+  </Drivers>
+</AutoPark>

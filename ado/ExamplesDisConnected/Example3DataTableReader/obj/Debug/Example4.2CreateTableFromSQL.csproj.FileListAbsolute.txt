@@ -1,0 +1,10 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\obj\Debug\Example3DataTableReader.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\obj\Debug\Example3DataTableReader.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.exe.config
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\bin\Debug\Example3DataTableReader.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\obj\Debug\Example3DataTableReader.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example3DataTableReader\obj\Debug\Example3DataTableReader.pdb

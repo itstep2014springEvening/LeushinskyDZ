@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Drivers>
+    <Id>1</Id>
+    <Name>Ivan</Name>
+    <Age>33</Age>
+  </Drivers>
+  <Drivers>
+    <Id>2</Id>
+    <Name>Alex</Name>
+    <Age>28</Age>
+  </Drivers>
+  <Drivers>
+    <Id>3</Id>
+    <Name>Inna</Name>
+    <Age>18</Age>
+  </Drivers>
+  <Cars>
+    <Id>1</Id>
+    <Name>BMW</Name>
+    <Country>Germany</Country>
+    <Price>50000</Price>
+    <IdDriver>1</IdDriver>
+  </Cars>
+  <Cars>
+    <Id>2</Id>
+    <Name>Audi</Name>
+    <Country>Germany</Country>
+    <Price>37500</Price>
+    <IdDriver>2</IdDriver>
+  </Cars>
+  <Cars>
+    <Id>3</Id>
+    <Name>Opel</Name>
+    <Country>Germany</Country>
+    <Price>19500</Price>
+    <IdDriver>2</IdDriver>
+  </Cars>
+  <Cars>
+    <Id>4</Id>
+    <Name>Ford</Name>
+    <Country>USA</Country>
+    <Price>49500</Price>
+    <IdDriver>3</IdDriver>
+  </Cars>
+</NewDataSet>

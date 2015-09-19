@@ -1,0 +1,11 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\bin\Debug\Example1.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\obj\Debug\Example1.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\obj\Debug\Example1.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\bin\Debug\Example1.exe.config
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\bin\Debug\Example1.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\bin\Debug\Example1.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\obj\Debug\Example1.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example1\obj\Debug\Example1.pdb
+C:\Users\st\Desktop\ExamplesDisConnected\Example1\bin\Debug\Example1.exe.config
+C:\Users\st\Desktop\ExamplesDisConnected\Example1\obj\Debug\Example1.exe
+C:\Users\st\Desktop\ExamplesDisConnected\Example1\obj\Debug\Example1.pdb

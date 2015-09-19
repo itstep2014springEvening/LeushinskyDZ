@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Cars>
+    <Name>BMW</Name>
+    <Country>Germany</Country>
+    <Price>50000</Price>
+  </Cars>
+  <Cars>
+    <Name>Audi</Name>
+    <Country>Germany</Country>
+    <Price>37500</Price>
+  </Cars>
+</DocumentElement>

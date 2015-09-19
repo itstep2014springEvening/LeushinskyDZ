@@ -1,0 +1,7 @@
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\bin\Debug\Example5Relations.exe.config
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\bin\Debug\Example5Relations.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\bin\Debug\Example5Relations.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\obj\Debug\Example5Relations.exe
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\obj\Debug\Example5Relations.pdb
+Q:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example5Relations\obj\Debug\Example5Relations.csprojResolveAssemblyReference.cache
+C:\Users\st\Desktop\ExamplesDisConnected\Example5Relations\bin\Debug\Example5Relations.exe.config

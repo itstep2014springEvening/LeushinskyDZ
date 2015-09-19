@@ -1,0 +1,5 @@
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example7CommandBuilder\bin\Debug\Example7CommandBuilder.exe.config
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example7CommandBuilder\bin\Debug\Example7CommandBuilder.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example7CommandBuilder\bin\Debug\Example7CommandBuilder.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example7CommandBuilder\obj\Debug\Example7CommandBuilder.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day5 Отсоединенный режим Ч.1\ExamplesDisConnected\Example7CommandBuilder\obj\Debug\Example7CommandBuilder.pdb
