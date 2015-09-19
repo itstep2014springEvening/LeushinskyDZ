@@ -1,0 +1,9 @@
+D:\ivan\winforms\autorization\autorization\bin\Debug\autorization.exe.config
+D:\ivan\winforms\autorization\autorization\bin\Debug\autorization.exe
+D:\ivan\winforms\autorization\autorization\bin\Debug\autorization.pdb
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.csprojResolveAssemblyReference.cache
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.Form1.resources
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.Properties.Resources.resources
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.csproj.GenerateResource.Cache
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.exe
+D:\ivan\winforms\autorization\autorization\obj\Debug\autorization.pdb
