@@ -1,0 +1,5 @@
+D:\!Проекты VisualStudio\UniversalDll\UniversalDll\bin\Debug\UniversalDll.dll
+D:\!Проекты VisualStudio\UniversalDll\UniversalDll\bin\Debug\UniversalDll.pdb
+D:\!Проекты VisualStudio\UniversalDll\UniversalDll\obj\Debug\ResolveAssemblyReference.cache
+D:\!Проекты VisualStudio\UniversalDll\UniversalDll\obj\Debug\UniversalDll.dll
+D:\!Проекты VisualStudio\UniversalDll\UniversalDll\obj\Debug\UniversalDll.pdb

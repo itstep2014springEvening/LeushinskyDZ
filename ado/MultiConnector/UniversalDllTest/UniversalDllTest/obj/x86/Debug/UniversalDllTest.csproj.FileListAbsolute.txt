@@ -1,0 +1,11 @@
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDllTest.exe.config
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDllTest.exe
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDllTest.pdb
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\obj\x86\Debug\UniversalDllTest.exe
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\obj\x86\Debug\UniversalDllTest.pdb
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDll.dll
+D:\!Проекты VisualStudio\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDll.pdb
+C:\Users\st\Desktop\MultiConnector\UniversalDllTest\UniversalDllTest\bin\Debug\UniversalDllTest.exe.config
+C:\Users\st\Desktop\MultiConnector\UniversalDllTest\UniversalDllTest\obj\x86\Debug\UniversalDllTest.exe
+C:\Users\st\Desktop\MultiConnector\UniversalDllTest\UniversalDllTest\obj\x86\Debug\UniversalDllTest.pdb
