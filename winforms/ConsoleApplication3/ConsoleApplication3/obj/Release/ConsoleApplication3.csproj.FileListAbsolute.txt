@@ -1,0 +1,5 @@
+D:\ivan\winforms\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe.config
+D:\ivan\winforms\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe
+D:\ivan\winforms\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.pdb
+D:\ivan\winforms\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.exe
+D:\ivan\winforms\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.pdb

@@ -1,0 +1,5 @@
+D:\ivan\winforms\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+D:\ivan\winforms\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+D:\ivan\winforms\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+D:\ivan\winforms\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+D:\ivan\winforms\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

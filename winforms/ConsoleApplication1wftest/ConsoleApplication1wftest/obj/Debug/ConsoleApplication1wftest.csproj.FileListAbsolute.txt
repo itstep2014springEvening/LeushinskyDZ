@@ -1,0 +1,5 @@
+D:\ivan\winforms\ConsoleApplication1wftest\ConsoleApplication1wftest\bin\Debug\ConsoleApplication1wftest.exe.config
+D:\ivan\winforms\ConsoleApplication1wftest\ConsoleApplication1wftest\bin\Debug\ConsoleApplication1wftest.exe
+D:\ivan\winforms\ConsoleApplication1wftest\ConsoleApplication1wftest\bin\Debug\ConsoleApplication1wftest.pdb
+D:\ivan\winforms\ConsoleApplication1wftest\ConsoleApplication1wftest\obj\Debug\ConsoleApplication1wftest.exe
+D:\ivan\winforms\ConsoleApplication1wftest\ConsoleApplication1wftest\obj\Debug\ConsoleApplication1wftest.pdb

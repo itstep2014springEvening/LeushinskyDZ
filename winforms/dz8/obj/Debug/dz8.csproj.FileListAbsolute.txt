@@ -1,0 +1,9 @@
+D:\ivan\git\LeushinskyDZ\winforms\dz8\bin\Debug\dz8.exe.config
+D:\ivan\git\LeushinskyDZ\winforms\dz8\bin\Debug\dz8.exe
+D:\ivan\git\LeushinskyDZ\winforms\dz8\bin\Debug\dz8.pdb
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.csprojResolveAssemblyReference.cache
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.Form1.resources
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.Properties.Resources.resources
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.csproj.GenerateResource.Cache
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.exe
+D:\ivan\git\LeushinskyDZ\winforms\dz8\obj\Debug\dz8.pdb
