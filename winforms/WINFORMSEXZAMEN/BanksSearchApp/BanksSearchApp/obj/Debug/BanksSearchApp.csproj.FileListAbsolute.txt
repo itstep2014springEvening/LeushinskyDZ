@@ -1,0 +1,11 @@
+D:\KIN\BanksSearchApp\BanksSearchApp\bin\Debug\BanksSearchApp.exe.config
+D:\KIN\BanksSearchApp\BanksSearchApp\bin\Debug\BanksSearchApp.exe
+D:\KIN\BanksSearchApp\BanksSearchApp\bin\Debug\BanksSearchApp.pdb
+D:\KIN\BanksSearchApp\BanksSearchApp\bin\Debug\GMap.NET.Core.xml
+D:\KIN\BanksSearchApp\BanksSearchApp\bin\Debug\GMap.NET.WindowsForms.xml
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.csprojResolveAssemblyReference.cache
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.MainForm.resources
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.Properties.Resources.resources
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.csproj.GenerateResource.Cache
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.exe
+D:\KIN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.pdb

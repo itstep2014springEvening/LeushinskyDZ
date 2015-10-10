@@ -1,0 +1,10 @@
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\Example1CodeFirst.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\Example1CodeFirst.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\Example1CodeFirst.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.dll
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.xml
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.csprojResolveAssemblyReference.cache
