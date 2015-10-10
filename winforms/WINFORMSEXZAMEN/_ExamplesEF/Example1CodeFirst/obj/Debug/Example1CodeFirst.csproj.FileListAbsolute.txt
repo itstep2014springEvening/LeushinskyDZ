@@ -18,3 +18,6 @@ E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введе
 E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.xml
 E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
 E:\_Работа (нов)\_ITstep\_Уч. материал\5.ADO\Day13 Введение в EF Ч.2\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.csprojResolveAssemblyReference.cache
+D:\ivan\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\_ExamplesEF\Example1CodeFirst\bin\Debug\Example1CodeFirst.exe.config
+D:\ivan\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.exe
+D:\ivan\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\_ExamplesEF\Example1CodeFirst\obj\Debug\Example1CodeFirst.pdb

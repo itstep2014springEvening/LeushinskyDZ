@@ -1,0 +1,12 @@
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\ConsoleApplication2exztest.exe.config
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\obj\Debug\ConsoleApplication2exztest.csprojResolveAssemblyReference.cache
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\ConsoleApplication2exztest.exe
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\ConsoleApplication2exztest.pdb
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\EntityFramework.dll
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\EntityFramework.SqlServer.dll
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\EntityFramework.xml
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\bin\Debug\EntityFramework.SqlServer.xml
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\obj\Debug\ConsoleApplication2exztest.exe
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\obj\Debug\ConsoleApplication2exztest.pdb
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\obj\Debug\ConsoleApplication2exztest.Migrations._123.resources
+D:\ivan\winforms\ConsoleApplication2exztest\ConsoleApplication2exztest\obj\Debug\ConsoleApplication2exztest.csproj.GenerateResource.Cache

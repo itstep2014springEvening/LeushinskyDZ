@@ -1,0 +1,9 @@
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainForm.resources
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\ivan\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
