@@ -1,0 +1,9 @@
+D:\git\LeushinskyDZ\winforms\dz2part2\bin\Debug\dz2part2.exe.config
+D:\git\LeushinskyDZ\winforms\dz2part2\bin\Debug\dz2part2.exe
+D:\git\LeushinskyDZ\winforms\dz2part2\bin\Debug\dz2part2.pdb
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.Form1.resources
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.Properties.Resources.resources
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.exe
+D:\git\LeushinskyDZ\winforms\dz2part2\obj\Debug\dz2part2.pdb

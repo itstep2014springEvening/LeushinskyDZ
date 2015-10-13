@@ -1,0 +1,9 @@
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\Day5Threads.exe
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\Day5Threads.pdb
+D:\git\LeushinskyDZ\winforms\dz5\bin\Debug\Day5Threads.exe
+D:\git\LeushinskyDZ\winforms\dz5\bin\Debug\Day5Threads.pdb
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\dz5.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\Day5.Form1.resources
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\Day5Threads.Form2.resources
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\Day5Threads.Properties.Resources.resources
+D:\git\LeushinskyDZ\winforms\dz5\obj\Debug\dz5.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+D:\git\LeushinskyDZ\winforms\dz4\bin\Debug\dz4.exe.config
+D:\git\LeushinskyDZ\winforms\dz4\obj\Debug\dz4.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\dz4\obj\Debug\dz4.Properties.Resources.resources
+D:\git\LeushinskyDZ\winforms\dz4\obj\Debug\dz4.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\dz4\bin\Debug\dz4.exe
+D:\git\LeushinskyDZ\winforms\dz4\bin\Debug\dz4.pdb
+D:\git\LeushinskyDZ\winforms\dz4\obj\Debug\dz4.exe
+D:\git\LeushinskyDZ\winforms\dz4\obj\Debug\dz4.pdb

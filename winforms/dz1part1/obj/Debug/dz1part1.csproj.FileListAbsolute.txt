@@ -1,0 +1,12 @@
+D:\tttt\homeworks\dz1part1\bin\Debug\dz1part1.exe.config
+D:\tttt\homeworks\dz1part1\bin\Debug\dz1part1.exe
+D:\tttt\homeworks\dz1part1\bin\Debug\dz1part1.pdb
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.csprojResolveAssemblyReference.cache
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.Form1.resources
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.Properties.Resources.resources
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.csproj.GenerateResource.Cache
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.exe
+D:\tttt\homeworks\dz1part1\obj\Debug\dz1part1.pdb
+D:\git\LeushinskyDZ\winforms\dz1part1\bin\Debug\dz1part1.exe.config
+D:\git\LeushinskyDZ\winforms\dz1part1\obj\Debug\dz1part1.exe
+D:\git\LeushinskyDZ\winforms\dz1part1\obj\Debug\dz1part1.pdb

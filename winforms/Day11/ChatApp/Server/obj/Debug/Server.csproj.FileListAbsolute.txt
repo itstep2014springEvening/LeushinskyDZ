@@ -1,0 +1,5 @@
+D:\git\LeushinskyDZ\winforms\Day11\ChatApp\Server\bin\Debug\Server.exe.config
+D:\git\LeushinskyDZ\winforms\Day11\ChatApp\Server\bin\Debug\Server.exe
+D:\git\LeushinskyDZ\winforms\Day11\ChatApp\Server\bin\Debug\Server.pdb
+D:\git\LeushinskyDZ\winforms\Day11\ChatApp\Server\obj\Debug\Server.exe
+D:\git\LeushinskyDZ\winforms\Day11\ChatApp\Server\obj\Debug\Server.pdb

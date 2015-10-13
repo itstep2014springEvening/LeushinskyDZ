@@ -1,0 +1,6 @@
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\bin\Debug\Entertaining.exe.config
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\bin\Debug\Entertaining.exe
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\bin\Debug\Entertaining.pdb
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\obj\Debug\Entertaining.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\obj\Debug\Entertaining.exe
+D:\git\LeushinskyDZ\VSPROJECTS\Entertaining\Entertaining\obj\Debug\Entertaining.pdb

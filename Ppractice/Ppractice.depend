@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1411986899 source:d:\git\leushinskydz\ppractice\main.c
+	<stdio.h>
+	<stdlib.h>
+

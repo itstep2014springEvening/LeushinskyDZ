@@ -1,0 +1,15 @@
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\banksearchapp.exe.config
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\banksearchapp.exe
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\banksearchapp.pdb
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.Properties.Resources.resources
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.exe
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.pdb
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\GMap.NET.Core.dll
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\GMap.NET.WindowsForms.dll
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\GMap.NET.Core.xml
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\bin\Debug\GMap.NET.WindowsForms.xml
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.MainForm.resources
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.SearchForm.resources
+D:\git\LeushinskyDZ\wfexam_bsa\banksearchapp\banksearchapp\obj\Debug\banksearchapp.MapForm.resources
