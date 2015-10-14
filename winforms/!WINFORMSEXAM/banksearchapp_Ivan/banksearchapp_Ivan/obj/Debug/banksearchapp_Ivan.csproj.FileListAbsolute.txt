@@ -1,0 +1,13 @@
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.exe.config
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.exe
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.pdb
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Properties.Resources.resources
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.exe
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.pdb
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.Core.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.WindowsForms.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.Core.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.WindowsForms.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.MainForm.resources
