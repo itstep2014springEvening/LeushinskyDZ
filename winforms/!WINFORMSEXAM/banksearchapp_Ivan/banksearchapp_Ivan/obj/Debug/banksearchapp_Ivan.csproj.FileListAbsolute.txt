@@ -11,3 +11,16 @@ D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.Core.xml
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.WindowsForms.xml
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.MainForm.resources
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.exe.config
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.exe
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.pdb
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.exe
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.pdb
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.Core.dll
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.WindowsForms.dll
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.Core.xml
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\GMap.NET.WindowsForms.xml
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.MainForm.resources
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Properties.Resources.resources
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.csproj.GenerateResource.Cache
