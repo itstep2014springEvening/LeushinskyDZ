@@ -16,6 +16,7 @@ namespace banksearchapp_Ivan
 {
     public partial class MainForm : Form
     {
+        private bool isRedactorModeActivated = false;
         GMapControl gMapControl1;
         public MainForm()
         {
@@ -56,6 +57,18 @@ namespace banksearchapp_Ivan
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("BankFinder v1.0."+Environment.NewLine+"Author - Ivan Leushynski.");
+        }
+
+        private void режимРедактированияToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (режимРедактированияToolStripMenuItem.Checked)
+            {
+                isRedactorModeActivated = true;
+            }
+            else
+            {
+                isRedactorModeActivated = false;
+            }
         }
     }
 }
