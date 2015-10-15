@@ -20,3 +20,6 @@ D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\D
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.MainForm.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.Properties.Resources.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.csproj.GenerateResource.Cache
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\BanksSearchApp.exe.config
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.exe
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.pdb

@@ -31,7 +31,7 @@ namespace ConsoleApplication2exztest
                 Date = DateTime.Now,
                 Devices = new List<Device>()
             };
-            user.Devices.AddRange(new[] { dev1, dev2 });
+            user.Devices.Add(dev1);
 
             db.Users.Add(user);
             db.SaveChanges();

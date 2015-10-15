@@ -16,3 +16,6 @@ D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспел�
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainForm.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\назаданиичтоуспелисделать\winforms\ConsoleApplication2exztest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

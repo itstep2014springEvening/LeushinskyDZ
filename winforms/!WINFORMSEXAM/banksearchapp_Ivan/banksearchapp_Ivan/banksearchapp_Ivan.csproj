@@ -63,18 +63,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bankomat.cs" />
-    <Compile Include="Bank.cs" />
-    <Compile Include="BanksDB.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201510150821433_1.cs" />
-    <Compile Include="Migrations\201510150821433_1.Designer.cs">
-      <DependentUpon>201510150821433_1.cs</DependentUpon>
+    <Compile Include="Migrations\201510152028466_777.cs" />
+    <Compile Include="Migrations\201510152028466_777.Designer.cs">
+      <DependentUpon>201510152028466_777.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510152038128_7771.cs" />
+    <Compile Include="Migrations\201510152038128_7771.Designer.cs">
+      <DependentUpon>201510152038128_7771.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510152038503_7772.cs" />
+    <Compile Include="Migrations\201510152038503_7772.Designer.cs">
+      <DependentUpon>201510152038503_7772.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510152048443_7773.cs" />
+    <Compile Include="Migrations\201510152048443_7773.Designer.cs">
+      <DependentUpon>201510152048443_7773.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -82,8 +91,17 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510150821433_1.resx">
-      <DependentUpon>201510150821433_1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510152028466_777.resx">
+      <DependentUpon>201510152028466_777.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510152038128_7771.resx">
+      <DependentUpon>201510152038128_7771.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510152038503_7772.resx">
+      <DependentUpon>201510152038503_7772.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510152048443_7773.resx">
+      <DependentUpon>201510152048443_7773.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +125,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DbManipulating\DbManipulating.csproj">
+      <Project>{97fa0280-49b3-44b0-add7-e4c4e52178e1}</Project>
+      <Name>DbManipulating</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
