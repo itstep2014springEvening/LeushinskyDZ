@@ -33,11 +33,12 @@
             this.картаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.режимРедактированияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.режимРедактированияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -87,6 +88,14 @@
             this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.настройкиToolStripMenuItem.Text = "Настройки";
             // 
+            // режимРедактированияToolStripMenuItem
+            // 
+            this.режимРедактированияToolStripMenuItem.CheckOnClick = true;
+            this.режимРедактированияToolStripMenuItem.Name = "режимРедактированияToolStripMenuItem";
+            this.режимРедактированияToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.режимРедактированияToolStripMenuItem.Text = "Режим редактирования";
+            this.режимРедактированияToolStripMenuItem.CheckedChanged += new System.EventHandler(this.режимРедактированияToolStripMenuItem_CheckedChanged);
+            // 
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
@@ -107,6 +116,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.listBox1);
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView2);
             this.splitContainer1.Size = new System.Drawing.Size(830, 471);
             this.splitContainer1.SplitterDistance = 586;
@@ -120,6 +130,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(582, 467);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseClick);
             // 
             // dataGridView2
             // 
@@ -132,13 +144,13 @@
             this.dataGridView2.Size = new System.Drawing.Size(236, 467);
             this.dataGridView2.TabIndex = 0;
             // 
-            // режимРедактированияToolStripMenuItem
+            // listBox1
             // 
-            this.режимРедактированияToolStripMenuItem.CheckOnClick = true;
-            this.режимРедактированияToolStripMenuItem.Name = "режимРедактированияToolStripMenuItem";
-            this.режимРедактированияToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
-            this.режимРедактированияToolStripMenuItem.Text = "Режим редактирования";
-            this.режимРедактированияToolStripMenuItem.CheckedChanged += new System.EventHandler(this.режимРедактированияToolStripMenuItem_CheckedChanged);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(3, 3);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(223, 251);
+            this.listBox1.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -177,6 +189,7 @@
         private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.ToolStripMenuItem режимРедактированияToolStripMenuItem;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

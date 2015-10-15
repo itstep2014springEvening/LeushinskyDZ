@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 using GMap.NET;
+using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET.WindowsForms.ToolTips;
@@ -23,38 +25,55 @@ namespace banksearchapp_Ivan
             InitializeComponent();
             Load += Form1_Load;
 
-            BanksDB db = new BanksDB();
-            Bankomat dev1 = new Bankomat()
-            {
-                Name = "Lolo",
-                //Price = 333,
-                //Country = "ahahaha"
-            };
+            //BanksDB db = new BanksDB();
+            //Bankomat dev1 = new Bankomat()
+            //{
+            //    Name = "Lolo",
+            //    //Price = 333,
+            //    //Country = "ahahaha"
+            //};
 
-            Bankomat dev2 = new Bankomat()
-            {
-                Name = "Koko",
-               // Price = 333,
-               // Country = "vivivi"
-            };
+            //Bankomat dev2 = new Bankomat()
+            //{
+            //    Name = "Koko",
+            //   // Price = 333,
+            //   // Country = "vivivi"
+            //};
 
-            Bank banks = new Bank()
-            {
-                Name = "Van",
-                Date = DateTime.Now,
-                Bankomats = new List<Bankomat>()
-            };
-            banks.Bankomats.AddRange(new[] { dev1, dev2 });
+            //Bank banks = new Bank()
+            //{
+            //    Name = "Van",
+            //    Date = DateTime.Now,
+            //    Bankomats = new List<Bankomat>()
+            //};
+            //banks.Bankomats.AddRange(new[] { dev1, dev2 });
 
-            db.Banks.Add(banks);
-            db.SaveChanges();
+            //db.Banks.Add(banks);
+            //db.SaveChanges();
 
-            foreach (var it in db.Banks)
-            {
-                MessageBox.Show(it.Name);
-            }
+            //foreach (var it in db.Banks)
+            //{
+            //    MessageBox.Show(it.Name);
+            //}
 
             //Console.Read();
+
+            var doc = new XmlDocument();
+            doc.Load(@"kurs.xml");
+            List<string> nodes = new List<string>();
+            foreach (XmlNode node in doc.SelectNodes("banks"))
+            {
+                foreach (XmlNode child in node.ChildNodes)
+                {
+                    
+                    //for(int i=3;i<=5;i++)
+                    //nodes.Add(child.ChildNodes[i].Name+ child.ChildNodes[i].Attributes[1].InnerText+Environment.NewLine);
+
+                    nodes.Add(child.ChildNodes[0].InnerText);
+                }
+            }
+
+            listBox1.DataSource = nodes;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -81,7 +100,7 @@ namespace banksearchapp_Ivan
             gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
 
             gMapControl1.CanDragMap = true;
-            gMapControl1.Position = new GMap.NET.PointLatLng(53.902800, 27.561759);
+            gMapControl1.Position = new GMap.NET.PointLatLng(lat: 53.901813, lng: 27.560522);
 
 
         }
@@ -101,6 +120,25 @@ namespace banksearchapp_Ivan
             {
                 isRedactorModeActivated = false;
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show(gMapControl1.Position.ToString());
+        }
+
+        public class BankCurrency
+        {
+            public int BankId { get; set; }
+            public string CurrencyName { get; set; }
+
+            
+
         }
     }
 }
