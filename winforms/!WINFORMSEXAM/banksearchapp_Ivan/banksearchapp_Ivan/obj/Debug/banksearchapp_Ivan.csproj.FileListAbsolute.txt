@@ -24,3 +24,8 @@ E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banks
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.MainForm.resources
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Properties.Resources.resources
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Migrations._1.resources

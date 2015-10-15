@@ -23,6 +23,38 @@ namespace banksearchapp_Ivan
             InitializeComponent();
             Load += Form1_Load;
 
+            BanksDB db = new BanksDB();
+            Bankomat dev1 = new Bankomat()
+            {
+                Name = "Lolo",
+                //Price = 333,
+                //Country = "ahahaha"
+            };
+
+            Bankomat dev2 = new Bankomat()
+            {
+                Name = "Koko",
+               // Price = 333,
+               // Country = "vivivi"
+            };
+
+            Bank banks = new Bank()
+            {
+                Name = "Van",
+                Date = DateTime.Now,
+                Bankomats = new List<Bankomat>()
+            };
+            banks.Bankomats.AddRange(new[] { dev1, dev2 });
+
+            db.Banks.Add(banks);
+            db.SaveChanges();
+
+            foreach (var it in db.Banks)
+            {
+                MessageBox.Show(it.Name);
+            }
+
+            //Console.Read();
         }
 
         private void Form1_Load(object sender, EventArgs e)
