@@ -1,0 +1,13 @@
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\DbData.dll.config
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\DbData.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\DbData.pdb
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.pdb
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.str.resources
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.str2.resources

@@ -76,37 +76,37 @@ namespace banksearchapp_Ivan
 
             gMapControl1.MarkersEnabled = true;
 
-            //Создаем новый список маркеров, с указанием компонента 
-            //в котором они будут использоваться и названием списка.
-            GMap.NET.WindowsForms.GMapOverlay markersOverlay =
-                new GMap.NET.WindowsForms.GMapOverlay(gMapControl1, "marker");
-            //Инициализация нового ЗЕЛЕНОГО маркера, с указанием его координат.
-            GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen markerG =
-                new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen(
-                //Указываем координаты 
-                new GMap.NET.PointLatLng(53.902542, 27.561781));
-            markerG.ToolTip =
-                new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
-            //Текст отображаемый при наведении на маркер.
-            markerG.ToolTipText = "Объект №1";
+            ////Создаем новый список маркеров, с указанием компонента 
+            ////в котором они будут использоваться и названием списка.
+            //GMap.NET.WindowsForms.GMapOverlay markersOverlay =
+            //    new GMap.NET.WindowsForms.GMapOverlay(gMapControl1, "marker");
+            ////Инициализация нового ЗЕЛЕНОГО маркера, с указанием его координат.
+            //GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen markerG =
+            //    new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen(
+            //    //Указываем координаты 
+            //    new GMap.NET.PointLatLng(53.902542, 27.561781));
+            //markerG.ToolTip =
+            //    new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
+            ////Текст отображаемый при наведении на маркер.
+            //markerG.ToolTipText = "Объект №1";
 
-            //Инициализация нового КРАСНОГО маркера, с указанием его координат.
-            GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
-                new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
-                //Указываем координаты 
-                new GMap.NET.PointLatLng(53.902752, 27.561294));
-            markerR.ToolTip =
-                new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
-            //Текст отображаемый при наведении на маркер.
-            markerR.ToolTipText = "Объект №2";
+            ////Инициализация нового КРАСНОГО маркера, с указанием его координат.
+            //GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
+            //    new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
+            //    //Указываем координаты 
+            //    new GMap.NET.PointLatLng(53.902752, 27.561294));
+            //markerR.ToolTip =
+            //    new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
+            ////Текст отображаемый при наведении на маркер.
+            //markerR.ToolTipText = "Объект №2";
 
-            //Добавляем маркеры в список маркеров.
-            //Зеленый маркер
-            markersOverlay.Markers.Add(markerG);
-            //Красный маркет
-            markersOverlay.Markers.Add(markerR);
-            //Добавляем в компонент, список маркеров.
-            gMapControl1.Overlays.Add(markersOverlay);
+            ////Добавляем маркеры в список маркеров.
+            ////Зеленый маркер
+            //markersOverlay.Markers.Add(markerG);
+            ////Красный маркет
+            //markersOverlay.Markers.Add(markerR);
+            ////Добавляем в компонент, список маркеров.
+            //gMapControl1.Overlays.Add(markersOverlay);
 
             
 

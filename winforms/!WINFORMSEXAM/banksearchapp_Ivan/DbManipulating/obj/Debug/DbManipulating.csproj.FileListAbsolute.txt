@@ -1,0 +1,10 @@
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\DbManipulating.dll.config
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\DbManipulating.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\DbManipulating.pdb
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\obj\Debug\DbManipulating.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\obj\Debug\DbManipulating.dll
+D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\DbManipulating\obj\Debug\DbManipulating.pdb

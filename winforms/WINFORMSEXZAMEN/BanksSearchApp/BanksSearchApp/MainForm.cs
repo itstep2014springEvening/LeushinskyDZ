@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DbData;
+using GMap.NET;
 
 namespace BanksSearchApp
 {
@@ -25,20 +27,33 @@ namespace BanksSearchApp
 
         void MainForm_Load(object sender, EventArgs e)
         {
+            DbData.BanksDB sdf = new BanksDB();
             SetParamsMap();
+            DbCreator dc = new DbCreator();
+           // if (!sdf.Database.Exists())
+          //  {
+                dc.DbDataInsert();
+         //   }
+            
         }
-
+        
 
         // ПРИМЕР РАБОТЫ С КАРТОЙ ! 
         // (данный код используйте по своему усмотрению!)
         void SetParamsMap()
         {
+            DbData.BanksDB sdf = new BanksDB();
+            DbManipulator dm = new DbManipulator();
+            List<Bankomat> bnmts = new List<Bankomat>();
+            bnmts = sdf.Bankomats.ToList();
+           // sdf.Database.Delete();
+          //  if(sdf.Database.Exists())
             // Создание элемента, отображающего карту !
             gMapControl1 = new GMapControl();
             // Растягивание элемента на все окно!
             gMapControl1.Dock = DockStyle.Fill;
             // Добавление элемента 
-           this.Controls.Add(gMapControl1);
+           dataGridView1.Controls.Add(gMapControl1);
 
 // ОБЩИЕ НАСТРОЙКИ КАРТЫ 
             //Указываем, что будем использовать карты OpenStreetMap.
@@ -64,7 +79,7 @@ namespace BanksSearchApp
             //Устанавливаем центр приближения/удаления
             //курсор мыши.
             gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-
+           //MapControl1.Position= new PointLatLng
 
   // НАВИГАЦИЯ ПО КАРТЕ 
             //CanDragMap - Если параметр установлен в True,
@@ -99,6 +114,44 @@ namespace BanksSearchApp
                 new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
             //Текст отображаемый при наведении на маркер.
             markerG.ToolTipText = "Объект №1";
+
+
+
+
+
+
+
+            //gMapControl1.MarkersEnabled = true; 
+
+            foreach (var bankomat in bnmts)
+            {
+                //GMapOverlay markersOverlay1 = new GMapOverlay(gMapControl1, "marker");
+               // GMapMarkerGoogleGreen markerG1 = new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY));
+               // markerG.ToolTip = new GMapRoundedToolTip(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY)));
+               // markerG.ToolTipText = bankomat.BankomatName;
+                markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
+                {
+                    ToolTipText = bankomat.BankomatName+Environment.NewLine+bankomat.Address+Environment.NewLine
+                });
+                
+                gMapControl1.Overlays.Add(new GMapOverlay(gMapControl1, "marker"));
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             //Инициализация нового КРАСНОГО маркера, с указанием его координат.
             GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
@@ -136,7 +189,10 @@ namespace BanksSearchApp
            markerG.ToolTipText = "Новый объект";
            markersOverlay.Markers.Add(markerG);
            gMapControl1.Overlays.Add(markersOverlay);
+
+            
         }
+
        
     }
 }

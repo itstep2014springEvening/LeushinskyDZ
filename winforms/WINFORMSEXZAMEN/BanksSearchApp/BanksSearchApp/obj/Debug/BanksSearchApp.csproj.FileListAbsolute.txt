@@ -23,3 +23,9 @@ D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\D
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\BanksSearchApp.exe.config
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.exe
 E:\git\LeushinskyDZ\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.pdb
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\DbData.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\DbData.pdb
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\bin\Debug\EntityFramework.SqlServer.xml
