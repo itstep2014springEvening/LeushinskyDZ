@@ -3,7 +3,7 @@ namespace DbData.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class str : DbMigration
+    public partial class zte : DbMigration
     {
         public override void Up()
         {
@@ -20,9 +20,6 @@ namespace DbData.Migrations
                         CoordinateY = c.Double(nullable: false),
                         OpenDate = c.DateTime(nullable: false),
                         WorkingTime = c.String(),
-                        CurrencyName = c.String(),
-                        CurrencyValueB = c.String(),
-                        CurrencyValueS = c.String(),
                         PersonalInformation = c.String(),
                         Review = c.String(),
                         Services = c.String(),
@@ -42,12 +39,29 @@ namespace DbData.Migrations
                     })
                 .PrimaryKey(t => t.BankId);
             
+            CreateTable(
+                "dbo.Currencies",
+                c => new
+                    {
+                        CurrencyId = c.Long(nullable: false, identity: true),
+                        CurrencyName = c.String(),
+                        CurrencyBuyV = c.Double(nullable: false),
+                        CurrencySellV = c.Double(nullable: false),
+                        Bankomats_BankomatId = c.Long(),
+                    })
+                .PrimaryKey(t => t.CurrencyId)
+                .ForeignKey("dbo.Bankomats", t => t.Bankomats_BankomatId)
+                .Index(t => t.Bankomats_BankomatId);
+            
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.Currencies", "Bankomats_BankomatId", "dbo.Bankomats");
             DropForeignKey("dbo.Bankomats", "Bank_BankId", "dbo.Banks");
+            DropIndex("dbo.Currencies", new[] { "Bankomats_BankomatId" });
             DropIndex("dbo.Bankomats", new[] { "Bank_BankId" });
+            DropTable("dbo.Currencies");
             DropTable("dbo.Banks");
             DropTable("dbo.Bankomats");
         }

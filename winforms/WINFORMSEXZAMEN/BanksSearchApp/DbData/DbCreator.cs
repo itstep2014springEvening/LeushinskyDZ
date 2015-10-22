@@ -42,7 +42,30 @@ namespace DbData
             CoordinateY = 27.557572,
             OpenDate = DateTime.Now,
             WorkingTime = "8.00 - 20.00",
-            
+            Currencies = new List<Currency>()
+            {
+                new Currency()
+                {
+                    CurrencyId = 1,
+                    CurrencyName = "USD",
+                    CurrencyBuyV = 17380,
+                    CurrencySellV = 17200
+                },
+                new Currency()
+                {
+                    CurrencyId = 1,
+                    CurrencyName = "EUR",
+                    CurrencyBuyV = 19900,
+                    CurrencySellV = 19600
+                },
+                new Currency()
+                {
+                    CurrencyId = 1,
+                    CurrencyName = "RUR",
+                    CurrencyBuyV = 278.5,
+                    CurrencySellV = 273.0
+                }
+            },
          //   CurrencyValueB = "",
          //   CurrencyValueS = "",
             PersonalInformation = "Конь Игнат Стасович",
@@ -90,6 +113,8 @@ namespace DbData
 
 
         #region currencies
+        
+       
 
         #endregion
 

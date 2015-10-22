@@ -7,13 +7,13 @@ namespace DbData.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class str : IMigrationMetadata
+    public sealed partial class zte : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(str));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(zte));
         
         string IMigrationMetadata.Id
         {
-            get { return "201510210619433_str"; }
+            get { return "201510212209563_zte"; }
         }
         
         string IMigrationMetadata.Source

@@ -52,13 +52,9 @@
     <Compile Include="Currency.cs" />
     <Compile Include="DbCreator.cs" />
     <Compile Include="DbManipulator.cs" />
-    <Compile Include="Migrations\201510210619433_str.cs" />
-    <Compile Include="Migrations\201510210619433_str.Designer.cs">
-      <DependentUpon>201510210619433_str.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510211229575_str2.cs" />
-    <Compile Include="Migrations\201510211229575_str2.Designer.cs">
-      <DependentUpon>201510211229575_str2.cs</DependentUpon>
+    <Compile Include="Migrations\201510212209563_zte.cs" />
+    <Compile Include="Migrations\201510212209563_zte.Designer.cs">
+      <DependentUpon>201510212209563_zte.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,11 +64,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510210619433_str.resx">
-      <DependentUpon>201510210619433_str.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510211229575_str2.resx">
-      <DependentUpon>201510211229575_str2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510212209563_zte.resx">
+      <DependentUpon>201510212209563_zte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
