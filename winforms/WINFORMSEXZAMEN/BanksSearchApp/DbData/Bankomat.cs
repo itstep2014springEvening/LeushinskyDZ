@@ -14,12 +14,14 @@ namespace DbData
         public string BankomatName { get; set; }
         public string BankOwnerName { get; set; }
         public string Telephone { get; set; }
-        public string Address { get; set; }
+        public string CityName { get; set; }
+        public string StreetName { get; set; }
+        public string HomeNumber { get; set; }
+       // public string Address { get; set; }
         public double CoordinateX { get; set; }
         public double CoordinateY { get; set; }
         public DateTime OpenDate { get; set; }
         public string WorkingTime { get; set; }
-        public virtual List<Currency> Currencies { get; set; }
         public string PersonalInformation { get; set; }
         public string Review { get; set; }
         public string Services { get; set; }

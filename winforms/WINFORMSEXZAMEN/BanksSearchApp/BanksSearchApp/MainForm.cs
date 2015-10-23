@@ -18,23 +18,27 @@ namespace BanksSearchApp
     public partial class MainForm : Form
     {
         GMapControl gMapControl1;
+        List<Bankomat> bnmts = new List<Bankomat>();
 
         public MainForm()
         {
             InitializeComponent();
             Load += MainForm_Load;
+            
         }
 
         void MainForm_Load(object sender, EventArgs e)
         {
             DbData.BanksDB sdf = new BanksDB();
-            SetParamsMap();
-            DbCreator dc = new DbCreator();
-           // if (!sdf.Database.Exists())
-          //  {
-                dc.DbDataInsert();
-         //   }
             
+            DbCreator dc = new DbCreator();
+            if (!sdf.Database.Exists())
+           {
+                dc.DbDataInsert();
+            }
+            SetParamsMap();
+            List<string> DataForLb1 = bnmts.OrderBy(x=>x.BankOwnerName).Select(lb1d => lb1d.BankomatName + Environment.NewLine).ToList();
+            listBox1.DataSource = DataForLb1;
         }
         
 
@@ -43,8 +47,8 @@ namespace BanksSearchApp
         void SetParamsMap()
         {
             DbData.BanksDB sdf = new BanksDB();
-            DbManipulator dm = new DbManipulator();
-            List<Bankomat> bnmts = new List<Bankomat>();
+          //  DbCreator dm = new DbCreator();
+            
             bnmts = sdf.Bankomats.ToList();
            // sdf.Database.Delete();
           //  if(sdf.Database.Exists())
@@ -131,7 +135,7 @@ namespace BanksSearchApp
                // markerG.ToolTipText = bankomat.BankomatName;
                 markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
                 {
-                    ToolTipText = bankomat.BankomatName+Environment.NewLine+bankomat.Address+Environment.NewLine
+                    ToolTipText = bankomat.BankomatName+Environment.NewLine+bankomat.CityName+Environment.NewLine
                 });
                 
                 gMapControl1.Overlays.Add(new GMapOverlay(gMapControl1, "marker"));
@@ -154,25 +158,25 @@ namespace BanksSearchApp
 
 
             //Инициализация нового КРАСНОГО маркера, с указанием его координат.
-            GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
-                new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
+       //     GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
+        //        new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
                 //Указываем координаты 
-                new GMap.NET.PointLatLng(53.902752, 27.561294));
-            markerR.ToolTip =
-                new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
+        //        new GMap.NET.PointLatLng(53.902752, 27.561294));
+        //    markerR.ToolTip =
+       //         new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
             //Текст отображаемый при наведении на маркер.
-            markerR.ToolTipText = "Объект №2";
+         //   markerR.ToolTipText = "Объект №2";
 
             //Добавляем маркеры в список маркеров.
             //Зеленый маркер
-            markersOverlay.Markers.Add(markerG);
+         //   markersOverlay.Markers.Add(markerG);
             //Красный маркет
-            markersOverlay.Markers.Add(markerR);
+        //    markersOverlay.Markers.Add(markerR);
             //Добавляем в компонент, список маркеров.
             gMapControl1.Overlays.Add(markersOverlay);
 
 // СОБЯТИЯ ПО КАРТЕ !
-            gMapControl1.MouseClick += gMapControl1_MouseClick;
+           // gMapControl1.MouseClick += gMapControl1_MouseClick;
         
         }
 
@@ -191,6 +195,37 @@ namespace BanksSearchApp
            gMapControl1.Overlays.Add(markersOverlay);
 
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void расширенныйПоискToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExstentedFindForm eff = new ExstentedFindForm();//{MdiParent = this};
+            eff.MdiParent = this.MdiParent;
+            eff.WindowState = FormWindowState.Normal;
+            eff.Show();
+            
+
+        }
+
+        private void тутЧтонибудьТочноБудетToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MainForm mf = new MainForm();
+            mf.WindowState =FormWindowState.Normal;
+            //mf.MdiParent = this;
+            mf.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ExstentedFindForm eff = new ExstentedFindForm();//{MdiParent = this};
+            eff.MdiParent = this.MdiParent;
+            eff.WindowState = FormWindowState.Normal;
+            eff.Show();
         }
 
        

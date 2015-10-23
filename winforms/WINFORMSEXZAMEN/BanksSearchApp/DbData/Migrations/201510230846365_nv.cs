@@ -3,7 +3,7 @@ namespace DbData.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class zte : DbMigration
+    public partial class nv : DbMigration
     {
         public override void Up()
         {
@@ -47,19 +47,19 @@ namespace DbData.Migrations
                         CurrencyName = c.String(),
                         CurrencyBuyV = c.Double(nullable: false),
                         CurrencySellV = c.Double(nullable: false),
-                        Bankomats_BankomatId = c.Long(),
+                        Bank_BankId = c.Long(),
                     })
                 .PrimaryKey(t => t.CurrencyId)
-                .ForeignKey("dbo.Bankomats", t => t.Bankomats_BankomatId)
-                .Index(t => t.Bankomats_BankomatId);
+                .ForeignKey("dbo.Banks", t => t.Bank_BankId)
+                .Index(t => t.Bank_BankId);
             
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.Currencies", "Bankomats_BankomatId", "dbo.Bankomats");
+            DropForeignKey("dbo.Currencies", "Bank_BankId", "dbo.Banks");
             DropForeignKey("dbo.Bankomats", "Bank_BankId", "dbo.Banks");
-            DropIndex("dbo.Currencies", new[] { "Bankomats_BankomatId" });
+            DropIndex("dbo.Currencies", new[] { "Bank_BankId" });
             DropIndex("dbo.Bankomats", new[] { "Bank_BankId" });
             DropTable("dbo.Currencies");
             DropTable("dbo.Banks");

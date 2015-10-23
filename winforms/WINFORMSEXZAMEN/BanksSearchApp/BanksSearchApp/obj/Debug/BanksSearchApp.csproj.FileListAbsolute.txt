@@ -46,3 +46,4 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\D
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.MainForm.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.Properties.Resources.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ExstentedFindForm.resources

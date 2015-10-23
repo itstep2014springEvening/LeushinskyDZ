@@ -14,7 +14,6 @@ namespace DbData
         public string CurrencyName { get; set; }
         public double CurrencyBuyV { get; set; }
         public double CurrencySellV { get; set; }
-        //public DateTime? Date { get; set; }
-        public virtual Bankomat Bankomats { get; set; }
+        public virtual Bank Bank { get; set; }
     }
 }

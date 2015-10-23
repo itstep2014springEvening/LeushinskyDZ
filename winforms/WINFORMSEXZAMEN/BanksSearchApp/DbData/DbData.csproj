@@ -46,15 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressFinder.cs" />
     <Compile Include="Bank.cs" />
     <Compile Include="Bankomat.cs" />
     <Compile Include="BanksDB.cs" />
     <Compile Include="Currency.cs" />
     <Compile Include="DbCreator.cs" />
     <Compile Include="DbManipulator.cs" />
-    <Compile Include="Migrations\201510212209563_zte.cs" />
-    <Compile Include="Migrations\201510212209563_zte.Designer.cs">
-      <DependentUpon>201510212209563_zte.cs</DependentUpon>
+    <Compile Include="Migrations\201510230846365_nv.cs" />
+    <Compile Include="Migrations\201510230846365_nv.Designer.cs">
+      <DependentUpon>201510230846365_nv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510230911491_nv2.cs" />
+    <Compile Include="Migrations\201510230911491_nv2.Designer.cs">
+      <DependentUpon>201510230911491_nv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510231242035_nv3.cs" />
+    <Compile Include="Migrations\201510231242035_nv3.Designer.cs">
+      <DependentUpon>201510231242035_nv3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,8 +73,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510212209563_zte.resx">
-      <DependentUpon>201510212209563_zte.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510230846365_nv.resx">
+      <DependentUpon>201510230846365_nv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510230911491_nv2.resx">
+      <DependentUpon>201510230911491_nv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510231242035_nv3.resx">
+      <DependentUpon>201510231242035_nv3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

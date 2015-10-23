@@ -12,7 +12,7 @@ namespace DbData
         [Key]
         public long BankId { get; set; }
         public string BankName { get; set; }
-        //public DateTime? Date { get; set; }
+        public virtual List<Currency> Currencies { get; set; }
         public virtual List<Bankomat> Bankomats { get; set; }
     }
 }
