@@ -29,10 +29,15 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+            if (listBox1.DataSource==null)
+            {
+                MessageBox.Show(@"Город, улица и дом должны быть заполнены!");
+            }
             DbData.BanksDB sdf = new BanksDB();
             List<Bankomat> bankomats = sdf.Bankomats.ToList().Where(x=>x.CityName==textBox1.Text&&x.StreetName==textBox2.Text&&x.HomeNumber==textBox3.Text).ToList();
             listBox1.DataSource = bankomats.Select(x=>x.BankomatName).ToList();
-            textBox1.Text = "";
+           
             //List<string> FinderUsingAdress = new List<string>();
             //if (textBox1.Text != null) { FinderUsingAdress.Add(textBox1.Text);}
             //if (textBox2.Text != null) { FinderUsingAdress.Add(textBox2.Text); }

@@ -76,9 +76,158 @@ namespace DbData
             Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
-        
+
+
+
+      
+        public Bankomat belarusbank1 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "Беларусьбанк_Банкомат_1",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул.Веры Хоружей",
+            HomeNumber = "31",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.923037,
+            CoordinateY = 27.556468,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+
+   
+        public Bankomat belarusbank2 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "Беларусьбанк_Банкомат_2",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "Игнатенко",
+            HomeNumber = "11",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.918622,
+            CoordinateY = 27.524207,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+
+
 
        
+        public Bankomat belarusbank3 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "Беларусьбанк_Банкомат_3",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул. Захарова",
+            HomeNumber = "50",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.902641,
+            CoordinateY = 27.581849,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+        public Bankomat belarusbank4 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "Беларусьбанк_Банкомат_4",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул. Московская",
+            HomeNumber = "18",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.890773,
+            CoordinateY = 27.537594,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+
+        public Bankomat mtbbank1 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "МТБбанк_Банкомат_1",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул. Воронянского",
+            HomeNumber = "7",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.903600,
+            CoordinateY = 27.586474,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+
+        public Bankomat mtbbank2 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "МТБбанк_Банкомат_2",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул. Кабушкина",
+            HomeNumber = "94",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.858327,
+            CoordinateY = 27.632591,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
+
+
+        public Bankomat mtbbank3 = new Bankomat()
+        {
+            BankomatId = 3,
+            BankomatName = "МТБбанк_Банкомат_3",
+            BankOwnerName = "Приорбанк",
+            Telephone = "222-22-12",
+            CityName = "г. Минск",
+            StreetName = "ул. Денисовская",
+            HomeNumber = "8",
+            //   Address = "г. Минск, ул. Крупской 6/1",
+            CoordinateX = 53.874948,
+            CoordinateY = 27.571964,
+            OpenDate = DateTime.Now,
+            WorkingTime = "8.00 - 20.00",
+            PersonalInformation = "Старовойтов Игорь Петрович",
+            Review = "Отличный банкомат!",
+            Services = "Обмен валюты, оплата услуг связи",
+            AdditionalInformation = "?",
+        };
 
         #endregion
 
@@ -94,17 +243,20 @@ namespace DbData
             Currencies = new List<Currency>()
         };
 
-        Bank belarus = new Bank()
+
+
+        Bank belarusbank = new Bank()
         {
 
             BankId = 2,
             BankName = "БеларусьБанк",
             //BankName = "Van",
             //Date = DateTime.Now,
-            Bankomats = new List<Bankomat>()
+            Bankomats = new List<Bankomat>(),
+            Currencies = new List<Currency>()
         };
 
-        Bank mtb = new Bank()
+        Bank mtbbank = new Bank()
         {
 
             BankId = 3,
@@ -112,7 +264,8 @@ namespace DbData
             //BankName = "Van",
             //Date = DateTime.Now,
             Bankomats = new List<Bankomat>(),
-            //Currencies = new List<Currency>()
+            Currencies = new List<Currency>()
+            
         };
         #endregion
 
@@ -143,32 +296,87 @@ namespace DbData
             CurrencyBuyV = 278.5,
             CurrencySellV = 273.0
         };
-           
-       
 
+        public Currency CurForblbUSD = new Currency()
+        {
+            CurrencyId = 4,
+            CurrencyName = "USD",
+            CurrencyBuyV = 17150,
+            CurrencySellV = 17350,
+        };
+
+        public Currency CurForblbEUR = new Currency()
+        {
+            CurrencyId = 5,
+            CurrencyName = "EUR",
+            CurrencyBuyV = 19580,
+            CurrencySellV = 19990
+        };
+
+        public Currency CurForblbRUR = new Currency()
+        {
+            CurrencyId = 6,
+            CurrencyName = "RUR",
+            CurrencyBuyV = 273.0,
+            CurrencySellV = 283.0
+        };
+
+        public Currency CurFormtbUSD = new Currency()
+        {
+            CurrencyId = 7,
+            CurrencyName = "USD",
+            CurrencyBuyV = 17170,
+            CurrencySellV = 17390,
+        };
+
+        public Currency CurFormtbEUR = new Currency()
+        {
+            CurrencyId = 8,
+            CurrencyName = "EUR",
+            CurrencyBuyV = 19600,
+            CurrencySellV = 19900
+        };
+
+        public Currency CurFormtbRUR = new Currency()
+        {
+            CurrencyId = 9,
+            CurrencyName = "RUR",
+            CurrencyBuyV = 259.5,
+            CurrencySellV = 281.0
+        };
         #endregion
 
 
 
         public void DbDataInsert()
         {
-            List<Bankomat> priorBankomats = new List<Bankomat>() { priorbkm1, priorbkm2, priorbkm3 };
-            List<Currency> priorCurrencies = new List<Currency>() {CurForPriorUSD,CurForPriorEUR,CurForPriorRUR};
+            List<Bankomat> priorbBankomats = new List<Bankomat>() { priorbkm1, priorbkm2, priorbkm3 };
+            List<Bankomat> belarusbBankomats = new List<Bankomat>() { belarusbank1, belarusbank2, belarusbank3, belarusbank4 };
+            List<Bankomat> mtbBankomats = new List<Bankomat>() { mtbbank1, mtbbank2, mtbbank3};
+            List<Currency> priorCurrencies = new List<Currency>() { CurForPriorUSD, CurForPriorEUR, CurForPriorRUR };
+            List<Currency> belarusbCurrencies = new List<Currency>() { CurForblbUSD, CurFormtbEUR, CurFormtbRUR };
+            List<Currency> mtbbCurrencies = new List<Currency>() { CurFormtbUSD, CurFormtbEUR, CurFormtbRUR };
             priorbank.Currencies.AddRange(priorCurrencies);
-            priorbank.Bankomats.AddRange(priorBankomats);
+            priorbank.Currencies.AddRange(belarusbCurrencies);
+            priorbank.Currencies.AddRange(mtbbCurrencies);
+            priorbank.Bankomats.AddRange(priorbBankomats);
+            priorbank.Bankomats.AddRange(belarusbBankomats);
+            priorbank.Bankomats.AddRange(mtbBankomats);
             db.Banks.Add(priorbank);
-          //  
-          //  db.Banks.Add(priorbank);
-           // priorbkm1.Currencies.AddRange(priorCurrencies);
-            
+            db.Banks.Add(belarusbank);
+            db.Banks.Add(mtbbank);
+            //  
+            //  db.Banks.Add(priorbank);
+            // priorbkm1.Currencies.AddRange(priorCurrencies);
+
             //CurForPriorUSD.Bankomats.AddRange(priorBankomats);
-           // CurForPriorEUR.Bankomats.AddRange(priorBankomats);
-          //  CurForPriorRUR.Bankomats.AddRange(priorBankomats);
-           // banks.Bankomats.Add(priorbkm1);
-           // banks.Bankomats.Add(priorbkm2);
-           // banks.Bankomats.Add(priorbkm3);
-           //// db.Banks.Add(banks);
-          //  db.Currencies.Add(CurForPriorUSD);
+            // CurForPriorEUR.Bankomats.AddRange(priorBankomats);
+            //  CurForPriorRUR.Bankomats.AddRange(priorBankomats);
+            // banks.Bankomats.Add(priorbkm1);
+            // banks.Bankomats.Add(priorbkm2);
+            // banks.Bankomats.Add(priorbkm3);
+            //// db.Banks.Add(banks);
+            //  db.Currencies.Add(CurForPriorUSD);
             //db.Currencies.Add(CurForPriorEUR);
             //db.Currencies.Add(CurForPriorRUR);
             db.SaveChanges();
