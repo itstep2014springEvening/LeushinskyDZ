@@ -60,6 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddANewBankomatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddANewBankomatForm.Designer.cs">
+      <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExstentedFindForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddANewBankomatForm.resx">
+      <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExstentedFindForm.resx">
       <DependentUpon>ExstentedFindForm.cs</DependentUpon>
     </EmbeddedResource>

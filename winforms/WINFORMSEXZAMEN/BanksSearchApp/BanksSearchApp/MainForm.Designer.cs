@@ -30,31 +30,33 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.тутЧтонибудьТочноБудетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.всеОткрытыеОкнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.простойПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.расширенныйПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.тутЧтонибудьТочноБудетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.банкоматToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.всеОткрытыеОкнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.separator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.режимРедактораToolStripMenuItem = new  System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -65,9 +67,9 @@
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -83,6 +85,101 @@
             this.menuStrip1.Size = new System.Drawing.Size(930, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
+            this.toolStripMenuItem1.Text = "Файл";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.тутЧтонибудьТочноБудетToolStripMenuItem,
+            this.закрытьТекущееОкноToolStripMenuItem,
+            this.всеОткрытыеОкнаToolStripMenuItem});
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(47, 20);
+            this.toolStripMenuItem2.Text = "Окна";
+            // 
+            // тутЧтонибудьТочноБудетToolStripMenuItem
+            // 
+            this.тутЧтонибудьТочноБудетToolStripMenuItem.Name = "тутЧтонибудьТочноБудетToolStripMenuItem";
+            this.тутЧтонибудьТочноБудетToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.тутЧтонибудьТочноБудетToolStripMenuItem.Text = "Открыть новую карту";
+            this.тутЧтонибудьТочноБудетToolStripMenuItem.Click += new System.EventHandler(this.тутЧтонибудьТочноБудетToolStripMenuItem_Click);
+            // 
+            // закрытьТекущееОкноToolStripMenuItem
+            // 
+            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
+            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
+            // 
+            // всеОткрытыеОкнаToolStripMenuItem
+            // 
+            this.всеОткрытыеОкнаToolStripMenuItem.Name = "всеОткрытыеОкнаToolStripMenuItem";
+            this.всеОткрытыеОкнаToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.всеОткрытыеОкнаToolStripMenuItem.Text = "Все открытые окна";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.простойПоискToolStripMenuItem,
+            this.расширенныйПоискToolStripMenuItem});
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(54, 20);
+            this.toolStripMenuItem3.Text = "Поиск";
+            // 
+            // простойПоискToolStripMenuItem
+            // 
+            this.простойПоискToolStripMenuItem.Name = "простойПоискToolStripMenuItem";
+            this.простойПоискToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.простойПоискToolStripMenuItem.Text = "Простой поиск";
+            // 
+            // расширенныйПоискToolStripMenuItem
+            // 
+            this.расширенныйПоискToolStripMenuItem.Name = "расширенныйПоискToolStripMenuItem";
+            this.расширенныйПоискToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.расширенныйПоискToolStripMenuItem.Text = "Расширенный поиск";
+            this.расширенныйПоискToolStripMenuItem.Click += new System.EventHandler(this.расширенныйПоискToolStripMenuItem_Click);
+            // 
+            // оПрограммеToolStripMenuItem
+            // 
+            this.оПрограммеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.добавитьОбъектToolStripMenuItem,
+            this.удалитьОбъектToolStripMenuItem,
+            this.separator1,
+            this.режимРедактораToolStripMenuItem});
+            this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
+            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.оПрограммеToolStripMenuItem.Text = "Объекты";
+            // 
+            // добавитьОбъектToolStripMenuItem
+            // 
+            this.добавитьОбъектToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.банкоматToolStripMenuItem});
+            this.добавитьОбъектToolStripMenuItem.Name = "добавитьОбъектToolStripMenuItem";
+            this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.добавитьОбъектToolStripMenuItem.Text = "Добавить объект";
+            // 
+            // банкоматToolStripMenuItem
+            // 
+            this.банкоматToolStripMenuItem.Name = "банкоматToolStripMenuItem";
+            this.банкоматToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.банкоматToolStripMenuItem.Text = "Банкомат";
+            this.банкоматToolStripMenuItem.Click += new System.EventHandler(this.банкоматToolStripMenuItem_Click);
+            // 
+            // удалитьОбъектToolStripMenuItem
+            // 
+            this.удалитьОбъектToolStripMenuItem.Name = "удалитьОбъектToolStripMenuItem";
+            this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.удалитьОбъектToolStripMenuItem.Text = "Удалить объект";
+            // 
+            // оПрограммеToolStripMenuItem1
+            // 
+            this.оПрограммеToolStripMenuItem1.Name = "оПрограммеToolStripMenuItem1";
+            this.оПрограммеToolStripMenuItem1.Size = new System.Drawing.Size(94, 20);
+            this.оПрограммеToolStripMenuItem1.Text = "О программе";
             // 
             // splitContainer1
             // 
@@ -132,15 +229,25 @@
             this.splitContainer2.SplitterDistance = 401;
             this.splitContainer2.TabIndex = 0;
             // 
-            // dataGridView2
+            // groupBox2
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(112, 153);
-            this.dataGridView2.TabIndex = 0;
+            this.groupBox2.Controls.Add(this.listBox1);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(112, 397);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Список банкоматов";
+            // 
+            // listBox1
+            // 
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(3, 16);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(106, 378);
+            this.listBox1.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -157,43 +264,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Простой поиск";
             // 
-            // groupBox2
+            // comboBox2
             // 
-            this.groupBox2.Controls.Add(this.listBox1);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(112, 397);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Список банкоматов";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(9, 82);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 6;
             // 
-            // label1
+            // comboBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Название банкомата:";
-            // 
-            // listBox1
-            // 
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(3, 16);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(106, 378);
-            this.listBox1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 66);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Название банка - владельца:";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(9, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 5;
             // 
             // linkLabel1
             // 
@@ -207,113 +292,46 @@
             this.linkLabel1.Text = "Простой поиск не помог?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // toolStripMenuItem1
+            // label2
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
-            this.toolStripMenuItem1.Text = "Файл";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 66);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(156, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Название банка - владельца:";
             // 
-            // toolStripMenuItem2
+            // label1
             // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.тутЧтонибудьТочноБудетToolStripMenuItem,
-            this.закрытьТекущееОкноToolStripMenuItem,
-            this.всеОткрытыеОкнаToolStripMenuItem});
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(47, 20);
-            this.toolStripMenuItem2.Text = "Окна";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Название банкомата:";
             // 
-            // toolStripMenuItem3
+            // dataGridView2
             // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.простойПоискToolStripMenuItem,
-            this.расширенныйПоискToolStripMenuItem});
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(54, 20);
-            this.toolStripMenuItem3.Text = "Поиск";
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(112, 153);
+            this.dataGridView2.TabIndex = 0;
             // 
-            // оПрограммеToolStripMenuItem
+            // separator1
             // 
-            this.оПрограммеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.добавитьОбъектToolStripMenuItem,
-            this.удалитьОбъектToolStripMenuItem});
-            this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.оПрограммеToolStripMenuItem.Text = "Объекты";
+            this.separator1.Name = "separator1";
+            this.separator1.Size = new System.Drawing.Size(168, 6);
+            this.separator1.Click += new System.EventHandler(this.режимРедактораToolStripMenuItem_Click);
             // 
-            // простойПоискToolStripMenuItem
+            // режимРедактораToolStripMenuItem
             // 
-            this.простойПоискToolStripMenuItem.Name = "простойПоискToolStripMenuItem";
-            this.простойПоискToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.простойПоискToolStripMenuItem.Text = "Простой поиск";
-            // 
-            // расширенныйПоискToolStripMenuItem
-            // 
-            this.расширенныйПоискToolStripMenuItem.Name = "расширенныйПоискToolStripMenuItem";
-            this.расширенныйПоискToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.расширенныйПоискToolStripMenuItem.Text = "Расширенный поиск";
-            this.расширенныйПоискToolStripMenuItem.Click += new System.EventHandler(this.расширенныйПоискToolStripMenuItem_Click);
-            // 
-            // тутЧтонибудьТочноБудетToolStripMenuItem
-            // 
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Name = "тутЧтонибудьТочноБудетToolStripMenuItem";
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Text = "Открыть новую карту";
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Click += new System.EventHandler(this.тутЧтонибудьТочноБудетToolStripMenuItem_Click);
-            // 
-            // оПрограммеToolStripMenuItem1
-            // 
-            this.оПрограммеToolStripMenuItem1.Name = "оПрограммеToolStripMenuItem1";
-            this.оПрограммеToolStripMenuItem1.Size = new System.Drawing.Size(94, 20);
-            this.оПрограммеToolStripMenuItem1.Text = "О программе";
-            // 
-            // добавитьОбъектToolStripMenuItem
-            // 
-            this.добавитьОбъектToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.банкоматToolStripMenuItem});
-            this.добавитьОбъектToolStripMenuItem.Name = "добавитьОбъектToolStripMenuItem";
-            this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.добавитьОбъектToolStripMenuItem.Text = "Добавить объект";
-            // 
-            // банкоматToolStripMenuItem
-            // 
-            this.банкоматToolStripMenuItem.Name = "банкоматToolStripMenuItem";
-            this.банкоматToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.банкоматToolStripMenuItem.Text = "Банкомат";
-            // 
-            // удалитьОбъектToolStripMenuItem
-            // 
-            this.удалитьОбъектToolStripMenuItem.Name = "удалитьОбъектToolStripMenuItem";
-            this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.удалитьОбъектToolStripMenuItem.Text = "Удалить объект";
-            // 
-            // закрытьТекущееОкноToolStripMenuItem
-            // 
-            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
-            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
-            // 
-            // всеОткрытыеОкнаToolStripMenuItem
-            // 
-            this.всеОткрытыеОкнаToolStripMenuItem.Name = "всеОткрытыеОкнаToolStripMenuItem";
-            this.всеОткрытыеОкнаToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.всеОткрытыеОкнаToolStripMenuItem.Text = "Все открытые окна";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(9, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 5;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(9, 82);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 6;
+            this.режимРедактораToolStripMenuItem.CheckOnClick = true;
+            this.режимРедактораToolStripMenuItem.Name = "режимРедактораToolStripMenuItem";
+            this.режимРедактораToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.режимРедактораToolStripMenuItem.Text = "Режим редактора";
             // 
             // MainForm
             // 
@@ -341,10 +359,10 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,8 +396,8 @@
         private System.Windows.Forms.ToolStripMenuItem всеОткрытыеОкнаToolStripMenuItem;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
-
-
+        private System.Windows.Forms.ToolStripSeparator separator1;
+        private System.Windows.Forms.ToolStripMenuItem режимРедактораToolStripMenuItem;
     }
 }
 

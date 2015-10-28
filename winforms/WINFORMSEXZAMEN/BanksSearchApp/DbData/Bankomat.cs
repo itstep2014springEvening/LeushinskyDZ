@@ -17,14 +17,12 @@ namespace DbData
         public string CityName { get; set; }
         public string StreetName { get; set; }
         public string HomeNumber { get; set; }
-       // public string Address { get; set; }
         public double CoordinateX { get; set; }
         public double CoordinateY { get; set; }
-        public DateTime OpenDate { get; set; }
+        public DateTime? OpenDate { get; set; }
         public string WorkingTime { get; set; }
         public string PersonalInformation { get; set; }
         public string Review { get; set; }
-        public string Services { get; set; }
         public string AdditionalInformation { get; set; }
         public virtual Bank Bank { get; set; }
     }

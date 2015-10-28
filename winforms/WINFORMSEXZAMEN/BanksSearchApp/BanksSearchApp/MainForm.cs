@@ -19,10 +19,12 @@ namespace BanksSearchApp
     {
         GMapControl gMapControl1;
         List<Bankomat> bnmts = new List<Bankomat>();
-
+        public bool isEditorModeOn = false;
         public MainForm()
         {
             InitializeComponent();
+            //ToolStripSeparator tss = new ToolStripSeparator();
+            
             Load += MainForm_Load;
             
         }
@@ -228,6 +230,48 @@ namespace BanksSearchApp
             eff.Show();
         }
 
-       
+        private void режимРедактораToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void AddToBankomatsList(List<Bankomat> bnmts)
+        {
+            
+        }
+        private void банкоматToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (режимРедактораToolStripMenuItem.Checked)
+            {
+                if (isEditorModeOn)
+                {
+                    AddANewBankomatForm aanbf = new AddANewBankomatForm();//{MdiParent = this};
+                    aanbf.MdiParent = this.MdiParent;
+                    aanbf.WindowState = FormWindowState.Normal;
+                    aanbf.Show();
+                }
+
+            }
+            else
+            {
+                if (
+                    MessageBox.Show(
+                        "Для добавления объектов необходимо включить режим редактора. Включить режим редактора сейчас?",
+                        "Внимание!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    isEditorModeOn = true;
+                    режимРедактораToolStripMenuItem.CheckState=CheckState.Checked;
+                    AddANewBankomatForm aanbf = new AddANewBankomatForm();//{MdiParent = this};
+                    aanbf.MdiParent = this.MdiParent;
+                    aanbf.WindowState = FormWindowState.Normal;
+                    aanbf.Show();
+                }
+                else
+                {
+                    isEditorModeOn = false;
+                }
+            }
+        }
+        }
     }
-}
+

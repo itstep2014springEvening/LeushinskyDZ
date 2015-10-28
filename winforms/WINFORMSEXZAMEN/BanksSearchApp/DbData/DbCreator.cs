@@ -9,7 +9,49 @@ namespace DbData
     public class DbCreator
     {
 
-        BanksDB db = new BanksDB();
+        private BanksDB db = new BanksDB();
+
+
+
+
+
+
+
+        #region services
+
+        public Service s1 = new Service()
+        {
+            ServiceId = 1,
+            ServiceName = "Снятие наличных"
+        };
+
+        public Service s2 = new Service()
+        {
+            ServiceId = 2,
+            ServiceName = "Обмен валют"
+        };
+
+        public Service s3 = new Service()
+        {
+            ServiceId = 3,
+            ServiceName = "Оплата ЖКХ"
+        };
+
+        public Service s4 = new Service()
+        {
+            ServiceId = 4,
+            ServiceName = "Оплата мобильной связи"
+        };
+
+        public Service s5 = new Service()
+        {
+            ServiceId = 5,
+            ServiceName = "Погашение кредитов"
+        };
+
+
+
+    #endregion
 
         #region bansomats
         public Bankomat priorbkm1 = new Bankomat()
@@ -31,7 +73,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Самсонова Елена Петровна",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?"
         };
 
@@ -51,7 +92,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Каратай Евгения Сергеевна",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?"
         };
         
@@ -73,7 +113,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -96,7 +135,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -118,7 +156,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -142,7 +179,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -162,7 +198,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -183,7 +218,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -204,7 +238,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -225,7 +258,6 @@ namespace DbData
             WorkingTime = "8.00 - 20.00",
             PersonalInformation = "Старовойтов Игорь Петрович",
             Review = "Отличный банкомат!",
-            Services = "Обмен валюты, оплата услуг связи",
             AdditionalInformation = "?",
         };
 
@@ -240,7 +272,8 @@ namespace DbData
             //BankName = "Van",
             //Date = DateTime.Now,
             Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>()
+            Currencies = new List<Currency>(),
+            Services = new List<Service>()
         };
 
 
@@ -253,7 +286,8 @@ namespace DbData
             //BankName = "Van",
             //Date = DateTime.Now,
             Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>()
+            Currencies = new List<Currency>(),
+            Services = new List<Service>()
         };
 
         Bank mtbbank = new Bank()
@@ -264,8 +298,9 @@ namespace DbData
             //BankName = "Van",
             //Date = DateTime.Now,
             Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>()
-            
+            Currencies = new List<Currency>(),
+            Services = new List<Service>()
+
         };
         #endregion
 
@@ -350,21 +385,28 @@ namespace DbData
 
         public void DbDataInsert()
         {
+            DataInsert dataInsert = new DataInsert();
+
+            List <Service> serviceList = new List<Service>() {s1,s2,s3,s4,s5};
             List<Bankomat> priorbBankomats = new List<Bankomat>() { priorbkm1, priorbkm2, priorbkm3 };
             List<Bankomat> belarusbBankomats = new List<Bankomat>() { belarusbank1, belarusbank2, belarusbank3, belarusbank4 };
-            List<Bankomat> mtbBankomats = new List<Bankomat>() { mtbbank1, mtbbank2, mtbbank3};
+            List<Bankomat> mtbBankomats = new List<Bankomat>() { mtbbank1, mtbbank2, mtbbank3 };
             List<Currency> priorCurrencies = new List<Currency>() { CurForPriorUSD, CurForPriorEUR, CurForPriorRUR };
             List<Currency> belarusbCurrencies = new List<Currency>() { CurForblbUSD, CurFormtbEUR, CurFormtbRUR };
             List<Currency> mtbbCurrencies = new List<Currency>() { CurFormtbUSD, CurFormtbEUR, CurFormtbRUR };
-            priorbank.Currencies.AddRange(priorCurrencies);
-            priorbank.Currencies.AddRange(belarusbCurrencies);
-            priorbank.Currencies.AddRange(mtbbCurrencies);
-            priorbank.Bankomats.AddRange(priorbBankomats);
-            priorbank.Bankomats.AddRange(belarusbBankomats);
-            priorbank.Bankomats.AddRange(mtbBankomats);
-            db.Banks.Add(priorbank);
-            db.Banks.Add(belarusbank);
-            db.Banks.Add(mtbbank);
+
+            dataInsert.DataInsertion(priorbank, priorbBankomats, priorCurrencies,serviceList, db);
+            dataInsert.DataInsertion(belarusbank, belarusbBankomats, belarusbCurrencies, serviceList, db);
+            dataInsert.DataInsertion(mtbbank, mtbBankomats, mtbbCurrencies, serviceList, db);
+            //priorbank.Currencies.AddRange(priorCurrencies);
+            //priorbank.Currencies.AddRange(belarusbCurrencies);
+            //priorbank.Currencies.AddRange(mtbbCurrencies);
+            //priorbank.Bankomats.AddRange(priorbBankomats);
+            //priorbank.Bankomats.AddRange(belarusbBankomats);
+            //priorbank.Bankomats.AddRange(mtbBankomats);
+            //db.Banks.Add(priorbank);
+            //db.Banks.Add(belarusbank);
+            //db.Banks.Add(mtbbank);
             //  
             //  db.Banks.Add(priorbank);
             // priorbkm1.Currencies.AddRange(priorCurrencies);

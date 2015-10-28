@@ -48,3 +48,4 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\D
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.csproj.GenerateResource.Cache
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ExstentedFindForm.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ExstentedFindForm.resources
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.AddANewBankomatForm.resources

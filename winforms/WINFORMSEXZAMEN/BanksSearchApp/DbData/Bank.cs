@@ -14,5 +14,6 @@ namespace DbData
         public string BankName { get; set; }
         public virtual List<Currency> Currencies { get; set; }
         public virtual List<Bankomat> Bankomats { get; set; }
+        public virtual List<Service> Services { get; set; }
     }
 }
