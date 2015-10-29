@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Migrations;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,8 +25,9 @@ namespace BanksSearchApp
             }
             comboBox1.DataSource = currenciesForTB3;
             comboBox3.DataSource = currenciesForTB3;
-            checkedListBox1.DataSource = db.Bankomats;
+            checkedListBox1.DataSource = db.Services.Select(x => x.ServiceName).ToList();
             radioButton1.Checked = true;
+
 
         }
 
@@ -37,38 +39,48 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Service>ПРОСТО_ЗАГЛУШКА = new List<Service>();
+            List<Service> chserv = new List<Service>();
+            for (int i = 0; i < checkedListBox1.CheckedItems.Count; i++)
+            {
+
+                chserv.Add(new Service()
+                {
+                    ServiceId = db.Services.Select(x => x.ServiceId).ToList().Max() + i,
+                    ServiceName = checkedListBox1.CheckedItems[i].ToString()
+                });
+            }
+
+
+            //var test = (db.Bankomats.Select(x => x.BankomatId).ToList().Last() + 1);
             DataInsert dataInsert = new DataInsert();
+
             if (radioButton1.Checked)
             {
                 dataInsert.DataInsertion(db.Banks.Single(x => x.BankName == comboBox1.Text), new List<Bankomat>()
                 {
                     new Bankomat()
                     {
-                        BankomatId = db.Bankomats.Select(x=>x.BankomatId).ToList().Last()+1,
+                        BankomatId = (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1),
                         BankomatName = textBox1.Text,
                         BankOwnerName = comboBox1.Text,
                         Telephone = textBox3.Text,
                         CityName = textBox2.Text,
                         StreetName = textBox4.Text,
                         HomeNumber = textBox5.Text,
-                        //   Address = "г. Минск, ул. Крупской 6/1",
+
                         CoordinateX = Double.Parse(textBox6.Text),
                         CoordinateY = Double.Parse(textBox7.Text),
                         OpenDate = DateTime.Parse(textBox11.Text),
                         WorkingTime = textBox9.Text,
                         PersonalInformation = textBox10.Text,
                         Review = textBox13.Text,
-                        //Services = new List<Service>(),
+
                         AdditionalInformation = textBox12.Text,
                     }
-                }, db.Currencies.Where(x => x.CurrencyName == comboBox3.Text).ToList(),new List<Service>()
-                {
-                    new Service()
-                    {
-                        
-                    }
-                },  db);
+                }, db.Currencies.Where(x => x.CurrencyName == comboBox3.Text).ToList(),
+                chserv
+
+                , db);
             }
 
 
@@ -127,8 +139,8 @@ namespace BanksSearchApp
             }
             db.SaveChanges();
         }
-           
-        
+
+
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton1.Checked)
@@ -173,23 +185,23 @@ namespace BanksSearchApp
         private void label18_Click(object sender, EventArgs e)
         {
             textBox1.Text = "NewRandomBankomat" +
-                            (db.Currencies.Select(x => x.CurrencyId).ToList().Last() + 1).ToString();
-
+                            (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1).ToString();
+            List<long> test = db.Bankomats.Select(x => x.BankomatId).ToList();
             textBox3.Text = "222-22-22";
 
             textBox2.Text = "г. Минск";
             textBox4.Text = "ул. Кабушкина";
             textBox5.Text = "94";
-            textBox6.Text = "53.858333";
-            textBox7.Text = "27.632581";
-            textBox11.Text = new DateTime(1111,12,11).ToString();
+            textBox6.Text = "53,858333";
+            textBox7.Text = "27,632581";
+            textBox11.Text = DateTime.Now.ToString("d");
             textBox10.Text = "Старовойтов Игорь Петрович";
             textBox9.Text = "8.00 - 20.00";
 
             textBox13.Text = "Отличный банкомат!";
             textBox12.Text = "In Progress";
 
-          
+
 
 
         }

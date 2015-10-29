@@ -42,6 +42,8 @@
             this.добавитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.банкоматToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.separator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.режимРедактораToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -55,8 +57,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.separator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.режимРедактораToolStripMenuItem = new  System.Windows.Forms.ToolStripMenuItem();
+            this.банкToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -157,7 +158,8 @@
             // добавитьОбъектToolStripMenuItem
             // 
             this.добавитьОбъектToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.банкоматToolStripMenuItem});
+            this.банкоматToolStripMenuItem,
+            this.банкToolStripMenuItem});
             this.добавитьОбъектToolStripMenuItem.Name = "добавитьОбъектToolStripMenuItem";
             this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.добавитьОбъектToolStripMenuItem.Text = "Добавить объект";
@@ -174,6 +176,19 @@
             this.удалитьОбъектToolStripMenuItem.Name = "удалитьОбъектToolStripMenuItem";
             this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.удалитьОбъектToolStripMenuItem.Text = "Удалить объект";
+            // 
+            // separator1
+            // 
+            this.separator1.Name = "separator1";
+            this.separator1.Size = new System.Drawing.Size(168, 6);
+            this.separator1.Click += new System.EventHandler(this.режимРедактораToolStripMenuItem_Click);
+            // 
+            // режимРедактораToolStripMenuItem
+            // 
+            this.режимРедактораToolStripMenuItem.CheckOnClick = true;
+            this.режимРедактораToolStripMenuItem.Name = "режимРедактораToolStripMenuItem";
+            this.режимРедактораToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.режимРедактораToolStripMenuItem.Text = "Режим редактора";
             // 
             // оПрограммеToolStripMenuItem1
             // 
@@ -320,18 +335,11 @@
             this.dataGridView2.Size = new System.Drawing.Size(112, 153);
             this.dataGridView2.TabIndex = 0;
             // 
-            // separator1
+            // банкToolStripMenuItem
             // 
-            this.separator1.Name = "separator1";
-            this.separator1.Size = new System.Drawing.Size(168, 6);
-            this.separator1.Click += new System.EventHandler(this.режимРедактораToolStripMenuItem_Click);
-            // 
-            // режимРедактораToolStripMenuItem
-            // 
-            this.режимРедактораToolStripMenuItem.CheckOnClick = true;
-            this.режимРедактораToolStripMenuItem.Name = "режимРедактораToolStripMenuItem";
-            this.режимРедактораToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.режимРедактораToolStripMenuItem.Text = "Режим редактора";
+            this.банкToolStripMenuItem.Name = "банкToolStripMenuItem";
+            this.банкToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.банкToolStripMenuItem.Text = "Банк";
             // 
             // MainForm
             // 
@@ -398,6 +406,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ToolStripSeparator separator1;
         private System.Windows.Forms.ToolStripMenuItem режимРедактораToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem банкToolStripMenuItem;
     }
 }
 

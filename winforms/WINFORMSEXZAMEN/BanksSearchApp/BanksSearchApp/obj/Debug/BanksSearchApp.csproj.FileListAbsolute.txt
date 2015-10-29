@@ -49,3 +49,4 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\D
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ExstentedFindForm.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ExstentedFindForm.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.AddANewBankomatForm.resources
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\BanksSearchApp\obj\Debug\BanksSearchApp.ResultBankomatsForm.resources

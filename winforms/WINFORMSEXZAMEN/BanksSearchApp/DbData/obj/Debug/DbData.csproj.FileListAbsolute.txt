@@ -29,3 +29,4 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbD
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew2.resources
 D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew3.resources
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.test1.resources

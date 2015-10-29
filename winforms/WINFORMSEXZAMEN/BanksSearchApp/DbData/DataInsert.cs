@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,8 @@ namespace DbData
             bank.Bankomats.AddRange(bankomats);
             bank.Currencies.AddRange(currencies);
             bank.Services.AddRange(services);
-            db.Banks.Add(bank);
+            db.Banks.AddOrUpdate();
+            //db.Banks.Add(bank);
             db.SaveChanges();
         }
     }
