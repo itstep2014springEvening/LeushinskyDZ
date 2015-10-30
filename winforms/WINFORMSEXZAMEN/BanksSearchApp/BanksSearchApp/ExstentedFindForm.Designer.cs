@@ -38,15 +38,16 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -55,14 +56,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -168,6 +162,70 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Курс";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(180, 86);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(19, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "до";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(205, 79);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 15;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(74, 80);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 83);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Продажа от";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(180, 57);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(19, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "до";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(205, 54);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 12;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(74, 54);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 57);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Покупка от";
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -178,89 +236,13 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.checkBox7);
-            this.groupBox3.Controls.Add(this.checkBox6);
-            this.groupBox3.Controls.Add(this.checkBox5);
-            this.groupBox3.Controls.Add(this.checkBox4);
-            this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Controls.Add(this.checkBox2);
-            this.groupBox3.Controls.Add(this.checkBox1);
+            this.groupBox3.Controls.Add(this.checkedListBox1);
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(360, 135);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Услуги и отзывы";
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(144, 88);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(210, 17);
-            this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "Отсутствие отрицательных отзывов";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(144, 42);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(198, 17);
-            this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "Наличие положительных отзывов";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 111);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(113, 17);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Снятие наличных";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 88);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(91, 17);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Оплата ЖКХ";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 65);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(116, 17);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Мобильная связь";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 42);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(133, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Погашение кредитов";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(94, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Обмен валют";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
@@ -318,7 +300,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(356, 165);
+            this.tabPage1.Size = new System.Drawing.Size(358, 165);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Адрес";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -340,74 +322,18 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(356, 165);
+            this.tabPage3.Size = new System.Drawing.Size(358, 165);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Услуги";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // checkedListBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Покупка от";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(74, 54);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(205, 54);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(180, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(19, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "до";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(74, 80);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 16;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(205, 79);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 15;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 83);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Продажа от";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(180, 86);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 13);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "до";
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(6, 19);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(346, 109);
+            this.checkedListBox1.TabIndex = 7;
             // 
             // ExstentedFindForm
             // 
@@ -429,7 +355,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -451,13 +376,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ListBox listBox1;
@@ -475,5 +393,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }

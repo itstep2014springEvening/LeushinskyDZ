@@ -24,6 +24,9 @@ namespace DbData
         public string PersonalInformation { get; set; }
         public string Review { get; set; }
         public string AdditionalInformation { get; set; }
+       // public virtual List<BankomatToService> BankomatToServices { get; set; }
+        public virtual List<Currency> Currencies { get; set; }
         public virtual Bank Bank { get; set; }
+        public long BankId { get; set; }
     }
 }

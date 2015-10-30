@@ -18,5 +18,6 @@ namespace DbData
         public DbSet<Bankomat> Bankomats { get; set; }
         public DbSet<Currency> Currencies { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<BankomatToService> BankomatToServices { get; set; }
     }
 }

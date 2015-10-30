@@ -19,14 +19,6 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\Ent
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.xml
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.SqlServer.xml
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csproj.GenerateResource.Cache
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csproj.GenerateResource.Cache
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv2.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv3.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv2.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.nv3.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew2.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.somenew3.resources
-D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.test1.resources

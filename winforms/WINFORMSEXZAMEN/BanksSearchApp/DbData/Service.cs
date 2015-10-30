@@ -12,6 +12,7 @@ namespace DbData
         [Key]
         public long ServiceId { get; set; }
         public string ServiceName { get; set; }
-        public virtual Bank Bank { get; set; }
+        //public virtual List<BankomatToService> BankomatToServices { get; set; }
+        
     }
 }

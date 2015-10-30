@@ -9,13 +9,47 @@ namespace DbData
     public class DbCreator
     {
 
-        private BanksDB db = new BanksDB();
+        public BanksDB db = new BanksDB();
 
 
 
 
 
+        #region banks
+                Bank priorbank = new Bank()
+                {
+                    BankName = "Приорбанк",
+                    //BankName = "Van",
+                    //Date = DateTime.Now,
+                    Bankomats = new List<Bankomat>(),
+                   // Currencies = new List<Currency>(),
+                   // Services = new List<Service>()
+                   
+                };
 
+
+
+                Bank belarusbank = new Bank()
+                {
+                    BankName = "БеларусьБанк",
+                    //BankName = "Van",
+                    //Date = DateTime.Now,
+                    Bankomats = new List<Bankomat>(),
+                   // Currencies = new List<Currency>(),
+                   // Services = new List<Service>()
+                };
+
+                Bank mtbbank = new Bank()
+                {
+                    BankName = "МТБанк",
+                    //BankName = "Van",
+                    //Date = DateTime.Now,
+                    Bankomats = new List<Bankomat>(),
+                   // Currencies = new List<Currency>(),
+                   // Services = new List<Service>()
+
+                };
+                #endregion
 
         #region services
 
@@ -263,47 +297,7 @@ namespace DbData
 
         #endregion
 
-        #region banks
-        Bank priorbank = new Bank()
-        {
-
-            BankId = 1,
-            BankName = "Приорбанк",
-            //BankName = "Van",
-            //Date = DateTime.Now,
-            Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>(),
-            Services = new List<Service>()
-        };
-
-
-
-        Bank belarusbank = new Bank()
-        {
-
-            BankId = 2,
-            BankName = "БеларусьБанк",
-            //BankName = "Van",
-            //Date = DateTime.Now,
-            Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>(),
-            Services = new List<Service>()
-        };
-
-        Bank mtbbank = new Bank()
-        {
-
-            BankId = 3,
-            BankName = "МТБанк",
-            //BankName = "Van",
-            //Date = DateTime.Now,
-            Bankomats = new List<Bankomat>(),
-            Currencies = new List<Currency>(),
-            Services = new List<Service>()
-
-        };
-        #endregion
-
+        
 
 
         #region currencies
@@ -395,9 +389,10 @@ namespace DbData
             List<Currency> belarusbCurrencies = new List<Currency>() { CurForblbUSD, CurFormtbEUR, CurFormtbRUR };
             List<Currency> mtbbCurrencies = new List<Currency>() { CurFormtbUSD, CurFormtbEUR, CurFormtbRUR };
 
-            dataInsert.DataInsertion(priorbank, priorbBankomats, priorCurrencies,serviceList, db);
-            dataInsert.DataInsertion(belarusbank, belarusbBankomats, belarusbCurrencies, serviceList, db);
-            dataInsert.DataInsertion(mtbbank, mtbBankomats, mtbbCurrencies, serviceList, db);
+            dataInsert.DataInsertionServices(serviceList, db);
+            dataInsert.DataInsertion(priorbank, priorbBankomats, priorCurrencies, db);
+            dataInsert.DataInsertion(belarusbank, belarusbBankomats, belarusbCurrencies,  db);
+            dataInsert.DataInsertion(mtbbank, mtbBankomats, mtbbCurrencies, db);
             //priorbank.Currencies.AddRange(priorCurrencies);
             //priorbank.Currencies.AddRange(belarusbCurrencies);
             //priorbank.Currencies.AddRange(mtbbCurrencies);

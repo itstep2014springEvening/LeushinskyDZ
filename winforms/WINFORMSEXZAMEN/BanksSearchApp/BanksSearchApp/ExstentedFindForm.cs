@@ -22,9 +22,11 @@ namespace BanksSearchApp
         {
             InitializeComponent();
             List<string> CurrencyChangeVariants = new List<string>() { "USD", "EUR", "RUR" };
+            List<string> servicesForcCheckedListBox = new List<string>() { "Снятие наличных", "Обмен валют", "Оплата ЖКХ", "Оплата мобильной связи", "Погашение кредитов" };
             comboBox1.DataSource = CurrencyChangeVariants;
-        //  ..  comboBox2.DataSource = CurrencyChangeVariants;
-          //  comboBox3.DataSource = CurrencyChangeVariants;
+            checkedListBox1.DataSource = servicesForcCheckedListBox;
+            //  ..  comboBox2.DataSource = CurrencyChangeVariants;
+            //  comboBox3.DataSource = CurrencyChangeVariants;
         }
 
         private void ExstentedFindForm_Load(object sender, EventArgs e)
@@ -83,6 +85,9 @@ namespace BanksSearchApp
             }
             if (tabControl1.SelectedTab == tabPage2)
             {
+                checkedListBox1.DataSource = db.Services;
+                checkedListBox1.ValueMember = "ServiceId";
+                checkedListBox1.DisplayMember = "ServiceName";
                 List< Currency> bankToCompare = new List<Currency>();
                 double bfrom = Double.Parse(textBox4.Text);
                 double bto = Double.Parse(textBox5.Text);
@@ -90,32 +95,58 @@ namespace BanksSearchApp
                 double sto = Double.Parse(textBox7.Text);
                 if (comboBox1.Text=="USD")
                 {
-                    foreach (var onebank in db.Banks)
-                    {
-                        foreach (var currencies in onebank.Currencies)
-                        {
-                            if ( bfrom>currencies.CurrencyBuyV  && currencies.CurrencyBuyV<bto)
-                            {
-                                bankToCompare.Add(currencies);
-                            }
-                            if (sfrom > currencies.CurrencyBuyV && currencies.CurrencyBuyV < sto)
-                            {
-                                bankToCompare.Add(currencies);//listforming после чего проверяев все банки, которым принадлежат эти курсы
-                            }
-                        }
-                    }
+                    //foreach (var onebank in db.Banks)
+                    //{
+                    //    bankToCompare.AddRange(onebank.Currencies.Where(currencies => bfrom > currencies.CurrencyBuyV && currencies.CurrencyBuyV < bto));
+                    //}
                 }
-                foreach(var bankinb in )
+           //     bankomats=bankToCompare.Select(anotherThing=>anotherThing.)
+                //foreach(var bankinb in )
 
             }
 
-
-            if (tabControl1.SelectedTab == tabPage2)
+            List<string> checkedStuffInString = new List<string>();
+            if (tabControl1.SelectedTab == tabPage3)
             {
-                bankomats = null;
+                List<string> checkedItemsInString = new List<string>();
+                List<Bank> bankForChecked = new List<Bank>();
+                for (int i = 0; i < checkedListBox1.CheckedItems.Count; ++i)
+                {
+                    checkedItemsInString.Add(checkedListBox1.CheckedItems[i].ToString());
+                }
+                //foreach (var bankcomp in db.Banks)
+                //{
+                //    if (checkedItemsInString.Intersect(bankcomp.Services.Select(s=>s.ServiceName)))
+                //        bankForChecked.Add(bankcomp);
+                //}
+                
+              //  db.Banks.Select(b=>b.Services).Select()
+             //   db.Banks.Where(b=>b.Services.Where())
+                // CheckedListBox ad = new CheckedListBox();ad.d
+                
+               // List<string> allCheckBoxesFromService = new List<string>() {checkBox1.Text, checkBox2.Text , checkBox3.Text , checkBox4.Text , checkBox5.Text };
+                List<Service> resultServiceList = new List<Service>();
+                
+
+                List<Bank> temporaryBanks = new List<Bank>();
+                foreach (var tbank in db.Banks)
+                {
+                    //if (resultServiceList.Intersect(tbank.Services.Select(s=>s.ServiceName).ToList()))
+                    //{
+                    //    temporaryBanks.Add();
+                    //}
+                    
+                }
+               
 
             }
         }
+
+        //public List<> ReturnBankomatsFromCurrencyFinder(string textBoxText, Bankomat bankomat)
+        //{
+
+        //    return bankomat;
+        //}
 
         private void button2_Click(object sender, EventArgs e)
         {

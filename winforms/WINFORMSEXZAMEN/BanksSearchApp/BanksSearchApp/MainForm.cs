@@ -34,10 +34,10 @@ namespace BanksSearchApp
             DbData.BanksDB sdf = new BanksDB();
             
             DbCreator dc = new DbCreator();
-            if (!sdf.Database.Exists())
-           {
+          //  if (!sdf.Database.Exists())
+         //  {
                 dc.DbDataInsert();
-            }
+          //  }
             SetParamsMap();
             List<string> DataForLb1 = bnmts.OrderBy(x=>x.BankOwnerName).Select(lb1d => lb1d.BankomatName + Environment.NewLine).ToList();
             listBox1.DataSource = DataForLb1;
