@@ -21,10 +21,13 @@ namespace BanksSearchApp
         public ExstentedFindForm()
         {
             InitializeComponent();
+            checkedListBox1.ValueMember = "ServiceId";
+            checkedListBox1.DisplayMember = "ServiceName";
+            checkedListBox1.DataSource = db.Bankomats;
             List<string> CurrencyChangeVariants = new List<string>() { "USD", "EUR", "RUR" };
             List<string> servicesForcCheckedListBox = new List<string>() { "Снятие наличных", "Обмен валют", "Оплата ЖКХ", "Оплата мобильной связи", "Погашение кредитов" };
             comboBox1.DataSource = CurrencyChangeVariants;
-            checkedListBox1.DataSource = servicesForcCheckedListBox;
+            //checkedListBox1.DataSource = servicesForcCheckedListBox;
             //  ..  comboBox2.DataSource = CurrencyChangeVariants;
             //  comboBox3.DataSource = CurrencyChangeVariants;
         }
@@ -105,40 +108,38 @@ namespace BanksSearchApp
 
             }
 
-            List<string> checkedStuffInString = new List<string>();
+            List<Service> checkedStuff = new List<Service>();
             if (tabControl1.SelectedTab == tabPage3)
             {
-                List<string> checkedItemsInString = new List<string>();
-                List<Bank> bankForChecked = new List<Bank>();
-                for (int i = 0; i < checkedListBox1.CheckedItems.Count; ++i)
-                {
-                    checkedItemsInString.Add(checkedListBox1.CheckedItems[i].ToString());
-                }
-                //foreach (var bankcomp in db.Banks)
+                
+                //var serviceIds = new List<long>();
+                //foreach (var checkedItemnInCLB1 in checkedListBox1.CheckedItems)
                 //{
-                //    if (checkedItemsInString.Intersect(bankcomp.Services.Select(s=>s.ServiceName)))
-                //        bankForChecked.Add(bankcomp);
+                //    serviceIds.Add(checkedItemnInCLB1.);
                 //}
-                
-              //  db.Banks.Select(b=>b.Services).Select()
-             //   db.Banks.Where(b=>b.Services.Where())
-                // CheckedListBox ad = new CheckedListBox();ad.d
-                
-               // List<string> allCheckBoxesFromService = new List<string>() {checkBox1.Text, checkBox2.Text , checkBox3.Text , checkBox4.Text , checkBox5.Text };
-                List<Service> resultServiceList = new List<Service>();
-                
 
-                List<Bank> temporaryBanks = new List<Bank>();
-                foreach (var tbank in db.Banks)
+                var serviceIds = new List<long>();
+
+                foreach (var itemChecked in checkedListBox1.CheckedItems)
                 {
-                    //if (resultServiceList.Intersect(tbank.Services.Select(s=>s.ServiceName).ToList()))
-                    //{
-                    //    temporaryBanks.Add();
-                    //}
-                    
-                }
-               
 
+
+                    serviceIds.Add(((Service)itemChecked).ServiceId);
+                }
+
+                //foreach (var selectedStuffInCLB1 in checkedListBox1.CheckedItems)
+                //{
+                //    serviceIds.Add(((Service)selectedStuffInCLB1).ServiceId);
+                //}
+                //serviceIds = serviceIds;
+                ;
+                //foreach (var bankomat in bankomats)
+                //{
+                //    foreach (var VARIABLE in bankomat.)
+                //    {
+
+                //    }
+                //}
             }
         }
 

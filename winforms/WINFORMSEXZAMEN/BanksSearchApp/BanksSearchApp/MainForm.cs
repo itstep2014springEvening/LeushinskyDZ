@@ -17,6 +17,9 @@ namespace BanksSearchApp
 {
     public partial class MainForm : Form
     {
+        GMap.NET.WindowsForms.GMapOverlay markersOverlay =
+                new GMap.NET.WindowsForms.GMapOverlay(new GMapControl(), "marker");
+        DbData.BanksDB db = new BanksDB();
         GMapControl gMapControl1;
         List<Bankomat> bnmts = new List<Bankomat>();
         public bool isEditorModeOn = false;
@@ -24,29 +27,37 @@ namespace BanksSearchApp
         {
             InitializeComponent();
             //ToolStripSeparator tss = new ToolStripSeparator();
-            
-            Load += MainForm_Load;
+            var bankomatsToCb1 = db.Bankomats.ToList();
+            comboBox1.ValueMember = "BankomatId";
+            comboBox1.DisplayMember = "BankomatName";
+            comboBox1.DataSource = bankomatsToCb1;
+
+          
+        Load += MainForm_Load;
             
         }
 
+        
         void MainForm_Load(object sender, EventArgs e)
         {
-            DbData.BanksDB sdf = new BanksDB();
+            
             
             DbCreator dc = new DbCreator();
-          //  if (!sdf.Database.Exists())
-         //  {
+          // if (!db.Database.Exists())
+          //  { 
                 dc.DbDataInsert();
           //  }
             SetParamsMap();
             List<string> DataForLb1 = bnmts.OrderBy(x=>x.BankOwnerName).Select(lb1d => lb1d.BankomatName + Environment.NewLine).ToList();
+            listBox1.ValueMember = "BankomatId";
+            listBox1.DisplayMember = "BankomatName";
             listBox1.DataSource = DataForLb1;
         }
         
 
         // ПРИМЕР РАБОТЫ С КАРТОЙ ! 
         // (данный код используйте по своему усмотрению!)
-        void SetParamsMap()
+        public void SetParamsMap()
         {
             DbData.BanksDB sdf = new BanksDB();
           //  DbCreator dm = new DbCreator();
@@ -60,65 +71,24 @@ namespace BanksSearchApp
             gMapControl1.Dock = DockStyle.Fill;
             // Добавление элемента 
            dataGridView1.Controls.Add(gMapControl1);
-
-// ОБЩИЕ НАСТРОЙКИ КАРТЫ 
-            //Указываем, что будем использовать карты OpenStreetMap.
             gMapControl1.MapProvider = GMap.NET.MapProviders.GMapProviders.OpenStreetMap;
-            // Указываем источник данных карты (выбран: интренети или локальный кэш)
             GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
-
-           
-            //Настройки для компонента GMap.
             gMapControl1.Bearing = 0;
-    
-      // МАСШТАБИРОВАНИЕ
-            //Указываем значение максимального приближения.
             gMapControl1.MaxZoom = 18;
-
-            //Указываем значение минимального приближения.
             gMapControl1.MinZoom = 2;
-
-            //Указываем, что при загрузке карты будет использоваться 
-            //16ти кратной приближение.
             gMapControl1.Zoom = 17;
-
-            //Устанавливаем центр приближения/удаления
-            //курсор мыши.
             gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-           //MapControl1.Position= new PointLatLng
-
-  // НАВИГАЦИЯ ПО КАРТЕ 
-            //CanDragMap - Если параметр установлен в True,
-            //пользователь может перетаскивать карту  помощью правой кнопки мыши. 
             gMapControl1.CanDragMap = true;
-
-            //Указываем что перетаскивание карты осуществляется 
-            //с использованием левой клавишей мыши. По умолчанию - правая.
             gMapControl1.DragButton = MouseButtons.Left;
-
-            //Указываем элементу управления, что необходимо при открытии карты
-            // прейти по координатам 
             gMapControl1.Position = new GMap.NET.PointLatLng(53.902800, 27.561759);
-
-
-// ОТОБРАЖЕНИЕ МАРКЕРОВ НА КАРТЕ 
-            //MarkersEnabled - Если параметр установлен в True,
-            //любые маркеры, заданные вручную будет показаны.
-            //Если нет, они не появятся.
             gMapControl1.MarkersEnabled = true;
-                  
-            //Создаем новый список маркеров, с указанием компонента 
-            //в котором они будут использоваться и названием списка.
             GMap.NET.WindowsForms.GMapOverlay markersOverlay =
                 new GMap.NET.WindowsForms.GMapOverlay(gMapControl1, "marker");
-            //Инициализация нового ЗЕЛЕНОГО маркера, с указанием его координат.
             GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen markerG =
                 new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen(
-                //Указываем координаты 
                 new GMap.NET.PointLatLng(53.902542, 27.561781));
             markerG.ToolTip =
                 new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
-            //Текст отображаемый при наведении на маркер.
             markerG.ToolTipText = "Объект №1";
 
 
@@ -177,24 +147,28 @@ namespace BanksSearchApp
             //Добавляем в компонент, список маркеров.
             gMapControl1.Overlays.Add(markersOverlay);
 
-// СОБЯТИЯ ПО КАРТЕ !
-           // gMapControl1.MouseClick += gMapControl1_MouseClick;
+            // СОБЯТИЯ ПО КАРТЕ !
+            gMapControl1.OnMarkerClick += GMapControl1_OnMarkerClick; ;
         
         }
 
-       
+        private void GMapControl1_OnMarkerClick(GMapMarker item, MouseEventArgs e)
+        {
+            
+        }
 
         void gMapControl1_MouseClick(object sender, MouseEventArgs e)
         {
-            double X = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lng;
-            double Y = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lat;
-            GMapOverlay markersOverlay = new GMapOverlay(gMapControl1, "NewMarkers");
-            GMapMarkerGoogleGreen markerG =  new GMapMarkerGoogleGreen
-                                           (new GMap.NET.PointLatLng(Y, X));
-           markerG.ToolTip = new GMapRoundedToolTip(markerG);
-           markerG.ToolTipText = "Новый объект";
-           markersOverlay.Markers.Add(markerG);
-           gMapControl1.Overlays.Add(markersOverlay);
+
+           // double X = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lng;
+           // double Y = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lat;
+           // GMapOverlay markersOverlay = new GMapOverlay(gMapControl1, "NewMarkers");
+           // GMapMarkerGoogleGreen markerG =  new GMapMarkerGoogleGreen
+           //                                (new GMap.NET.PointLatLng(Y, X));
+           //markerG.ToolTip = new GMapRoundedToolTip(markerG);
+           //markerG.ToolTipText = "Новый объект";
+           //markersOverlay.Markers.Add(markerG);
+           //gMapControl1.Overlays.Add(markersOverlay);
 
             
         }
@@ -272,6 +246,54 @@ namespace BanksSearchApp
                 }
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+
+           
+            foreach (var atmToCb1 in db.Bankomats)
+            {
+                if (comboBox1.SelectedIndex == atmToCb1.BankomatId)
+                {
+                    gMapControl1.Position = new GMap.NET.PointLatLng(atmToCb1.CoordinateX, atmToCb1.CoordinateY);
+                    gMapControl1.Zoom = 18;
+                }
+            }
         }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+           
+        }
+
+        private void удалитьОбъектToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            DeleteBankomatForm dbf = new DeleteBankomatForm();
+            dbf.MdiParent = this.MdiParent;
+            dbf.WindowState = FormWindowState.Normal;
+            dbf.Show();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Bankomat currentBankomat = db.Bankomats.FirstOrDefault(s => s.BankomatId == listBox1.SelectedIndex);
+
+            //GMapOverlay ov = new GMapOverlay(gMapControl1,"id");
+            //if (currentBankomat==null)
+            //{
+            //    currentBankomat = bnmts[0];
+            //}
+            //ov.Markers.Add(
+            //    new GMapMarkerGoogleGreen(new PointLatLng(currentBankomat.CoordinateX, currentBankomat.CoordinateY)));
+            //gMapControl1.ZoomAndCenterMarkers("id");
+        }
+
+        private void оПрограммеToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maded by Ivan Lev");
+        }
+    }
     }
 

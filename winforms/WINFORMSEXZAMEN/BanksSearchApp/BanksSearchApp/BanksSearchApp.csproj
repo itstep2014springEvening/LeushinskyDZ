@@ -66,6 +66,18 @@
     <Compile Include="AddANewBankomatForm.Designer.cs">
       <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeleteBankomatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteBankomatForm.Designer.cs">
+      <DependentUpon>DeleteBankomatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditBankomatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditBankomatForm.Designer.cs">
+      <DependentUpon>EditBankomatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExstentedFindForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,12 @@
     </Compile>
     <EmbeddedResource Include="AddANewBankomatForm.resx">
       <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteBankomatForm.resx">
+      <DependentUpon>DeleteBankomatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditBankomatForm.resx">
+      <DependentUpon>EditBankomatForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExstentedFindForm.resx">
       <DependentUpon>ExstentedFindForm.cs</DependentUpon>
