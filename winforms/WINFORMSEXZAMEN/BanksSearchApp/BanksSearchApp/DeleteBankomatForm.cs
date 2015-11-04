@@ -17,10 +17,8 @@ namespace BanksSearchApp
         public DeleteBankomatForm()
         {
             InitializeComponent();
-            
-            List <Bankomat> bankomatForTB1 = db.Bankomats.ToList();
 
-            ;
+            List<Bankomat> bankomatForTB1 = db.Bankomats.ToList();
             comboBox1.ValueMember = "BankomatId";
             comboBox1.DisplayMember = "BankomatName";
             comboBox1.DataSource = bankomatForTB1;
@@ -32,15 +30,16 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-                
-            
-            List<Bankomat> bankomatsToDelete = db.Bankomats.Where(b => b.BankomatId == comboBox1.SelectedIndex+1).ToList();
-            db.Bankomats.Remove(bankomatsToDelete.First());
+
+
+            var selected = (Bankomat) comboBox1.SelectedItem;
+            Bankomat bankomatToDelete = db.Bankomats.Single(b => b.BankomatId == selected.BankomatId);
+            db.Bankomats.Remove(bankomatToDelete);
             db.SaveChanges();
-            List<Bankomat>adsfhadhdgj =  db.Bankomats.ToList();
+            List<Bankomat> bankomats =  db.Bankomats.ToList();
+            comboBox1.DataSource = bankomats;
             // MainForm mf = new MainForm();
-            this.FindForm().Close();
+            //this.FindForm().Close();
         }
 
        

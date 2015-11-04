@@ -83,7 +83,7 @@
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Location = new System.Drawing.Point(12, 242);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(338, 208);
+            this.groupBox3.Size = new System.Drawing.Size(338, 217);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Дополнительная информация";
@@ -355,6 +355,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(217, 21);
             this.comboBox2.TabIndex = 18;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label15
             // 
@@ -367,18 +368,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(253, 456);
+            this.button1.Location = new System.Drawing.Point(253, 465);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 23);
             this.button1.TabIndex = 20;
             this.button1.Text = "Редактировать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // EditBankomatForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 489);
+            this.ClientSize = new System.Drawing.Size(375, 504);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.comboBox2);

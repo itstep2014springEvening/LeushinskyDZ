@@ -294,6 +294,14 @@ namespace BanksSearchApp
         {
             MessageBox.Show("Maded by Ivan Lev");
         }
+
+        private void банкоматToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            DeleteBankomatForm dbf = new DeleteBankomatForm();
+            dbf.MdiParent = this.MdiParent;
+            dbf.WindowState = FormWindowState.Normal;
+            dbf.Show();
+        }
     }
     }
 
