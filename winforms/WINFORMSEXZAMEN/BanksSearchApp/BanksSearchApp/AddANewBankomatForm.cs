@@ -15,23 +15,29 @@ namespace BanksSearchApp
     public partial class AddANewBankomatForm : Form
     {
         public BanksDB db = new BanksDB();
+
         public AddANewBankomatForm()
         {
+            var banksForTB3 = db.Banks.ToList();
+            var currenciesForCB2 = db.Currencies.ToList();
             InitializeComponent();
             comboBox1.ValueMember = "BankId";
             comboBox1.DisplayMember = "BankName";
+            comboBox1.DataSource = banksForTB3;
+            //comboBox3.ValueMember = "BankId";
+            //  comboBox3.DisplayMember = "BankName";
 
-            comboBox3.ValueMember = "BankId";
-            comboBox3.DisplayMember = "BankName";
-            var  currenciesForTB3 = db.Banks.ToList();
+            comboBox2.ValueMember = "CurrencyId";
+            comboBox2.DisplayMember = "CurrencyName";
+            comboBox2.DataSource = currenciesForCB2;
 
             checkedListBox1.DataSource = db.Services.ToList();
             checkedListBox1.ValueMember = "ServiceId";
             checkedListBox1.DisplayMember = "ServiceName";
 
-            comboBox1.DataSource = currenciesForTB3;
-            comboBox3.DataSource = currenciesForTB3;
-            radioButton1.Checked = true;
+
+            //  comboBox3.DataSource = currenciesForTB3;
+            //  radioButton1.Checked = true;
 
 
         }
@@ -59,7 +65,7 @@ namespace BanksSearchApp
             //var test = (db.Bankomats.Select(x => x.BankomatId).ToList().Last() + 1);
             DataInsert dataInsert = new DataInsert();
 
-            if (radioButton1.Checked)
+            // if (radioButton1.Checked)
             {
                 //dataInsert.DataInsertion(db.Banks.Single(x => x.BankName == comboBox1.Text), new List<Bankomat>()
                 //{
@@ -89,18 +95,20 @@ namespace BanksSearchApp
             }
 
 
-            else
+            //    else
             {
                 var serviceIds = new List<long>();
 
                 foreach (var itemChecked in checkedListBox1.CheckedItems)
                 {
-                    
 
-                    serviceIds.Add(((Service)itemChecked).ServiceId);
+
+                    serviceIds.Add(((Service) itemChecked).ServiceId);
                 }
 
-                dataInsert.InsertBankomat( 
+
+
+                dataInsert.InsertBankomat(
                     new Bankomat
                     {
                         // BankomatId = 3,
@@ -119,29 +127,12 @@ namespace BanksSearchApp
                         Review = textBox13.Text,
                         //  Services = new List<Service>(),
                         AdditionalInformation = textBox12.Text,
-                        BankId =(long) comboBox1.SelectedValue
+                        BankId = (long) comboBox1.SelectedValue
                     }
-                , new List<Currency>()
-                {
-                    new Currency()
+                    , new List<Currency>()
                     {
-                        CurrencyName = "USD" + comboBox1.Text,
-                        CurrencyBuyV = Double.Parse(textBox15.Text),
-                        CurrencySellV = Double.Parse(textBox18.Text)
-                    },
-                    new Currency()
-                    {
-                        CurrencyName = "EUR" + comboBox1.Text,
-                        CurrencyBuyV = Double.Parse(textBox14.Text),
-                        CurrencySellV = Double.Parse(textBox17.Text)
-                    },
-                    new Currency()
-                    {
-                        CurrencyName = "RUR" + comboBox1.Text,
-                        CurrencyBuyV = Double.Parse(textBox8.Text),
-                        CurrencySellV = Double.Parse(textBox16.Text)
-                    }
-                }, serviceIds, db);
+                        (Currency) comboBox2.SelectedItem
+                    }, serviceIds, db);
 
             }
             db.SaveChanges();
@@ -150,49 +141,50 @@ namespace BanksSearchApp
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
-            {
-                label15.BackColor = Color.White;
-                label16.BackColor = Color.White;
-                label17.BackColor = Color.White;
-                textBox15.Enabled = false;
-                textBox14.Enabled = false;
-                textBox8.Enabled = false;
-                textBox16.Enabled = false;
-                textBox17.Enabled = false;
-                textBox18.Enabled = false;
+            //if (radioButton1.Checked)
+            //{
+            //    label15.BackColor = Color.White;
+            //    label16.BackColor = Color.White;
+            //    label17.BackColor = Color.White;
+            //    textBox15.Enabled = false;
+            //    textBox14.Enabled = false;
+            //    textBox8.Enabled = false;
+            //    textBox16.Enabled = false;
+            //    textBox17.Enabled = false;
+            //    textBox18.Enabled = false;
 
-                comboBox3.Enabled = true;
-            }
+            //    comboBox3.Enabled = true;
+            //}
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton2.Checked)
-            {
-                label15.BackColor = Color.Black;
-                label16.BackColor = Color.Black;
-                label17.BackColor = Color.Black;
-                textBox15.Enabled = true;
-                textBox14.Enabled = true;
-                textBox8.Enabled = true;
-                textBox16.Enabled = true;
-                textBox17.Enabled = true;
-                textBox18.Enabled = true;
+            //if (radioButton2.Checked)
+            //{
+            //    label15.BackColor = Color.Black;
+            //    label16.BackColor = Color.Black;
+            //    label17.BackColor = Color.Black;
+            //    textBox15.Enabled = true;
+            //    textBox14.Enabled = true;
+            //    textBox8.Enabled = true;
+            //    textBox16.Enabled = true;
+            //    textBox17.Enabled = true;
+            //    textBox18.Enabled = true;
 
-                comboBox3.Enabled = false;
-            }
+            //    comboBox3.Enabled = false;
         }
 
-        private void comboBox3_SelectionChangeCommitted(object sender, EventArgs e)
-        {
-            radioButton1.Checked = true;
-        }
 
-        private void label18_Click(object sender, EventArgs e)
+        //private void comboBox3_SelectionChangeCommitted(object sender, EventArgs e)
+        //{
+        //    radioButton1.Checked = true;
+        //}
+
+        private void label15_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "NewRandomBankomat" +
-                            (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1).ToString();
+            textBox1
+                .Text = "NewRandomBankomat" +
+                        (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1).ToString();
             List<long> test = db.Bankomats.Select(x => x.BankomatId).ToList();
             textBox3.Text = "222-22-22";
 
@@ -214,3 +206,4 @@ namespace BanksSearchApp
         }
     }
 }
+

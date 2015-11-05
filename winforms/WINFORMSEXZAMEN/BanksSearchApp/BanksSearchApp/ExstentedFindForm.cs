@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,131 +24,129 @@ namespace BanksSearchApp
             InitializeComponent();
             checkedListBox1.ValueMember = "ServiceId";
             checkedListBox1.DisplayMember = "ServiceName";
-            checkedListBox1.DataSource = db.Bankomats;
+            checkedListBox1.DataSource = db.Services.ToList();
             List<string> CurrencyChangeVariants = new List<string>() { "USD", "EUR", "RUR" };
             List<string> servicesForcCheckedListBox = new List<string>() { "Снятие наличных", "Обмен валют", "Оплата ЖКХ", "Оплата мобильной связи", "Погашение кредитов" };
             comboBox1.DataSource = CurrencyChangeVariants;
-            //checkedListBox1.DataSource = servicesForcCheckedListBox;
-            //  ..  comboBox2.DataSource = CurrencyChangeVariants;
-            //  comboBox3.DataSource = CurrencyChangeVariants;
         }
 
         private void ExstentedFindForm_Load(object sender, EventArgs e)
         {
-            
+            checkedListBox1.ValueMember = "ServiceId";
+            checkedListBox1.DisplayMember = "ServiceName";
+            checkedListBox1.DataSource = db.Services.ToList();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             List<Bank> bank = new List<Bank>();
             if (tabControl1.SelectedTab == tabPage1)
             {
                 bankomats = null;
-            
-            
-            //if (textBox4.Text==null&& textBox5.Text == null && textBox6.Text == null)
-            //{
-            //    
-            //}
-        
-            if (!string.IsNullOrEmpty(textBox1.Text))
-            {
-                bankomats = db.Bankomats.Where(x => x.CityName == textBox1.Text).ToList();
-                if (!string.IsNullOrEmpty(textBox2.Text))
+                if (!string.IsNullOrEmpty(textBox1.Text))
                 {
-                    bankomats= bankomats.Where(x => x.StreetName == textBox2.Text).ToList();
-                    if (!string.IsNullOrEmpty(textBox3.Text))
+                    bankomats = db.Bankomats.Where(x => x.CityName == textBox1.Text).ToList();
+                    if (!string.IsNullOrEmpty(textBox2.Text))
                     {
-                        bankomats = bankomats.Where(x => x.HomeNumber == textBox3.Text).ToList();
+                        bankomats = bankomats.Where(x => x.StreetName == textBox2.Text).ToList();
+                        if (!string.IsNullOrEmpty(textBox3.Text))
+                        {
+                            bankomats = bankomats.Where(x => x.HomeNumber == textBox3.Text).ToList();
+                        }
                     }
                 }
-            }
-            else
-            {
-                bankomats = db.Bankomats.ToList();
-                if (!string.IsNullOrEmpty(textBox2.Text))
+                else
                 {
-                    bankomats = bankomats.Where(x => x.StreetName == textBox2.Text).ToList();
-                    if (!string.IsNullOrEmpty(textBox3.Text))
+                    bankomats = db.Bankomats.ToList();
+                    if (!string.IsNullOrEmpty(textBox2.Text))
                     {
-                        bankomats = bankomats.Where(x => x.HomeNumber == textBox3.Text).ToList();
+                        bankomats = bankomats.Where(x => x.StreetName == textBox2.Text).ToList();
+                        if (!string.IsNullOrEmpty(textBox3.Text))
+                        {
+                            bankomats = bankomats.Where(x => x.HomeNumber == textBox3.Text).ToList();
+                        }
                     }
                 }
+                listBox1.DataSource = bankomats.Select(x => x.BankomatName).ToList();
             }
-            //if(textBox5.Text==null)
-            // = sdf.Bankomats.ToList().Where(x=>x.CityName==textBox1.Text&&
-            //x.StreetName==(textBox2.Text==null?:textBox2.Text)&&
-            //x.HomeNumber==(textBox3.Text==null?string.Empty:textBox3.Text)).ToList();
-            listBox1.DataSource = bankomats.Select(x=>x.BankomatName).ToList();
 
-                //List<string> FinderUsingAdress = new List<string>();
-                //if (textBox1.Text != null) { FinderUsingAdress.Add(textBox1.Text);}
-                //if (textBox2.Text != null) { FinderUsingAdress.Add(textBox2.Text); }
-                //if (textBox3.Text != null) { FinderUsingAdress.Add(textBox3.Text); }
-            }
+
             if (tabControl1.SelectedTab == tabPage2)
             {
-                checkedListBox1.DataSource = db.Services;
-                checkedListBox1.ValueMember = "ServiceId";
-                checkedListBox1.DisplayMember = "ServiceName";
-                List< Currency> bankToCompare = new List<Currency>();
-                double bfrom = Double.Parse(textBox4.Text);
-                double bto = Double.Parse(textBox5.Text);
-                double sfrom = Double.Parse(textBox6.Text);
-                double sto = Double.Parse(textBox7.Text);
-                if (comboBox1.Text=="USD")
+                if ((string) comboBox1.SelectedItem == "USD")
                 {
-                    //foreach (var onebank in db.Banks)
-                    //{
-                    //    bankToCompare.AddRange(onebank.Currencies.Where(currencies => bfrom > currencies.CurrencyBuyV && currencies.CurrencyBuyV < bto));
-                    //}
+                   bankomats = null;
+                  //  bankomats = db.Bankomats.Where(d=>d.)[15:29:23] Свирко Юрий: значит берешь из крусов
+//[15:29:49 | Изменены 15:30:06]
+//        Свирко Юрий: курсы инклуд банкомат где<условие для круса> селект банкомат
+
+                    
+
+
+                    foreach (var bankomat in db.Bankomats)
+                    {
+                        foreach (var currency in bankomat.Currencies)
+                        {
+                            if (currency.CurrencyBuyV > Double.Parse(textBox4.Text) &&
+                                currency.CurrencyBuyV < Double.Parse(textBox5.Text))
+                            {
+                                bankomats.Add(bankomat);
+                            }
+                        }
+                    }
+
+
+                    List<Currency> currenciesForCompare =
+                        db.Currencies.Where(
+                            cur => cur.CurrencyName == "USD" && cur.CurrencyBuyV > Double.Parse(textBox4.Text)
+                                   && cur.CurrencyBuyV < Double.Parse(textBox5.Text)).ToList();//не все условия
+
+
+
                 }
-           //     bankomats=bankToCompare.Select(anotherThing=>anotherThing.)
-                //foreach(var bankinb in )
+
+                if ((string)comboBox1.SelectedItem == "EUR")
+                {
+
+                }
+
+                if ((string)comboBox1.SelectedItem == "RUR")
+                {
+
+                }
 
             }
 
-            List<Service> checkedStuff = new List<Service>();
+
+
             if (tabControl1.SelectedTab == tabPage3)
             {
-                
-                //var serviceIds = new List<long>();
-                //foreach (var checkedItemnInCLB1 in checkedListBox1.CheckedItems)
-                //{
-                //    serviceIds.Add(checkedItemnInCLB1.);
-                //}
-
-                var serviceIds = new List<long>();
-
-                foreach (var itemChecked in checkedListBox1.CheckedItems)
+                checkedListBox1.ValueMember = "ServiceId";
+                checkedListBox1.DisplayMember = "ServiceName";
+                checkedListBox1.DataSource = db.Services.ToList();
+                List<Bankomat> bankomatToCompare = new List<Bankomat>();
+                List<long> servicesId = new List<long>();
+                foreach (var anothercheckedStuff in checkedListBox1.CheckedItems)
                 {
-
-
-                    serviceIds.Add(((Service)itemChecked).ServiceId);
+                    servicesId.Add(((Service)anothercheckedStuff).ServiceId);
                 }
 
-                //foreach (var selectedStuffInCLB1 in checkedListBox1.CheckedItems)
-                //{
-                //    serviceIds.Add(((Service)selectedStuffInCLB1).ServiceId);
-                //}
-                //serviceIds = serviceIds;
-                ;
-                //foreach (var bankomat in bankomats)
-                //{
-                //    foreach (var VARIABLE in bankomat.)
-                //    {
-
-                //    }
-                //}
+                foreach (var serviceId in servicesId)
+                {
+                    bankomatToCompare.AddRange(
+                        db.BankomatToServices.Include(x => x.Bankomat)
+                            .Where(x => x.ServiceId == serviceId)
+                            .Select(x => x.Bankomat)
+                            .ToList().Distinct());
+                }
+                listBox1.ValueMember = "BankomatId";
+                listBox1.DisplayMember = "BankomatName";
+                listBox1.DataSource = bankomatToCompare;
+                bankomats = bankomatToCompare;
             }
         }
 
-        //public List<> ReturnBankomatsFromCurrencyFinder(string textBoxText, Bankomat bankomat)
-        //{
-
-        //    return bankomat;
-        //}
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -155,11 +154,11 @@ namespace BanksSearchApp
             ResultBankomatsForm rbf = new ResultBankomatsForm();
             rbf.MdiParent = this.MdiParent;
             rbf.WindowState = FormWindowState.Normal;
-            
+
             rbf.Show();
 
             GMapControl gMapControl;
-            
+
             DbData.BanksDB sdf = new BanksDB();
             gMapControl = new GMapControl();
             gMapControl.Dock = DockStyle.Fill;
@@ -176,80 +175,41 @@ namespace BanksSearchApp
             gMapControl.DragButton = MouseButtons.Left;
             gMapControl.Position = new GMap.NET.PointLatLng(53.902800, 27.561759);
             gMapControl.MarkersEnabled = true;
-                GMap.NET.WindowsForms.GMapOverlay markersOverlay =
-                    new GMap.NET.WindowsForms.GMapOverlay(gMapControl, "marker");
-                //Инициализация нового ЗЕЛЕНОГО маркера, с указанием его координат.
-                GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen markerG =
-                    new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen(
-                    //Указываем координаты 
-                    new GMap.NET.PointLatLng(53.902542, 27.561781));
-                markerG.ToolTip =
-                    new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
-                //Текст отображаемый при наведении на маркер.
-                markerG.ToolTipText = "Объект №1";
-
-
-
-
-
-
-
-                //gMapControl1.MarkersEnabled = true; 
-
-                foreach (var bankomat in bankomats)
-                {
-                    //GMapOverlay markersOverlay1 = new GMapOverlay(gMapControl1, "marker");
-                    // GMapMarkerGoogleGreen markerG1 = new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY));
-                    // markerG.ToolTip = new GMapRoundedToolTip(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY)));
-                    // markerG.ToolTipText = bankomat.BankomatName;
-                    markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
-                    {
-                        ToolTipText = bankomat.BankomatName + Environment.NewLine + bankomat.CityName + Environment.NewLine
-                    });
-
-                    gMapControl.Overlays.Add(new GMapOverlay(gMapControl, "marker"));
-                }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                //Инициализация нового КРАСНОГО маркера, с указанием его координат.
-                //     GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
-                //        new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
+            GMap.NET.WindowsForms.GMapOverlay markersOverlay =
+                new GMap.NET.WindowsForms.GMapOverlay(gMapControl, "marker");
+            //Инициализация нового ЗЕЛЕНОГО маркера, с указанием его координат.
+            GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen markerG =
+                new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleGreen(
                 //Указываем координаты 
-                //        new GMap.NET.PointLatLng(53.902752, 27.561294));
-                //    markerR.ToolTip =
-                //         new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
-                //Текст отображаемый при наведении на маркер.
-                //   markerR.ToolTipText = "Объект №2";
-
-                //Добавляем маркеры в список маркеров.
-                //Зеленый маркер
-                //   markersOverlay.Markers.Add(markerG);
-                //Красный маркет
-                //    markersOverlay.Markers.Add(markerR);
-                //Добавляем в компонент, список маркеров.
-                gMapControl.Overlays.Add(markersOverlay);
-
-                // СОБЯТИЯ ПО КАРТЕ !
-                // gMapControl1.MouseClick += gMapControl1_MouseClick;
-
-            
+                new GMap.NET.PointLatLng(53.902542, 27.561781));
+            markerG.ToolTip =
+                new GMap.NET.WindowsForms.ToolTips.GMapRoundedToolTip(markerG);
+            //Текст отображаемый при наведении на маркер.
+            markerG.ToolTipText = "Объект №1";
 
 
+
+
+
+
+
+            //gMapControl1.MarkersEnabled = true; 
+
+            foreach (var bankomat in bankomats)
+            {
+                //GMapOverlay markersOverlay1 = new GMapOverlay(gMapControl1, "marker");
+                // GMapMarkerGoogleGreen markerG1 = new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY));
+                // markerG.ToolTip = new GMapRoundedToolTip(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY)));
+                // markerG.ToolTipText = bankomat.BankomatName;
+                markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
+                {
+                    ToolTipText = bankomat.BankomatName + Environment.NewLine + bankomat.CityName + Environment.NewLine
+                });
+
+                gMapControl.Overlays.Add(new GMapOverlay(gMapControl, "marker"));
+            }
+
+            gMapControl.Overlays.Add(markersOverlay);
 
         }
     }

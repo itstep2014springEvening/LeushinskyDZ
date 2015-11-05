@@ -55,31 +55,31 @@ namespace DbData
 
         public Service s1 = new Service()
         {
-            ServiceId = 1,
+           // ServiceId = 1,
             ServiceName = "Снятие наличных"
         };
 
         public Service s2 = new Service()
         {
-            ServiceId = 2,
+          //  ServiceId = 2,
             ServiceName = "Обмен валют"
         };
 
         public Service s3 = new Service()
         {
-            ServiceId = 3,
+          //  ServiceId = 3,
             ServiceName = "Оплата ЖКХ"
         };
 
         public Service s4 = new Service()
         {
-            ServiceId = 4,
+           // ServiceId = 4,
             ServiceName = "Оплата мобильной связи"
         };
 
         public Service s5 = new Service()
         {
-            ServiceId = 5,
+           // ServiceId = 5,
             ServiceName = "Погашение кредитов"
         };
 
@@ -87,10 +87,10 @@ namespace DbData
 
     #endregion
 
-        #region bansomats
+        #region bankomats
         public Bankomat priorbkm1 = new Bankomat()
         {
-            BankomatId = 1,
+            //BankomatId = 1,
             BankomatName = "Приорбанк_Банкомат_1",
             BankOwnerName = "Приорбанк",
             Telephone = "222-45-15",
@@ -112,7 +112,7 @@ namespace DbData
 
         public Bankomat priorbkm2 = new Bankomat()
         {
-            BankomatId = 2,
+          //  BankomatId = 2,
             BankomatName = "Приорбанк_Банкомат_2",
             BankOwnerName = "Приорбанк",
             Telephone = "222-37-33",
@@ -133,7 +133,7 @@ namespace DbData
 
         public Bankomat priorbkm3 = new Bankomat()
         {
-            BankomatId = 3,
+           // BankomatId = 3,
             BankomatName = "Приорбанк_Банкомат_3",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -155,7 +155,7 @@ namespace DbData
       
         public Bankomat belarusbank1 = new Bankomat()
         {
-            BankomatId = 3,
+          //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_1",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -176,7 +176,7 @@ namespace DbData
    
         public Bankomat belarusbank2 = new Bankomat()
         {
-            BankomatId = 3,
+          //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_2",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -199,7 +199,7 @@ namespace DbData
        
         public Bankomat belarusbank3 = new Bankomat()
         {
-            BankomatId = 3,
+           // BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_3",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -218,7 +218,7 @@ namespace DbData
 
         public Bankomat belarusbank4 = new Bankomat()
         {
-            BankomatId = 3,
+          //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_4",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -238,7 +238,7 @@ namespace DbData
 
         public Bankomat mtbbank1 = new Bankomat()
         {
-            BankomatId = 3,
+         //   BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_1",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -258,7 +258,7 @@ namespace DbData
 
         public Bankomat mtbbank2 = new Bankomat()
         {
-            BankomatId = 3,
+          //  BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_2",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -278,7 +278,7 @@ namespace DbData
 
         public Bankomat mtbbank3 = new Bankomat()
         {
-            BankomatId = 3,
+           // BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_3",
             BankOwnerName = "Приорбанк",
             Telephone = "222-22-12",
@@ -304,7 +304,7 @@ namespace DbData
 
         public Currency CurForPriorUSD = new Currency()
         {
-            CurrencyId = 1,
+         //   CurrencyId = 1,
             CurrencyName = "USD",
             CurrencyBuyV = 17380,
             CurrencySellV = 17200,
@@ -312,7 +312,7 @@ namespace DbData
 
         public Currency CurForPriorEUR = new Currency()
         {
-            CurrencyId = 2,
+          //  CurrencyId = 2,
             CurrencyName = "EUR",
             CurrencyBuyV = 19900,
             CurrencySellV = 19600
@@ -320,7 +320,7 @@ namespace DbData
 
         public Currency CurForPriorRUR = new Currency()
         {
-            CurrencyId = 3,
+           // CurrencyId = 3,
             CurrencyName = "RUR",
             CurrencyBuyV = 278.5,
             CurrencySellV = 273.0
@@ -328,7 +328,7 @@ namespace DbData
 
         public Currency CurForblbUSD = new Currency()
         {
-            CurrencyId = 4,
+          //  CurrencyId = 4,
             CurrencyName = "USD",
             CurrencyBuyV = 17150,
             CurrencySellV = 17350,
@@ -336,7 +336,7 @@ namespace DbData
 
         public Currency CurForblbEUR = new Currency()
         {
-            CurrencyId = 5,
+         //   CurrencyId = 5,
             CurrencyName = "EUR",
             CurrencyBuyV = 19580,
             CurrencySellV = 19990
@@ -344,7 +344,7 @@ namespace DbData
 
         public Currency CurForblbRUR = new Currency()
         {
-            CurrencyId = 6,
+          //  CurrencyId = 6,
             CurrencyName = "RUR",
             CurrencyBuyV = 273.0,
             CurrencySellV = 283.0
@@ -352,7 +352,7 @@ namespace DbData
 
         public Currency CurFormtbUSD = new Currency()
         {
-            CurrencyId = 7,
+          //  CurrencyId = 7,
             CurrencyName = "USD",
             CurrencyBuyV = 17170,
             CurrencySellV = 17390,
@@ -360,7 +360,7 @@ namespace DbData
 
         public Currency CurFormtbEUR = new Currency()
         {
-            CurrencyId = 8,
+         //   CurrencyId = 8,
             CurrencyName = "EUR",
             CurrencyBuyV = 19600,
             CurrencySellV = 19900
@@ -368,7 +368,7 @@ namespace DbData
 
         public Currency CurFormtbRUR = new Currency()
         {
-            CurrencyId = 9,
+          //  CurrencyId = 9,
             CurrencyName = "RUR",
             CurrencyBuyV = 259.5,
             CurrencySellV = 281.0

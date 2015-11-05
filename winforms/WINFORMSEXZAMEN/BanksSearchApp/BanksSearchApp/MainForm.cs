@@ -302,6 +302,14 @@ namespace BanksSearchApp
             dbf.WindowState = FormWindowState.Normal;
             dbf.Show();
         }
+
+        private void банкоматToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            EditBankomatForm ebf = new EditBankomatForm();
+            ebf.MdiParent = this.MdiParent;
+            ebf.WindowState = FormWindowState.Normal;
+            ebf.Show();
+        }
     }
     }
 

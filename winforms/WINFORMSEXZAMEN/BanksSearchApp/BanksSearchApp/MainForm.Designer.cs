@@ -214,19 +214,20 @@
             // банкToolStripMenuItem1
             // 
             this.банкToolStripMenuItem1.Name = "банкToolStripMenuItem1";
-            this.банкToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.банкToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.банкToolStripMenuItem1.Text = "Банк";
             // 
             // банкоматToolStripMenuItem1
             // 
             this.банкоматToolStripMenuItem1.Name = "банкоматToolStripMenuItem1";
-            this.банкоматToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.банкоматToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.банкоматToolStripMenuItem1.Text = "Банкомат";
+            this.банкоматToolStripMenuItem1.Click += new System.EventHandler(this.банкоматToolStripMenuItem1_Click);
             // 
             // курсToolStripMenuItem1
             // 
             this.курсToolStripMenuItem1.Name = "курсToolStripMenuItem1";
-            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.курсToolStripMenuItem1.Text = "Курс";
             // 
             // удалитьОбъектToolStripMenuItem
@@ -242,20 +243,20 @@
             // банкToolStripMenuItem2
             // 
             this.банкToolStripMenuItem2.Name = "банкToolStripMenuItem2";
-            this.банкToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.банкToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
             this.банкToolStripMenuItem2.Text = "Банк";
             // 
             // банкоматToolStripMenuItem2
             // 
             this.банкоматToolStripMenuItem2.Name = "банкоматToolStripMenuItem2";
-            this.банкоматToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.банкоматToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
             this.банкоматToolStripMenuItem2.Text = "Банкомат";
             this.банкоматToolStripMenuItem2.Click += new System.EventHandler(this.банкоматToolStripMenuItem2_Click);
             // 
             // курсToolStripMenuItem2
             // 
             this.курсToolStripMenuItem2.Name = "курсToolStripMenuItem2";
-            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
             this.курсToolStripMenuItem2.Text = "Курс";
             // 
             // toolStripMenuItem7

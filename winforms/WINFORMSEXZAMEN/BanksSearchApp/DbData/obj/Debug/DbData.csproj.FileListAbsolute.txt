@@ -20,3 +20,5 @@ E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\Ent
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\bin\Debug\EntityFramework.SqlServer.xml
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.newmigration.resources
 E:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.Migrations.newmigration.resources
+D:\git\LeushinskyDZ\winforms\WINFORMSEXZAMEN\BanksSearchApp\DbData\obj\Debug\DbData.csproj.GenerateResource.Cache
