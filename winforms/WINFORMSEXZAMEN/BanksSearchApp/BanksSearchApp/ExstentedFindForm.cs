@@ -25,9 +25,13 @@ namespace BanksSearchApp
             checkedListBox1.ValueMember = "ServiceId";
             checkedListBox1.DisplayMember = "ServiceName";
             checkedListBox1.DataSource = db.Services.ToList();
-            List<string> CurrencyChangeVariants = new List<string>() { "USD", "EUR", "RUR" };
+
+
             List<string> servicesForcCheckedListBox = new List<string>() { "Снятие наличных", "Обмен валют", "Оплата ЖКХ", "Оплата мобильной связи", "Погашение кредитов" };
-            comboBox1.DataSource = CurrencyChangeVariants;
+
+            comboBox1.ValueMember = "CurrencyId";
+            comboBox1.DisplayMember = "CurrencyName";
+            comboBox1.DataSource = db.Currencies.ToList();
         }
 
         private void ExstentedFindForm_Load(object sender, EventArgs e)
@@ -39,7 +43,7 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            bankomats.Clear();
             List<Bank> bank = new List<Bank>();
             if (tabControl1.SelectedTab == tabPage1)
             {
@@ -69,86 +73,82 @@ namespace BanksSearchApp
                     }
                 }
                 listBox1.DataSource = bankomats.Select(x => x.BankomatName).ToList();
+                
             }
 
 
             if (tabControl1.SelectedTab == tabPage2)
             {
-                if ((string) comboBox1.SelectedItem == "USD")
+                Currency currentCurrency = (Currency) comboBox1.SelectedItem;
+
+                if (string.IsNullOrEmpty(textBox4.Text) && string.IsNullOrEmpty(textBox5.Text) &&
+                    string.IsNullOrEmpty(textBox6.Text) && string.IsNullOrEmpty(textBox7.Text))
                 {
-                   bankomats = null;
-                  //  bankomats = db.Bankomats.Where(d=>d.)[15:29:23] Свирко Юрий: значит берешь из крусов
-//[15:29:49 | Изменены 15:30:06]
-//        Свирко Юрий: курсы инклуд банкомат где<условие для круса> селект банкомат
-
-                    
-
-
-                    foreach (var bankomat in db.Bankomats)
+                    MessageBox.Show("Заполните значения");
+                }
+                else
+                {
+                    if (!(string.IsNullOrEmpty(textBox4.Text)) && !(string.IsNullOrEmpty(textBox5.Text)))
                     {
-                        foreach (var currency in bankomat.Currencies)
+                        
+                        foreach (var b in db.Bankomats)
                         {
-                            if (currency.CurrencyBuyV > Double.Parse(textBox4.Text) &&
-                                currency.CurrencyBuyV < Double.Parse(textBox5.Text))
+                            foreach (var c in b.Currencies)
                             {
-                                bankomats.Add(bankomat);
+                                if (c.CurrencyBuyV > Double.Parse(textBox4.Text) &&
+                                    c.CurrencyBuyV < Double.Parse(textBox5.Text)&&c.CurrencyName==currentCurrency.CurrencyName)
+                                {
+                                    
+                                    bankomats.Add(b);
+                                }
                             }
                         }
                     }
 
-
-                    List<Currency> currenciesForCompare =
-                        db.Currencies.Where(
-                            cur => cur.CurrencyName == "USD" && cur.CurrencyBuyV > Double.Parse(textBox4.Text)
-                                   && cur.CurrencyBuyV < Double.Parse(textBox5.Text)).ToList();//не все условия
-
-
-
+                    if (!(string.IsNullOrEmpty(textBox6.Text)) && !(string.IsNullOrEmpty(textBox7.Text)))
+                    {
+                       
+                        foreach (var b in db.Bankomats)
+                        {
+                            foreach (var c in b.Currencies)
+                            {
+                                if (c.CurrencyBuyV > Double.Parse(textBox4.Text) &&
+                                    c.CurrencyBuyV < Double.Parse(textBox4.Text) && c.CurrencyName == currentCurrency.CurrencyName)
+                                {
+                                    bankomats.Add(b);
+                                }
+                            }
+                        }
+                    }
                 }
-
-                if ((string)comboBox1.SelectedItem == "EUR")
-                {
-
-                }
-
-                if ((string)comboBox1.SelectedItem == "RUR")
-                {
-
-                }
-
+                listBox1.DisplayMember = "BankomatName";
+                listBox1.DataSource = bankomats.ToList();
             }
-
-
 
             if (tabControl1.SelectedTab == tabPage3)
             {
-                checkedListBox1.ValueMember = "ServiceId";
-                checkedListBox1.DisplayMember = "ServiceName";
-                checkedListBox1.DataSource = db.Services.ToList();
-                List<Bankomat> bankomatToCompare = new List<Bankomat>();
-                List<long> servicesId = new List<long>();
-                foreach (var anothercheckedStuff in checkedListBox1.CheckedItems)
+                bankomats.Clear();
+                List<Service> checkedServices = new List<Service>();
+
+                foreach (var chS in checkedListBox1.SelectedItems)
                 {
-                    servicesId.Add(((Service)anothercheckedStuff).ServiceId);
+                    checkedServices.Add((Service)chS);
                 }
 
-                foreach (var serviceId in servicesId)
+                foreach (var chS in checkedServices)
                 {
-                    bankomatToCompare.AddRange(
-                        db.BankomatToServices.Include(x => x.Bankomat)
-                            .Where(x => x.ServiceId == serviceId)
-                            .Select(x => x.Bankomat)
-                            .ToList().Distinct());
+                    bankomats.AddRange(db.BankomatToServices.Include(x => x.Bankomat).Where(x => x.ServiceId == chS.ServiceId).Select(x => x.Bankomat).ToList());
                 }
-                listBox1.ValueMember = "BankomatId";
+
                 listBox1.DisplayMember = "BankomatName";
-                listBox1.DataSource = bankomatToCompare;
-                bankomats = bankomatToCompare;
+                listBox1.DataSource = bankomats.Distinct().ToList();
             }
+
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private
+            void button2_Click(object sender, EventArgs e)
         {
             //MainForm mf = new MainForm();
             ResultBankomatsForm rbf = new ResultBankomatsForm();
@@ -211,6 +211,11 @@ namespace BanksSearchApp
 
             gMapControl.Overlays.Add(markersOverlay);
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.DataSource = null;
         }
     }
 }

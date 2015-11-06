@@ -66,11 +66,29 @@
     <Compile Include="AddANewBankomatForm.Designer.cs">
       <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddCurrencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCurrencyForm.Designer.cs">
+      <DependentUpon>AddCurrencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrenceChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrenceChangeForm.Designer.cs">
+      <DependentUpon>CurrenceChangeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeleteBankomatForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DeleteBankomatForm.Designer.cs">
       <DependentUpon>DeleteBankomatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBankForm.Designer.cs">
+      <DependentUpon>AddBankForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EditBankomatForm.cs">
       <SubType>Form</SubType>
@@ -101,8 +119,17 @@
     <EmbeddedResource Include="AddANewBankomatForm.resx">
       <DependentUpon>AddANewBankomatForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddCurrencyForm.resx">
+      <DependentUpon>AddCurrencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrenceChangeForm.resx">
+      <DependentUpon>CurrenceChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeleteBankomatForm.resx">
       <DependentUpon>DeleteBankomatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBankForm.resx">
+      <DependentUpon>AddBankForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditBankomatForm.resx">
       <DependentUpon>EditBankomatForm.cs</DependentUpon>

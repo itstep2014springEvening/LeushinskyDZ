@@ -274,7 +274,9 @@ namespace BanksSearchApp
             dbf.MdiParent = this.MdiParent;
             dbf.WindowState = FormWindowState.Normal;
             dbf.Show();
+            
         }
+
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -309,6 +311,27 @@ namespace BanksSearchApp
             ebf.MdiParent = this.MdiParent;
             ebf.WindowState = FormWindowState.Normal;
             ebf.Show();
+        }
+
+        private void курсToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CurrenceChangeForm ccf = new CurrenceChangeForm();
+            ccf.MdiParent = this.MdiParent;
+            ccf.WindowState = FormWindowState.Normal;
+            ccf.Show();
+        }
+
+        private void банкToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void банкToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddBankForm abf = new AddBankForm();
+            abf.MdiParent = this.MdiParent;
+            abf.WindowState = FormWindowState.Normal;
+            abf.Show();
         }
     }
     }
