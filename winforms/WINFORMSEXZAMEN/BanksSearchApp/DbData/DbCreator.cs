@@ -157,7 +157,7 @@ namespace DbData
         {
           //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_1",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "Беларусьбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул.Веры Хоружей",
@@ -178,7 +178,7 @@ namespace DbData
         {
           //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_2",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "Беларусьбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "Игнатенко",
@@ -201,7 +201,7 @@ namespace DbData
         {
            // BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_3",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "Беларусьбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул. Захарова",
@@ -220,7 +220,7 @@ namespace DbData
         {
           //  BankomatId = 3,
             BankomatName = "Беларусьбанк_Банкомат_4",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "Беларусьбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул. Московская",
@@ -240,7 +240,7 @@ namespace DbData
         {
          //   BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_1",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "МТБбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул. Воронянского",
@@ -260,7 +260,7 @@ namespace DbData
         {
           //  BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_2",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "МТБбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул. Кабушкина",
@@ -280,7 +280,7 @@ namespace DbData
         {
            // BankomatId = 3,
             BankomatName = "МТБбанк_Банкомат_3",
-            BankOwnerName = "Приорбанк",
+            BankOwnerName = "МТБбанк",
             Telephone = "222-22-12",
             CityName = "г. Минск",
             StreetName = "ул. Денисовская",

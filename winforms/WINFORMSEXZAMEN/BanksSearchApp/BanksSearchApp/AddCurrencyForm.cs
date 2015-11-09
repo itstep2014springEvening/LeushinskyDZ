@@ -21,15 +21,24 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            db.Currencies.Add(new Currency()
+            try
             {
-                CurrencyName = textBox3.Text,
-                CurrencyBuyV = Double.Parse(textBox1.Text),
-                CurrencySellV = Double.Parse(textBox2.Text),
-                Bankomat = (Bankomat) comboBox1.SelectedItem
+                db.Currencies.Add(new Currency()
+                {
+                    CurrencyName = textBox3.Text,
+                    CurrencyBuyV = Double.Parse(textBox1.Text),
+                    CurrencySellV = Double.Parse(textBox2.Text),
+                    Bankomat = (Bankomat)comboBox1.SelectedItem
 
-            });
-            db.SaveChanges();
+                });
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+           
         }
 
         private void AddCurrencyForm_Load(object sender, EventArgs e)

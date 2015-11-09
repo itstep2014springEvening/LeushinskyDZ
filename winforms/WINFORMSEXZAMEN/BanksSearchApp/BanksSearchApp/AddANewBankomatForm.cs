@@ -50,92 +50,101 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Service> chserv = new List<Service>();
-            for (int i = 0; i < checkedListBox1.CheckedItems.Count; i++)
+            try
             {
-
-                chserv.Add(new Service()
-                {
-                    ServiceId = db.Services.Select(x => x.ServiceId).ToList().Max() + i,
-                    ServiceName = checkedListBox1.CheckedItems[i].ToString()
-                });
-            }
-
-
-            //var test = (db.Bankomats.Select(x => x.BankomatId).ToList().Last() + 1);
-            DataInsert dataInsert = new DataInsert();
-
-            // if (radioButton1.Checked)
-            {
-                //dataInsert.DataInsertion(db.Banks.Single(x => x.BankName == comboBox1.Text), new List<Bankomat>()
-                //{
-                //    new Bankomat()
-                //    {
-                //        BankomatId = (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1),
-                //        BankomatName = textBox1.Text,
-                //        BankOwnerName = comboBox1.Text,
-                //        Telephone = textBox3.Text,
-                //        CityName = textBox2.Text,
-                //        StreetName = textBox4.Text,
-                //        HomeNumber = textBox5.Text,
-
-                //        CoordinateX = Double.Parse(textBox6.Text),
-                //        CoordinateY = Double.Parse(textBox7.Text),
-                //        OpenDate = DateTime.Parse(textBox11.Text),
-                //        WorkingTime = textBox9.Text,
-                //        PersonalInformation = textBox10.Text,
-                //        Review = textBox13.Text,
-
-                //        AdditionalInformation = textBox12.Text,
-                //    }
-                //}, db.Currencies.Where(x => x.CurrencyName == comboBox3.Text).ToList(),
-                //chserv
-
-                //, db);
-            }
-
-
-            //    else
-            {
-                var serviceIds = new List<long>();
-
-                foreach (var itemChecked in checkedListBox1.CheckedItems)
+                List<Service> chserv = new List<Service>();
+                for (int i = 0; i < checkedListBox1.CheckedItems.Count; i++)
                 {
 
-
-                    serviceIds.Add(((Service) itemChecked).ServiceId);
+                    chserv.Add(new Service()
+                    {
+                        ServiceId = db.Services.Select(x => x.ServiceId).ToList().Max() + i,
+                        ServiceName = checkedListBox1.CheckedItems[i].ToString()
+                    });
                 }
 
 
+                //var test = (db.Bankomats.Select(x => x.BankomatId).ToList().Last() + 1);
+                DataInsert dataInsert = new DataInsert();
 
-                dataInsert.InsertBankomat(
-                    new Bankomat
+                // if (radioButton1.Checked)
+                {
+                    //dataInsert.DataInsertion(db.Banks.Single(x => x.BankName == comboBox1.Text), new List<Bankomat>()
+                    //{
+                    //    new Bankomat()
+                    //    {
+                    //        BankomatId = (db.Bankomats.Select(x => x.BankomatId).ToList().Max() + 1),
+                    //        BankomatName = textBox1.Text,
+                    //        BankOwnerName = comboBox1.Text,
+                    //        Telephone = textBox3.Text,
+                    //        CityName = textBox2.Text,
+                    //        StreetName = textBox4.Text,
+                    //        HomeNumber = textBox5.Text,
+
+                    //        CoordinateX = Double.Parse(textBox6.Text),
+                    //        CoordinateY = Double.Parse(textBox7.Text),
+                    //        OpenDate = DateTime.Parse(textBox11.Text),
+                    //        WorkingTime = textBox9.Text,
+                    //        PersonalInformation = textBox10.Text,
+                    //        Review = textBox13.Text,
+
+                    //        AdditionalInformation = textBox12.Text,
+                    //    }
+                    //}, db.Currencies.Where(x => x.CurrencyName == comboBox3.Text).ToList(),
+                    //chserv
+
+                    //, db);
+                }
+
+
+                //    else
+                {
+                    var serviceIds = new List<long>();
+
+                    foreach (var itemChecked in checkedListBox1.CheckedItems)
                     {
+
+
+                        serviceIds.Add(((Service)itemChecked).ServiceId);
+                    }
+
+
+
+                    dataInsert.InsertBankomat(
+                        new Bankomat
+                        {
                         // BankomatId = 3,
                         BankomatName = textBox1.Text,
-                        BankOwnerName = comboBox1.Text,
-                        Telephone = textBox3.Text,
-                        CityName = textBox2.Text,
-                        StreetName = textBox4.Text,
-                        HomeNumber = textBox5.Text,
+                            BankOwnerName = comboBox1.Text,
+                            Telephone = textBox3.Text,
+                            CityName = textBox2.Text,
+                            StreetName = textBox4.Text,
+                            HomeNumber = textBox5.Text,
                         //   Address = "г. Минск, ул. Крупской 6/1",
                         CoordinateX = Double.Parse(textBox6.Text),
-                        CoordinateY = Double.Parse(textBox7.Text),
-                        OpenDate = DateTime.Parse(textBox11.Text),
-                        WorkingTime = textBox9.Text,
-                        PersonalInformation = textBox10.Text,
-                        Review = textBox13.Text,
+                            CoordinateY = Double.Parse(textBox7.Text),
+                            OpenDate = DateTime.Parse(textBox11.Text),
+                            WorkingTime = textBox9.Text,
+                            PersonalInformation = textBox10.Text,
+                            Review = textBox13.Text,
                         //  Services = new List<Service>(),
                         AdditionalInformation = textBox12.Text,
-                        BankId = (long) comboBox1.SelectedValue
-                    }
-                    , new List<Currency>()
-                    {
+                            BankId = (long)comboBox1.SelectedValue
+                        }
+                        , new List<Currency>()
+                        {
                         (Currency) comboBox2.SelectedItem
-                    }, serviceIds, db);
+                        }, serviceIds, db);
 
+                }
+                db.SaveChanges();
             }
-            db.SaveChanges();
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
 

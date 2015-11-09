@@ -19,6 +19,7 @@ namespace BanksSearchApp
     {
         GMap.NET.WindowsForms.GMapOverlay markersOverlay =
                 new GMap.NET.WindowsForms.GMapOverlay(new GMapControl(), "marker");
+        
         DbData.BanksDB db = new BanksDB();
         GMapControl gMapControl1;
         List<Bankomat> bnmts = new List<Bankomat>();
@@ -40,13 +41,14 @@ namespace BanksSearchApp
         
         void MainForm_Load(object sender, EventArgs e)
         {
+
+            if (db.Bankomats.ToList().Count<1)
+            {
+                DbCreator dc = new DbCreator();
             
-            
-            DbCreator dc = new DbCreator();
-          // if (!db.Database.Exists())
-          //  { 
+         
                 dc.DbDataInsert();
-          //  }
+              }
             SetParamsMap();
             List<string> DataForLb1 = bnmts.OrderBy(x=>x.BankOwnerName).Select(lb1d => lb1d.BankomatName + Environment.NewLine).ToList();
             listBox1.ValueMember = "BankomatId";
@@ -107,44 +109,13 @@ namespace BanksSearchApp
                // markerG.ToolTipText = bankomat.BankomatName;
                 markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
                 {
-                    ToolTipText = bankomat.BankomatName+Environment.NewLine+bankomat.CityName+Environment.NewLine
+                    ToolTipText = bankomat.BankOwnerName+Environment.NewLine + bankomat.BankomatName+Environment.NewLine+bankomat.CityName+", "+bankomat.StreetName +", " + bankomat.HomeNumber
+                    
                 });
                 
                 gMapControl1.Overlays.Add(new GMapOverlay(gMapControl1, "marker"));
             }
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //Инициализация нового КРАСНОГО маркера, с указанием его координат.
-       //     GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed markerR =
-        //        new GMap.NET.WindowsForms.Markers.GMapMarkerGoogleRed(
-                //Указываем координаты 
-        //        new GMap.NET.PointLatLng(53.902752, 27.561294));
-        //    markerR.ToolTip =
-       //         new GMap.NET.WindowsForms.ToolTips.GMapBaloonToolTip(markerR);
-            //Текст отображаемый при наведении на маркер.
-         //   markerR.ToolTipText = "Объект №2";
-
-            //Добавляем маркеры в список маркеров.
-            //Зеленый маркер
-         //   markersOverlay.Markers.Add(markerG);
-            //Красный маркет
-        //    markersOverlay.Markers.Add(markerR);
-            //Добавляем в компонент, список маркеров.
             gMapControl1.Overlays.Add(markersOverlay);
 
             // СОБЯТИЯ ПО КАРТЕ !
@@ -332,6 +303,48 @@ namespace BanksSearchApp
             abf.MdiParent = this.MdiParent;
             abf.WindowState = FormWindowState.Normal;
             abf.Show();
+        }
+
+        private void закрытьОкноToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            ExstentedFindForm eff = new ExstentedFindForm();
+            eff.MdiParent = this.MdiParent;
+            eff.WindowState = FormWindowState.Normal;
+            eff.Show();
+        }
+
+        private void добавитьОбъектToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AddANewBankomatForm aanbf = new AddANewBankomatForm();
+            aanbf.MdiParent = this.MdiParent;
+            aanbf.WindowState = FormWindowState.Normal;
+            aanbf.Show();
+        }
+
+        private void редактироватьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditBankomatForm ebf = new EditBankomatForm();
+            ebf.MdiParent = this.MdiParent;
+            ebf.WindowState = FormWindowState.Normal;
+            ebf.Show();
+        }
+
+        private void простойПоискToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            comboBox1.DroppedDown = true;
+        }
+
+        private void курсToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            CursCompareTable cct = new CursCompareTable();
+            cct.MdiParent = this.MdiParent;
+            cct.WindowState = FormWindowState.Maximized;
+            cct.Show();
         }
     }
     }

@@ -21,8 +21,17 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            db.Banks.Add(new Bank() {BankName = textBox1.Text});
-            db.SaveChanges();
+            try
+            {
+                db.Banks.Add(new Bank() { BankName = textBox1.Text });
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+            
         }
     }
 }

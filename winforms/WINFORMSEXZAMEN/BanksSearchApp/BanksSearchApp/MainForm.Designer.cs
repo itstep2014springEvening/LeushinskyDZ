@@ -32,10 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.тутЧтонибудьТочноБудетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.всеОткрытыеОкнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.простойПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.расширенныйПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +39,7 @@
             this.добавитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.банкToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.банкоматToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.курсToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.редактироватьОбъектToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.банкоматToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.курсToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,7 +66,12 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.курсToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьНовуюКартуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытыеОкнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.закрытьПрограммуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.курсToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -90,9 +92,9 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
             this.toolStripMenuItem3,
             this.оПрограммеToolStripMenuItem,
+            this.курсToolStripMenuItem2,
             this.оПрограммеToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -102,38 +104,15 @@
             // 
             // toolStripMenuItem1
             // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.открытьНовуюКартуToolStripMenuItem,
+            this.открытыеОкнаToolStripMenuItem,
+            this.закрытьТекущееОкноToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.закрытьПрограммуToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
             this.toolStripMenuItem1.Text = "Файл";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.тутЧтонибудьТочноБудетToolStripMenuItem,
-            this.всеОткрытыеОкнаToolStripMenuItem,
-            this.закрытьТекущееОкноToolStripMenuItem});
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(47, 20);
-            this.toolStripMenuItem2.Text = "Окна";
-            // 
-            // тутЧтонибудьТочноБудетToolStripMenuItem
-            // 
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Name = "тутЧтонибудьТочноБудетToolStripMenuItem";
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Text = "Открыть новую карту";
-            this.тутЧтонибудьТочноБудетToolStripMenuItem.Click += new System.EventHandler(this.тутЧтонибудьТочноБудетToolStripMenuItem_Click);
-            // 
-            // всеОткрытыеОкнаToolStripMenuItem
-            // 
-            this.всеОткрытыеОкнаToolStripMenuItem.Name = "всеОткрытыеОкнаToolStripMenuItem";
-            this.всеОткрытыеОкнаToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.всеОткрытыеОкнаToolStripMenuItem.Text = "Все открытые окна";
-            // 
-            // закрытьТекущееОкноToolStripMenuItem
-            // 
-            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
-            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
             // 
             // toolStripMenuItem3
             // 
@@ -149,6 +128,7 @@
             this.простойПоискToolStripMenuItem.Name = "простойПоискToolStripMenuItem";
             this.простойПоискToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.простойПоискToolStripMenuItem.Text = "Простой поиск";
+            this.простойПоискToolStripMenuItem.Click += new System.EventHandler(this.простойПоискToolStripMenuItem_Click);
             // 
             // расширенныйПоискToolStripMenuItem
             // 
@@ -182,16 +162,22 @@
             // банкToolStripMenuItem
             // 
             this.банкToolStripMenuItem.Name = "банкToolStripMenuItem";
-            this.банкToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.банкToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.банкToolStripMenuItem.Text = "Банк";
             this.банкToolStripMenuItem.Click += new System.EventHandler(this.банкToolStripMenuItem_Click);
             // 
             // банкоматToolStripMenuItem
             // 
             this.банкоматToolStripMenuItem.Name = "банкоматToolStripMenuItem";
-            this.банкоматToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.банкоматToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.банкоматToolStripMenuItem.Text = "Банкомат";
             this.банкоматToolStripMenuItem.Click += new System.EventHandler(this.банкоматToolStripMenuItem_Click);
+            // 
+            // курсToolStripMenuItem
+            // 
+            this.курсToolStripMenuItem.Name = "курсToolStripMenuItem";
+            this.курсToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.курсToolStripMenuItem.Text = "Курс";
             // 
             // редактироватьОбъектToolStripMenuItem1
             // 
@@ -205,14 +191,14 @@
             // банкоматToolStripMenuItem1
             // 
             this.банкоматToolStripMenuItem1.Name = "банкоматToolStripMenuItem1";
-            this.банкоматToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.банкоматToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
             this.банкоматToolStripMenuItem1.Text = "Банкомат";
             this.банкоматToolStripMenuItem1.Click += new System.EventHandler(this.банкоматToolStripMenuItem1_Click);
             // 
             // курсToolStripMenuItem1
             // 
             this.курсToolStripMenuItem1.Name = "курсToolStripMenuItem1";
-            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
             this.курсToolStripMenuItem1.Text = "Курс";
             this.курсToolStripMenuItem1.Click += new System.EventHandler(this.курсToolStripMenuItem1_Click);
             // 
@@ -227,7 +213,7 @@
             // банкоматToolStripMenuItem2
             // 
             this.банкоматToolStripMenuItem2.Name = "банкоматToolStripMenuItem2";
-            this.банкоматToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.банкоматToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
             this.банкоматToolStripMenuItem2.Text = "Банкомат";
             this.банкоматToolStripMenuItem2.Click += new System.EventHandler(this.банкоматToolStripMenuItem2_Click);
             // 
@@ -296,6 +282,7 @@
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(195, 22);
             this.toolStripMenuItem4.Text = "Поиск";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem5
             // 
@@ -307,12 +294,14 @@
             this.добавитьОбъектToolStripMenuItem1.Name = "добавитьОбъектToolStripMenuItem1";
             this.добавитьОбъектToolStripMenuItem1.Size = new System.Drawing.Size(195, 22);
             this.добавитьОбъектToolStripMenuItem1.Text = "Добавить объект";
+            this.добавитьОбъектToolStripMenuItem1.Click += new System.EventHandler(this.добавитьОбъектToolStripMenuItem1_Click);
             // 
             // редактироватьОбъектToolStripMenuItem
             // 
             this.редактироватьОбъектToolStripMenuItem.Name = "редактироватьОбъектToolStripMenuItem";
             this.редактироватьОбъектToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.редактироватьОбъектToolStripMenuItem.Text = "Редактировать объект";
+            this.редактироватьОбъектToolStripMenuItem.Click += new System.EventHandler(this.редактироватьОбъектToolStripMenuItem_Click);
             // 
             // удалитьОбъектToolStripMenuItem1
             // 
@@ -331,6 +320,7 @@
             this.закрытьОкноToolStripMenuItem.Name = "закрытьОкноToolStripMenuItem";
             this.закрытьОкноToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.закрытьОкноToolStripMenuItem.Text = "Закрыть окно";
+            this.закрытьОкноToolStripMenuItem.Click += new System.EventHandler(this.закрытьОкноToolStripMenuItem_Click);
             // 
             // splitContainer2
             // 
@@ -427,11 +417,41 @@
             this.dataGridView2.Size = new System.Drawing.Size(204, 98);
             this.dataGridView2.TabIndex = 0;
             // 
-            // курсToolStripMenuItem
+            // открытьНовуюКартуToolStripMenuItem
             // 
-            this.курсToolStripMenuItem.Name = "курсToolStripMenuItem";
-            this.курсToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.курсToolStripMenuItem.Text = "Курс";
+            this.открытьНовуюКартуToolStripMenuItem.Name = "открытьНовуюКартуToolStripMenuItem";
+            this.открытьНовуюКартуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.открытьНовуюКартуToolStripMenuItem.Text = "Открыть новую карту";
+            // 
+            // открытыеОкнаToolStripMenuItem
+            // 
+            this.открытыеОкнаToolStripMenuItem.Name = "открытыеОкнаToolStripMenuItem";
+            this.открытыеОкнаToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.открытыеОкнаToolStripMenuItem.Text = "Открытые окна";
+            // 
+            // закрытьТекущееОкноToolStripMenuItem
+            // 
+            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
+            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(196, 6);
+            // 
+            // закрытьПрограммуToolStripMenuItem
+            // 
+            this.закрытьПрограммуToolStripMenuItem.Name = "закрытьПрограммуToolStripMenuItem";
+            this.закрытьПрограммуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.закрытьПрограммуToolStripMenuItem.Text = "Закрыть программу";
+            // 
+            // курсToolStripMenuItem2
+            // 
+            this.курсToolStripMenuItem2.Name = "курсToolStripMenuItem2";
+            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(45, 20);
+            this.курсToolStripMenuItem2.Text = "Курс";
+            this.курсToolStripMenuItem2.Click += new System.EventHandler(this.курсToolStripMenuItem2_Click);
             // 
             // MainForm
             // 
@@ -482,9 +502,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem тутЧтонибудьТочноБудетToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem закрытьТекущееОкноToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem простойПоискToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem расширенныйПоискToolStripMenuItem;
@@ -493,7 +510,6 @@
         private System.Windows.Forms.ToolStripMenuItem банкоматToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьОбъектToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem всеОткрытыеОкнаToolStripMenuItem;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ToolStripMenuItem режимРедактораToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem банкToolStripMenuItem;
@@ -511,6 +527,12 @@
         private System.Windows.Forms.ToolStripMenuItem банкоматToolStripMenuItem2;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem7;
         private System.Windows.Forms.ToolStripMenuItem курсToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытьНовуюКартуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытыеОкнаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem закрытьТекущееОкноToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem закрытьПрограммуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem курсToolStripMenuItem2;
     }
 }
 
