@@ -32,6 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьНовуюКартуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.закрытьПрограммуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.простойПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.расширенныйПоискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,6 +51,7 @@
             this.банкоматToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripSeparator();
             this.режимРедактораToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.курсToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -66,12 +71,6 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.открытьНовуюКартуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытыеОкнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.закрытьТекущееОкноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.закрытьПрограммуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.курсToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -106,13 +105,35 @@
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.открытьНовуюКартуToolStripMenuItem,
-            this.открытыеОкнаToolStripMenuItem,
             this.закрытьТекущееОкноToolStripMenuItem,
             this.toolStripMenuItem2,
             this.закрытьПрограммуToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
             this.toolStripMenuItem1.Text = "Файл";
+            // 
+            // открытьНовуюКартуToolStripMenuItem
+            // 
+            this.открытьНовуюКартуToolStripMenuItem.Name = "открытьНовуюКартуToolStripMenuItem";
+            this.открытьНовуюКартуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.открытьНовуюКартуToolStripMenuItem.Text = "Открыть новую карту";
+            // 
+            // закрытьТекущееОкноToolStripMenuItem
+            // 
+            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
+            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(196, 6);
+            // 
+            // закрытьПрограммуToolStripMenuItem
+            // 
+            this.закрытьПрограммуToolStripMenuItem.Name = "закрытьПрограммуToolStripMenuItem";
+            this.закрытьПрограммуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.закрытьПрограммуToolStripMenuItem.Text = "Закрыть программу";
             // 
             // toolStripMenuItem3
             // 
@@ -228,6 +249,13 @@
             this.режимРедактораToolStripMenuItem.Name = "режимРедактораToolStripMenuItem";
             this.режимРедактораToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.режимРедактораToolStripMenuItem.Text = "Режим редактора";
+            // 
+            // курсToolStripMenuItem2
+            // 
+            this.курсToolStripMenuItem2.Name = "курсToolStripMenuItem2";
+            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(45, 20);
+            this.курсToolStripMenuItem2.Text = "Курс";
+            this.курсToolStripMenuItem2.Click += new System.EventHandler(this.курсToolStripMenuItem2_Click);
             // 
             // оПрограммеToolStripMenuItem1
             // 
@@ -417,42 +445,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(204, 98);
             this.dataGridView2.TabIndex = 0;
             // 
-            // открытьНовуюКартуToolStripMenuItem
-            // 
-            this.открытьНовуюКартуToolStripMenuItem.Name = "открытьНовуюКартуToolStripMenuItem";
-            this.открытьНовуюКартуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.открытьНовуюКартуToolStripMenuItem.Text = "Открыть новую карту";
-            // 
-            // открытыеОкнаToolStripMenuItem
-            // 
-            this.открытыеОкнаToolStripMenuItem.Name = "открытыеОкнаToolStripMenuItem";
-            this.открытыеОкнаToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.открытыеОкнаToolStripMenuItem.Text = "Открытые окна";
-            // 
-            // закрытьТекущееОкноToolStripMenuItem
-            // 
-            this.закрытьТекущееОкноToolStripMenuItem.Name = "закрытьТекущееОкноToolStripMenuItem";
-            this.закрытьТекущееОкноToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.закрытьТекущееОкноToolStripMenuItem.Text = "Закрыть текущее окно";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(196, 6);
-            // 
-            // закрытьПрограммуToolStripMenuItem
-            // 
-            this.закрытьПрограммуToolStripMenuItem.Name = "закрытьПрограммуToolStripMenuItem";
-            this.закрытьПрограммуToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.закрытьПрограммуToolStripMenuItem.Text = "Закрыть программу";
-            // 
-            // курсToolStripMenuItem2
-            // 
-            this.курсToolStripMenuItem2.Name = "курсToolStripMenuItem2";
-            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(45, 20);
-            this.курсToolStripMenuItem2.Text = "Курс";
-            this.курсToolStripMenuItem2.Click += new System.EventHandler(this.курсToolStripMenuItem2_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -528,7 +520,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem7;
         private System.Windows.Forms.ToolStripMenuItem курсToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытьНовуюКартуToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem открытыеОкнаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem закрытьТекущееОкноToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem закрытьПрограммуToolStripMenuItem;

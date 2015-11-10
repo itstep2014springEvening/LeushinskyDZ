@@ -47,12 +47,21 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Currency currencyAtEdit = (Currency)comboBox1.SelectedItem;
-            //currencyAtEdit.CurrencyId = comboBox1.SelectedIndex + 1;
-            currencyAtEdit.CurrencyBuyV = Double.Parse(textBox1.Text);
-            currencyAtEdit.CurrencySellV = Double.Parse(textBox2.Text);
-            db.Currencies.AddOrUpdate(currencyAtEdit);
-            db.SaveChanges();
+            try
+            {
+                Currency currencyAtEdit = (Currency)comboBox1.SelectedItem;
+                //currencyAtEdit.CurrencyId = comboBox1.SelectedIndex + 1;
+                currencyAtEdit.CurrencyBuyV = Double.Parse(textBox1.Text);
+                currencyAtEdit.CurrencySellV = Double.Parse(textBox2.Text);
+                db.Currencies.AddOrUpdate(currencyAtEdit);
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+            
         }
     }
 }

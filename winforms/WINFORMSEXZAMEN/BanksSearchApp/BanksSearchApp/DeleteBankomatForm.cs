@@ -31,13 +31,21 @@ namespace BanksSearchApp
         private void button1_Click(object sender, EventArgs e)
         {
 
-
-            var selected = (Bankomat) comboBox1.SelectedItem;
-            Bankomat bankomatToDelete = db.Bankomats.Single(b => b.BankomatId == selected.BankomatId);
-            db.Bankomats.Remove(bankomatToDelete);
-            db.SaveChanges();
-            List<Bankomat> bankomats =  db.Bankomats.ToList();
-            comboBox1.DataSource = bankomats;
+            try
+            {
+                var selected = (Bankomat)comboBox1.SelectedItem;
+                Bankomat bankomatToDelete = db.Bankomats.Single(b => b.BankomatId == selected.BankomatId);
+                db.Bankomats.Remove(bankomatToDelete);
+                db.SaveChanges();
+                List<Bankomat> bankomats = db.Bankomats.ToList();
+                comboBox1.DataSource = bankomats;
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+            
             // MainForm mf = new MainForm();
             //this.FindForm().Close();
         }

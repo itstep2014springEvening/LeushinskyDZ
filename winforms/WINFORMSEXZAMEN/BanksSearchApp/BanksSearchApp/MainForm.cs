@@ -32,6 +32,7 @@ namespace BanksSearchApp
             comboBox1.ValueMember = "BankomatId";
             comboBox1.DisplayMember = "BankomatName";
             comboBox1.DataSource = bankomatsToCb1;
+            
 
           
         Load += MainForm_Load;
@@ -41,7 +42,7 @@ namespace BanksSearchApp
         
         void MainForm_Load(object sender, EventArgs e)
         {
-
+            
             if (db.Bankomats.ToList().Count<1)
             {
                 DbCreator dc = new DbCreator();
@@ -57,19 +58,15 @@ namespace BanksSearchApp
         }
         
 
-        // ПРИМЕР РАБОТЫ С КАРТОЙ ! 
-        // (данный код используйте по своему усмотрению!)
+        
         public void SetParamsMap()
         {
             DbData.BanksDB sdf = new BanksDB();
-          //  DbCreator dm = new DbCreator();
-            
+        
             bnmts = sdf.Bankomats.ToList();
-           // sdf.Database.Delete();
-          //  if(sdf.Database.Exists())
-            // Создание элемента, отображающего карту !
+         
             gMapControl1 = new GMapControl();
-            // Растягивание элемента на все окно!
+  
             gMapControl1.Dock = DockStyle.Fill;
             // Добавление элемента 
            dataGridView1.Controls.Add(gMapControl1);
@@ -99,14 +96,11 @@ namespace BanksSearchApp
 
 
 
-            //gMapControl1.MarkersEnabled = true; 
+           
 
             foreach (var bankomat in bnmts)
             {
-                //GMapOverlay markersOverlay1 = new GMapOverlay(gMapControl1, "marker");
-               // GMapMarkerGoogleGreen markerG1 = new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY));
-               // markerG.ToolTip = new GMapRoundedToolTip(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY)));
-               // markerG.ToolTipText = bankomat.BankomatName;
+              
                 markersOverlay.Markers.Add(new GMapMarkerGoogleGreen(new PointLatLng(bankomat.CoordinateX, bankomat.CoordinateY))
                 {
                     ToolTipText = bankomat.BankOwnerName+Environment.NewLine + bankomat.BankomatName+Environment.NewLine+bankomat.CityName+", "+bankomat.StreetName +", " + bankomat.HomeNumber
@@ -118,7 +112,7 @@ namespace BanksSearchApp
             
             gMapControl1.Overlays.Add(markersOverlay);
 
-            // СОБЯТИЯ ПО КАРТЕ !
+           
             gMapControl1.OnMarkerClick += GMapControl1_OnMarkerClick; ;
         
         }
@@ -131,16 +125,7 @@ namespace BanksSearchApp
         void gMapControl1_MouseClick(object sender, MouseEventArgs e)
         {
 
-           // double X = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lng;
-           // double Y = gMapControl1.FromLocalToLatLng(e.X, e.Y).Lat;
-           // GMapOverlay markersOverlay = new GMapOverlay(gMapControl1, "NewMarkers");
-           // GMapMarkerGoogleGreen markerG =  new GMapMarkerGoogleGreen
-           //                                (new GMap.NET.PointLatLng(Y, X));
-           //markerG.ToolTip = new GMapRoundedToolTip(markerG);
-           //markerG.ToolTipText = "Новый объект";
-           //markersOverlay.Markers.Add(markerG);
-           //gMapControl1.Overlays.Add(markersOverlay);
-
+         
             
         }
 

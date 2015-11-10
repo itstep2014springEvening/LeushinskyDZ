@@ -80,58 +80,67 @@ namespace BanksSearchApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var selectedItemToCompareBankomat = (Bankomat)comboBox2.SelectedItem;
-            Bankomat selectedBankomatToEdit = db.Bankomats.Single(b => b.BankomatId == selectedItemToCompareBankomat.BankomatId);
+            try
+            {
+                var selectedItemToCompareBankomat = (Bankomat)comboBox2.SelectedItem;
+                Bankomat selectedBankomatToEdit = db.Bankomats.Single(b => b.BankomatId == selectedItemToCompareBankomat.BankomatId);
 
-            selectedItemToCompareBankomat.BankomatName = textBox1.Text;
-            selectedItemToCompareBankomat.Telephone = textBox3.Text;
+                selectedItemToCompareBankomat.BankomatName = textBox1.Text;
+                selectedItemToCompareBankomat.Telephone = textBox3.Text;
 
 
-            Bank bankOwnerOfSelectedItem =
-                db.Bankomats.Include(x => x.Bank)
-                    .Single(x => x.BankomatId == selectedItemToCompareBankomat.BankomatId)
-                    .Bank;
+                Bank bankOwnerOfSelectedItem =
+                    db.Bankomats.Include(x => x.Bank)
+                        .Single(x => x.BankomatId == selectedItemToCompareBankomat.BankomatId)
+                        .Bank;
 
-            
+
                 selectedItemToCompareBankomat.BankId = comboBox1.SelectedIndex;
-            
 
-            selectedItemToCompareBankomat.CityName = textBox2.Text;
-            selectedItemToCompareBankomat.StreetName = textBox4.Text;
-            selectedItemToCompareBankomat.HomeNumber = textBox5.Text;
-            selectedItemToCompareBankomat.CoordinateX = Double.Parse(textBox6.Text);
-            selectedItemToCompareBankomat.CoordinateY = Double.Parse(textBox7.Text);
-            selectedItemToCompareBankomat.OpenDate = DateTime.Parse(textBox11.Text);
 
-            var serviceIds = new List<long>();
+                selectedItemToCompareBankomat.CityName = textBox2.Text;
+                selectedItemToCompareBankomat.StreetName = textBox4.Text;
+                selectedItemToCompareBankomat.HomeNumber = textBox5.Text;
+                selectedItemToCompareBankomat.CoordinateX = Double.Parse(textBox6.Text);
+                selectedItemToCompareBankomat.CoordinateY = Double.Parse(textBox7.Text);
+                selectedItemToCompareBankomat.OpenDate = DateTime.Parse(textBox11.Text);
 
-            foreach (var itemChecked in checkedListBox1.CheckedItems)
-            {
-                serviceIds.Add(((Service)itemChecked).ServiceId);
-            }
-            foreach (var serviceId in serviceIds)
-            {
-                db.BankomatToServices.Add(new BankomatToService()
+                var serviceIds = new List<long>();
+
+                foreach (var itemChecked in checkedListBox1.CheckedItems)
                 {
-                    BankomatId = selectedItemToCompareBankomat.BankomatId,
-                    ServiceId = serviceId
-                });
+                    serviceIds.Add(((Service)itemChecked).ServiceId);
+                }
+                foreach (var serviceId in serviceIds)
+                {
+                    db.BankomatToServices.Add(new BankomatToService()
+                    {
+                        BankomatId = selectedItemToCompareBankomat.BankomatId,
+                        ServiceId = serviceId
+                    });
+                }
+                selectedItemToCompareBankomat.PersonalInformation = textBox10.Text;
+                selectedItemToCompareBankomat.WorkingTime = textBox9.Text;
+
+                //services
+
+                selectedItemToCompareBankomat.Review = textBox13.Text;
+                selectedItemToCompareBankomat.AdditionalInformation = textBox12.Text;
+
+
+
+                db.Bankomats.AddOrUpdate(selectedItemToCompareBankomat);
+                db.SaveChanges();
+
+
+
             }
-            selectedItemToCompareBankomat.PersonalInformation = textBox10.Text;
-            selectedItemToCompareBankomat.WorkingTime = textBox9.Text;
-
-            //services
-
-            selectedItemToCompareBankomat.Review = textBox13.Text;
-            selectedItemToCompareBankomat.AdditionalInformation = textBox12.Text;
-
-
-
-            db.Bankomats.AddOrUpdate(selectedItemToCompareBankomat);
-            db.SaveChanges();
-
-
-
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show(ex.Message);
+            }
+            
 
         }
     }
