@@ -1,0 +1,29 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty_MarkupCompile.lref
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\bin\Debug\Example8BindingProperty.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\MainWindow.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\App.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty_MarkupCompile.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty_MarkupCompile.lref
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\MainWindow.baml
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.g.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.Properties.Resources.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingProperty\obj\Debug\Example8BindingProperty.csproj.GenerateResource.Cache

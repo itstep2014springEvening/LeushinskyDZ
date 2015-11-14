@@ -1,0 +1,29 @@
+D:\3003\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).exe.config
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).csprojResolveAssemblyReference.cache
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\MainWindow.baml
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\MainWindow.g.cs
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\App.g.cs
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode)_MarkupCompile.cache
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).g.resources
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement_InCode_.Properties.Resources.resources
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).csproj.GenerateResource.Cache
+D:\3003\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).exe
+D:\3003\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).pdb
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).exe
+D:\3003\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode)_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement_InCode_.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example3BindingToElement(InCode)\bin\Debug\Example3BindingToElement(InCode).exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example3BindingToElement(InCode)\obj\Debug\Example3BindingToElement(InCode).pdb

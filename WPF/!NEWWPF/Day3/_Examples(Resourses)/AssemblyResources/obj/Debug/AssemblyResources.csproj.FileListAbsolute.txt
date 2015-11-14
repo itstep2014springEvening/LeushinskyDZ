@@ -1,0 +1,65 @@
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\Window1.baml
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\Window1.g.cs
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\App.g.cs
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\ResGen.read.1.tlog
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\ResGen.write.1.tlog
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Work\Lessons\CBS_CS_WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Work\Lessons\CBS_CS_WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\Window1.baml
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\Window1.g.cs
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\App.g.cs
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\ResGen.read.1.tlog
+D:\Work\Lessons\WPF\Lesson_009 (Resources)\001_AssemblyResources\obj\Debug\ResGen.write.1.tlog
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\Window1.baml
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\Window1.g.cs
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\App.g.cs
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\ResGen.read.1.tlog
+D:\Work\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\ResGen.write.1.tlog
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.csprojResolveAssemblyReference.cache
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\Window1.baml
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\Window1.g.cs
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\App.g.cs
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Lessons\WPF\009 Resources\001_AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.Cache
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\bin\Debug\AssemblyResources.exe
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\bin\Debug\AssemblyResources.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\Window1.baml
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\Window1.g.cs
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\App.g.cs
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Resourses)\AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.Cache

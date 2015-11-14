@@ -1,0 +1,3 @@
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.pdb

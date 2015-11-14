@@ -1,0 +1,19 @@
+﻿<Window x:Class="Example3RoutedEvents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:extra="clr-namespace:Example3RoutedEvents"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <extra:ExtraButton x:Name="OuterButton"
+                               Margin="30" 
+                               MyButtonClick="ExtraButton_MyButtonClick">
+            
+            <StackPanel>
+                <extra:ExtraButton x:Name="InnerButton"
+                                       Padding="30"  
+                                       MyButtonClick="ExtraButton_MyButtonClick" Content="Вложенная кнопка">
+                </extra:ExtraButton>
+            </StackPanel>
+        </extra:ExtraButton>
+    </Grid>
+</Window>

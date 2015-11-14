@@ -1,0 +1,29 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Example2BindingToElement(TwoWay).csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Example2BindingToElement(TwoWay).csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\bin\Debug\Exampl2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Example2BindingToElement(TwoWay).csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\MainWindow.baml
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\MainWindow.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\App.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2_MarkupCompile.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.g.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Exampl2.Properties.Resources.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Exampl2\obj\Debug\Example2BindingToElement(TwoWay).csproj.GenerateResource.Cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example2BindingToElement(TwoWay)\bin\Debug\Exampl2.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example2BindingToElement(TwoWay)\obj\Debug\Exampl2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example2BindingToElement(TwoWay)\obj\Debug\Exampl2.pdb

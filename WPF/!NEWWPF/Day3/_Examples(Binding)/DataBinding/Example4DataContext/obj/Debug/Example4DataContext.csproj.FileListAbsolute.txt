@@ -1,0 +1,32 @@
+D:\3003\DataBinding\Example4\bin\Debug\Example4.exe.config
+D:\3003\DataBinding\Example4\bin\Debug\Example4.exe
+D:\3003\DataBinding\Example4\bin\Debug\Example4.pdb
+D:\3003\DataBinding\Example4\obj\Debug\Example4DataContext.csprojResolveAssemblyReference.cache
+D:\3003\DataBinding\Example4\obj\Debug\MainWindow.baml
+D:\3003\DataBinding\Example4\obj\Debug\MainWindow.g.cs
+D:\3003\DataBinding\Example4\obj\Debug\App.g.cs
+D:\3003\DataBinding\Example4\obj\Debug\Example4_MarkupCompile.cache
+D:\3003\DataBinding\Example4\obj\Debug\Example4.g.resources
+D:\3003\DataBinding\Example4\obj\Debug\Example4.Properties.Resources.resources
+D:\3003\DataBinding\Example4\obj\Debug\Example4DataContext.csproj.GenerateResource.Cache
+D:\3003\DataBinding\Example4\obj\Debug\Example4.exe
+D:\3003\DataBinding\Example4\obj\Debug\Example4.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\bin\Debug\Example4.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\bin\Debug\Example4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\bin\Debug\Example4.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4DataContext.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4DataContext.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example4\obj\Debug\Example4.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4\bin\Debug\Example4.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4\obj\Debug\Example4.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4\obj\Debug\Example4.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4DataContext\bin\Debug\Example4.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4DataContext\obj\Debug\Example4.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example4DataContext\obj\Debug\Example4.pdb

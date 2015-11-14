@@ -1,0 +1,45 @@
+D:\3003\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe.config
+D:\3003\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe
+D:\3003\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.pdb
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.baml
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.g.cs
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\App.g.cs
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.cache
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.g.resources
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.Properties.Resources.resources
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.csproj.GenerateResource.Cache
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.exe
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.pdb
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.lref
+D:\3003\DataBinding\Example5ValueConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.lref
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\bin\Debug\Example5ValueConverter.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\App.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter_MarkupCompile.lref
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\MainWindow.baml
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.g.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.Properties.Resources.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example5ValueConverter\obj\Debug\Example5ValueConverter.csproj.GenerateResource.Cache

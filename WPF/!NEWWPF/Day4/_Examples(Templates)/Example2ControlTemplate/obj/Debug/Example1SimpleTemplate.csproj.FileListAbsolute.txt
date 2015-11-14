@@ -1,0 +1,7 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example4SimpleTeme\bin\Debug\Example4SimpleTeme.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example4SimpleTeme\obj\Debug\Example4SimpleTeme.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example4SimpleTeme\obj\Debug\Example4SimpleTeme.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp - копия\Example4SimpleTeme\bin\Debug\Example4SimpleTeme.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp - копия\Example4SimpleTeme\obj\Debug\Example4SimpleTeme.pdb
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Графика\_Examples(Templates)\TempletesApp\Example4SimpleTeme\bin\Debug\Example4SimpleTeme.exe.config
+E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Графика\_Examples(Templates)\TempletesApp\Example4SimpleTeme\obj\Debug\Example4SimpleTeme.pdb

@@ -1,0 +1,15 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\bin\Debug\SkinningDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\bin\Debug\SkinningDemo.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\DefaultSkin.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\Skin1.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\Skin2.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\Window1.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\Window1.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\App.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo_MarkupCompile.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.g.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.Properties.Resources.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.csproj.GenerateResource.Cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\SkinningDemo\SkinningDemo\obj\Debug\SkinningDemo.pdb

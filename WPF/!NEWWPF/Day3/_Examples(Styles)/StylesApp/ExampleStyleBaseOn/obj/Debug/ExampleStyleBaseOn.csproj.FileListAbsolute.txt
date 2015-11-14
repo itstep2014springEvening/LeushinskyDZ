@@ -1,0 +1,1 @@
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\ExampleStyleBaseOn\bin\Debug\ExampleStyleBaseOn.exe.config

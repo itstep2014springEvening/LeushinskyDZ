@@ -1,0 +1,16 @@
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\bin\Debug\Example3.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\bin\Debug\Example3.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\bin\Debug\Example3.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3Triggers.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3Triggers.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example3\bin\Debug\Example3.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example3\obj\Debug\Example3.pdb

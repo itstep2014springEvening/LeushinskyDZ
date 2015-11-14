@@ -1,0 +1,18 @@
+Прокрутка у проигрывателя - не работает
+Интерфес - можно сделать expander для списка воспроизводимых файлов
+Компоновка нормально, только кнопка Open выделяется!
+ в КНОПКЕ лучше использовать StackPanel
+<Button Grid.Column="1" Height="25" Width="Auto" UseLayoutRounding="True" Command="Open">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="F:\Programms\RybaltchenkoDZ\_Shag_WPF\WpfApplication\WpfMediaPlayer\Resources\46401.jpg" HorizontalAlignment="Right" Width="19" />                        
+                        <TextBlock Grid.Column="1" Margin="2,0,0,0">OPEN</TextBlock>
+                    </Grid>
+                </Button>
+
+
+
+

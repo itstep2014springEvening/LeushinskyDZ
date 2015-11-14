@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AssemblyResources">
+</Property><Property Name="Solution File" Value="D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\AssemblyResources.sln">
+</Property><Property Name="User Options File" Value="D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\AssemblyResources.suo">
+</Property><Property Name="Date" Value="22 июня 2010 г.">
+</Property><Property Name="Time" Value="15:24">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AssemblyResources.sln" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\AssemblyResources.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AssemblyResources.suo" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\AssemblyResources.suo">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="AssemblyResources.csproj" Description="Project file successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\AssemblyResources.csproj">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="App.xaml.cs" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Window1.xaml.cs" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Properties\Settings.settings" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Sounds\ding.wav" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Sounds\ding.wav">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Sounds\start.wav" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Sounds\start.wav">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Properties\Resources.resx" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="App.xaml" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\App.xaml">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="Window1.xaml" Description="File successfully backed up as D:\Work\Lessons\CBS_CS_WPF\zResources\AssemblyResources\Backup\Window1.xaml">
+</Event><Event ErrorLevel="1" Project="AssemblyResources" Source="AssemblyResources.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="AssemblyResources.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AssemblyResources" Source="AssemblyResources.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AssemblyResources.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AssemblyResources.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AssemblyResources" Source="AssemblyResources.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

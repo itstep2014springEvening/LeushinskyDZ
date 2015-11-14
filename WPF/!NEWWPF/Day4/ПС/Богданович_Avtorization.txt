@@ -1,0 +1,24 @@
+foreach(Control k in gbPassRecover.Controls)
+            {
+                if (k is TextBox)  // Обязательно проверка!
+                {
+                    if (string.IsNullOrEmpty(k.Text))
+                    {
+                        MessageBox.Show("Все поля должны быть заполнены!");
+                        return;
+                    }
+                }
+            }
+
+
+2.  Зачем int i ?
+int i = SqlWork.RestorePassword(tbRecEmail.Text, tbRecPass.Text);
+
+                if (i != 0)
+                {
+                    MessageBox.Show("Пароль изменен!");
+                    Close();
+                }
+
+3.
+ if(k as TextBox != null) можно заменить на if (k is TextBox)

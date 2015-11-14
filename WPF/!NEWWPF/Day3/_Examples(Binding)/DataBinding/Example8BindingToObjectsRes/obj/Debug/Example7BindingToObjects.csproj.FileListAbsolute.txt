@@ -1,0 +1,18 @@
+D:\3003\DataBinding\Exampe7BindingToObjects\bin\Debug\Exampe7BindingToObjects.exe.config
+D:\3003\DataBinding\Exampe7BindingToObjects\bin\Debug\Exampe7BindingToObjects.exe
+D:\3003\DataBinding\Exampe7BindingToObjects\bin\Debug\Exampe7BindingToObjects.pdb
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Example7BindingToObjects.csprojResolveAssemblyReference.cache
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\MainWindow.baml
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\MainWindow.g.cs
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\App.g.cs
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects_MarkupCompile.cache
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.g.resources
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.Properties.Resources.resources
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Example7BindingToObjects.csproj.GenerateResource.Cache
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.exe
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.pdb
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\3003\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects_MarkupCompile.lref
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampe7BindingToObjects\bin\Debug\Exampe7BindingToObjects.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Exampe7BindingToObjects\obj\Debug\Exampe7BindingToObjects.pdb

@@ -1,0 +1,16 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\bin\Debug\Example5TemplateBinding.exe.config
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\bin\Debug\Example5TemplateBinding.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\bin\Debug\Example5TemplateBinding.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example2TemplateBinding.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\MainWindow.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\MainWindow.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\App.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example5TemplateBinding_MarkupCompile.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.g.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.Properties.Resources.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example2TemplateBinding.csproj.GenerateResource.Cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example5TemplateBinding\bin\Debug\Example5TemplateBinding.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example5TemplateBinding\obj\Debug\Example5TemplateBinding.pdb

@@ -1,0 +1,26 @@
+1. Необходимо устанавливать минимальные и максимальные размеры для формы 
+или предусмотреть адекватное поведение контролов.
+2.Именования в соотвтетсвтии с требованиями. Привыкайте !
+3. Что у Вас за привычка?
+C:\Users\Artur\Documents\Visual Studio 2013\Projects\PhoneStore\PhoneStore\bin\Debug\Storesave.txt
+
+4.
+ Используйте здесь using()
+                 FileStream FS = new FileStream(path, FileMode.Create);
+                 BinaryFormatter BF = new BinaryFormatter();
+                 BF.Serialize(FS,phones);
+                 FS.Close();
+т.к. может быть исключение при сериализации
+
+
+5. где проверка на listBox1.SelectedIndex!=-1
+
+private void button5_Click(object sender, EventArgs e)
+        {
+           phones[listBox1.SelectedIndex].model = Convert.ToString(textBox5.Text);
+           phones[listBox1.SelectedIndex].os = Convert.ToString(textBox6.Text);
+           double res;
+           ....
+
+6. Для привязки данных можно было использовтаь вместо   List<Phone> phones; 
+BindingList<Phone> phones; 

@@ -1,0 +1,3 @@
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingToObjectsRes\bin\Debug\Exampe7BindingToObjects.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingToObjectsRes\obj\Debug\Exampe7BindingToObjects.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example8BindingToObjectsRes\obj\Debug\Exampe7BindingToObjects.pdb

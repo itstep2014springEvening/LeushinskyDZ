@@ -1,0 +1,12 @@
+Аторизация
+1. Вы же знаете зачем именования, так почему не именуете как нужно!
+2. Почему сюда?  Program.ObjConnector.Register(objUser);
+3. в своих проектах тоже так используете?
+if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox6.Text == "") {
+               MessageBox.Show("Fill all important fields");
+               return;
+            }
+
+По телефонам ВРОДЕ вопросов нет!
+
+           

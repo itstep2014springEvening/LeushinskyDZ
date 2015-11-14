@@ -1,0 +1,17 @@
+ќшибка компил€ции - 
+ public string FileName { get; }
+        public string FullPath { get; }
+        public PlayListItem(string filename, string fullPath) {
+            FileName = filename;
+            FullPath = fullPath;
+        }
+¬ чем ошибка?
+
+ќшибка компил€ции - 
+actualDuration.Content = $"{actualDateTime:H:mm:ss}";
+
+јјјјјјјјјјјјјјјј!
+
+
+
+

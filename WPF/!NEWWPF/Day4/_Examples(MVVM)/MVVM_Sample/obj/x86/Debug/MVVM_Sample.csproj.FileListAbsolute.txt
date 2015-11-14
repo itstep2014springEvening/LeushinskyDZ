@@ -1,0 +1,69 @@
+D:\DevTemp\MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.exe
+D:\DevTemp\MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.pdb
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\App.g.cs
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.cache
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.g.resources
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.Properties.Resources.resources
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.baml
+D:\DevTemp\MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.g.cs
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.exe
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.pdb
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.baml
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.g.cs
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\App.g.cs
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.cache
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.g.resources
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.Properties.Resources.resources
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Work\Lessons\WPF\Lesson_021 (Additional Samples)\003_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.exe
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.pdb
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.baml
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.g.cs
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\App.g.cs
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.cache
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.g.resources
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.Properties.Resources.resources
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Work\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.csprojResolveAssemblyReference.cache
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.g.cs
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\App.g.cs
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.cache
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.lref
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.exe
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.pdb
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.baml
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.g.resources
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.Properties.Resources.resources
+G:\Lessons\Archive\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.csproj.GenerateResource.Cache
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.exe
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\bin\Debug\MVVM_Sample.pdb
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.csprojResolveAssemblyReference.cache
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.g.cs
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\App.g.cs
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.cache
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample_MarkupCompile.lref
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\View\MainWindow.baml
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.g.resources
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.Properties.Resources.resources
+D:\Lessons\WPF\020 MVVM\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.csproj.GenerateResource.Cache
+C:\Users\KIN\Desktop\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.exe
+C:\Users\KIN\Desktop\001_MVVM_Sample\MVVM_Sample\obj\x86\Debug\MVVM_Sample.pdb

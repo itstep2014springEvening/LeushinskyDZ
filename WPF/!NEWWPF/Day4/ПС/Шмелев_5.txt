@@ -1,0 +1,11 @@
+Программа телефоны
+
+1,  ObservableCollection<Phone> phones; - в WinForms можно заменить на BindingList
+2. Проверка на listBox1.SelectedItem!=null ?
+            Phone phone = (Phone)listBox1.SelectedItem;
+            phone.Processor = textBox3.Text;
+            SomethingChanged(sender, e);
+
+
+
+

@@ -1,0 +1,8 @@
+1. Multiconnector должен бытиь подключен как библиотека!
+2.
+public void bbbbbbb(string ff)
+        {
+            MessageBox.Show("jjjjjjjjjjjjjjjjjjjj");
+        }
+
+3. Не нашел Добаваление нового пользователя и обновление пароля!

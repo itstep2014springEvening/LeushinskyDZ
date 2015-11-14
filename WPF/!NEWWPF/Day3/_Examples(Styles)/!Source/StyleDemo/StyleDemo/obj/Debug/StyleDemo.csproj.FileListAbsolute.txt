@@ -1,0 +1,12 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\bin\Debug\StyleDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\bin\Debug\StyleDemo.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.csprojResolveAssemblyReference.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\Window1.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\Window1.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\App.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo_MarkupCompile.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.g.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.Properties.Resources.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.csproj.GenerateResource.Cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\StyleDemo\StyleDemo\obj\Debug\StyleDemo.pdb

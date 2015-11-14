@@ -1,0 +1,38 @@
+D:\3003\StylesApp\Example2\bin\Debug\Example2.exe.config
+D:\3003\StylesApp\Example2\obj\Debug\MainWindow.baml
+D:\3003\StylesApp\Example2\obj\Debug\MainWindow.g.cs
+D:\3003\StylesApp\Example2\obj\Debug\App.g.cs
+D:\3003\StylesApp\Example2\obj\Debug\Example2_MarkupCompile.cache
+D:\3003\StylesApp\Example2\obj\Debug\Example2.g.resources
+D:\3003\StylesApp\Example2\obj\Debug\Example2.Properties.Resources.resources
+D:\3003\StylesApp\Example2\obj\Debug\Example2SimpleStyles.csproj.GenerateResource.Cache
+D:\3003\StylesApp\Example2\bin\Debug\Example2.exe
+D:\3003\StylesApp\Example2\bin\Debug\Example2.pdb
+D:\3003\StylesApp\Example2\obj\Debug\Example2.exe
+D:\3003\StylesApp\Example2\obj\Debug\Example2.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2SimpleStyles.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2SimpleStyles.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\bin\Debug\Example2.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2SimpleStyles.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\MainWindow.baml
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\MainWindow.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\App.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2_MarkupCompile.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.g.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2.Properties.Resources.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Styles)\StylesApp\Example2\obj\Debug\Example2SimpleStyles.csproj.GenerateResource.Cache

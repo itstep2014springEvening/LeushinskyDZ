@@ -1,0 +1,39 @@
+D:\3003\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe.config
+D:\3003\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe
+D:\3003\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.pdb
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csprojResolveAssemblyReference.cache
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.baml
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.g.cs
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\App.g.cs
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding_MarkupCompile.cache
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.g.resources
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.Properties.Resources.resources
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csproj.GenerateResource.Cache
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.exe
+D:\3003\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe.config
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.pdb
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csprojResolveAssemblyReference.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.baml
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\App.g.cs
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding_MarkupCompile.cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.g.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.Properties.Resources.resources
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csproj.GenerateResource.Cache
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.exe
+Q:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day5 Соединение данных и элементов управления\_Tasks(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe.config
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.exe
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\bin\Debug\Example6MultiBinding.pdb
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csprojResolveAssemblyReference.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.baml
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\MainWindow.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\App.g.cs
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding_MarkupCompile.cache
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.g.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.Properties.Resources.resources
+G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day3 DataBinding. Стили\_Examples(Binding)\DataBinding\Example6MultiBinding\obj\Debug\Example6MultiBinding.csproj.GenerateResource.Cache

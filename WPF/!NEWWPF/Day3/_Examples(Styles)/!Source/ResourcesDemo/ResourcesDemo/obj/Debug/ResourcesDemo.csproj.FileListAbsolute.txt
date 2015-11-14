@@ -1,0 +1,11 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\bin\Debug\ResourcesDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\bin\Debug\ResourcesDemo.pdb
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\Window1.baml
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\Window1.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\App.g.cs
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo_MarkupCompile.cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo.g.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo.Properties.Resources.resources
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo.csproj.GenerateResource.Cache
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo.exe
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day7 Отображение документов нефиксированного формата\_Examples(Documents)\Source\ResourcesDemo\ResourcesDemo\obj\Debug\ResourcesDemo.pdb

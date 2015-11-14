@@ -1,0 +1,20 @@
+Программа телефоны
+
+1, Именования - проекта, форм и элементов!
+2. Классы объявляются - каждый в своем файле.  а не в другом классе!
+3. 4.
+ Используйте здесь using()
+                 FileStream FS = new FileStream(path, FileMode.Create);
+                 BinaryFormatter BF = new BinaryFormatter();
+                 BF.Serialize(FS,phones);
+                 FS.Close();
+т.к. может быть исключение при сериализации
+4. Используйте вместо phones[this.listBox1.SelectedIndex].Model;
+Phone selPhone=(Phone)this.listBox1.SelectedItem;
+или 
+Phone selPhone=this.listBox1.SelectedItem as Phone;
+
+Программа MultiConnector
+
+
+

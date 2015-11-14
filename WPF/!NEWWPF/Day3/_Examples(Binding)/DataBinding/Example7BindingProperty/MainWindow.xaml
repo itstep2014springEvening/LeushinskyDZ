@@ -1,0 +1,10 @@
+﻿<Window x:Class="Example8BindingProperty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Example8BindingProperty"
+        Title="MainWindow" Height="350" Width="525" x:Name="MainWinow">
+    <StackPanel>
+        <TextBlock  DataContext="{Binding ElementName=MainWinow}" Text="{Binding Path=NameApp}" Height="50" Margin="10"></TextBlock>
+        <Button  Content="Изменение свойства в коде" Height="50" Margin="10" Click="Button_Click"></Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,1 @@
+E:\_Работа (нов)\_ITstep\_Учебный материал\4. WPF\Day8 Управление стилями и ресурсами\_Examples(Templates)\TempletesApp\Example5TemplateBinding\bin\Debug\Example5TemplateBinding.exe.config
