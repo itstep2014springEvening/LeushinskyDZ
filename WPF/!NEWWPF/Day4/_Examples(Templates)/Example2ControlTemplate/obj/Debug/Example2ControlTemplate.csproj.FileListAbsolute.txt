@@ -16,3 +16,6 @@ G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаб
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example2ControlTemplate\bin\Debug\Example4SimpleTeme.exe.config
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example2ControlTemplate\obj\Debug\Example4SimpleTeme.exe
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(Templates)\Example2ControlTemplate\obj\Debug\Example4SimpleTeme.pdb
+D:\ivan\git\LeushinskyDZ\WPF\!NEWWPF\Day4\_Examples(Templates)\Example2ControlTemplate\bin\Debug\Example4SimpleTeme.exe.config
+D:\ivan\git\LeushinskyDZ\WPF\!NEWWPF\Day4\_Examples(Templates)\Example2ControlTemplate\obj\Debug\Example4SimpleTeme.exe
+D:\ivan\git\LeushinskyDZ\WPF\!NEWWPF\Day4\_Examples(Templates)\Example2ControlTemplate\obj\Debug\Example4SimpleTeme.pdb
