@@ -43,7 +43,7 @@ namespace BrowserPanel
               metadata,
               new ValidateValueCallback(Validate));
         }
-
+       
         // метод вызываемый при изменении свойтсва зависисмости
         private static void OnFileNameChanged(DependencyObject element, DependencyPropertyChangedEventArgs args)
         {

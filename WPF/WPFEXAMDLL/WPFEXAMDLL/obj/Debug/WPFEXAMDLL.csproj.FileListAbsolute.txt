@@ -1,0 +1,11 @@
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\bin\Debug\WPFEXAMDLL.dll
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\bin\Debug\WPFEXAMDLL.pdb
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL_MarkupCompile.cache
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL_MarkupCompile.lref
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\Themes\Generic.baml
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL.g.resources
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL.Properties.Resources.resources
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL.csproj.GenerateResource.Cache
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL.dll
+E:\git\LeushinskyDZ\WPF\WPFEXAMDLL\WPFEXAMDLL\obj\Debug\WPFEXAMDLL.pdb

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFEXAM_NUD", "WPFEXAM_NUD\WPFEXAM_NUD.csproj", "{7B672DFF-41D8-4220-8789-68749DF42457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFEXAMDLL", "WPFEXAMDLL\WPFEXAMDLL.csproj", "{5FE33BC3-B394-4910-8E11-FA3B304B2786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B672DFF-41D8-4220-8789-68749DF42457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B672DFF-41D8-4220-8789-68749DF42457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B672DFF-41D8-4220-8789-68749DF42457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B672DFF-41D8-4220-8789-68749DF42457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE33BC3-B394-4910-8E11-FA3B304B2786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE33BC3-B394-4910-8E11-FA3B304B2786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE33BC3-B394-4910-8E11-FA3B304B2786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE33BC3-B394-4910-8E11-FA3B304B2786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

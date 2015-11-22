@@ -27,3 +27,18 @@ E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаб
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\ExampleDependencyProp\obj\Debug\Example1DependencyProp.csproj.GenerateResource.Cache
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.exe
 E:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.pdb
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\bin\Debug\ExampleDependencyProp.exe.config
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.exe
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.pdb
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\bin\Debug\ExampleDependencyProp.exe
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\bin\Debug\ExampleDependencyProp.pdb
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\Example1DependencyProp.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\MainWindow.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\App.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp_MarkupCompile.cache
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp_MarkupCompile.lref
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\MainWindow.baml
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.g.resources
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\ExampleDependencyProp.Properties.Resources.resources
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\ExampleDependencyProp\obj\Debug\Example1DependencyProp.csproj.GenerateResource.Cache

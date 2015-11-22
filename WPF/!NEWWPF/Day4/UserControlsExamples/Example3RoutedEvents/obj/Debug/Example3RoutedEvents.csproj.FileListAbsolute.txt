@@ -27,3 +27,18 @@ G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаб
 G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.Properties.Resources.resources
 G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.csproj.GenerateResource.Cache
 G:\_Работа (нов)\_ITstep\_Уч. материал\4.WPF_ПС\Day4 Шаблоны.Графика\_Examples(UserControls)\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\bin\Debug\Example3RoutedEvents.exe.config
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.exe
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.pdb
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\bin\Debug\Example3RoutedEvents.exe
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\bin\Debug\Example3RoutedEvents.pdb
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\MainWindow.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\App.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents_MarkupCompile.cache
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents_MarkupCompile.lref
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\MainWindow.baml
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.g.resources
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.Properties.Resources.resources
+E:\git\LeushinskyDZ\WPF\!NEWWPF\Day4\UserControlsExamples\Example3RoutedEvents\obj\Debug\Example3RoutedEvents.csproj.GenerateResource.Cache
