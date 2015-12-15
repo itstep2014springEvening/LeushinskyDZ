@@ -1,0 +1,9 @@
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\bin\Debug\Lesson1.exe.config
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\bin\Debug\Lesson1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\bin\Debug\Lesson1.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Calc(example1).csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Lesson1.Form1.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Lesson1.Properties.Resources.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Calc(example1).csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Lesson1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\Lesson1\obj\Debug\Lesson1.pdb

@@ -1,0 +1,9 @@
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.exe.config
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.Form1.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.Properties.Resources.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.pdb

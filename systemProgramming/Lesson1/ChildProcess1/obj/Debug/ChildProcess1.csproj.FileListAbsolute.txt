@@ -1,0 +1,8 @@
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\bin\Debug\ChildProcess1.exe.config
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\bin\Debug\ChildProcess1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\bin\Debug\ChildProcess1.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\obj\Debug\ChildProcess1.Form1.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\obj\Debug\ChildProcess1.Properties.Resources.resources
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\obj\Debug\ChildProcess1.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\obj\Debug\ChildProcess1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ChildProcess1\obj\Debug\ChildProcess1.pdb

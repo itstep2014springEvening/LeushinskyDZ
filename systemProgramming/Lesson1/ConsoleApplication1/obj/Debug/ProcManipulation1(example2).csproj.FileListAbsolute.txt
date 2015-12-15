@@ -1,0 +1,6 @@
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\obj\Debug\ProcManipulation1(example2).csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

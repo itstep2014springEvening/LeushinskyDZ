@@ -1,0 +1,5 @@
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ClassLibrary1WcfServiceLibrary1\bin\Debug\ClassLibrary1WcfServiceLibrary1.dll
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ClassLibrary1WcfServiceLibrary1\bin\Debug\ClassLibrary1WcfServiceLibrary1.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ClassLibrary1WcfServiceLibrary1\obj\Debug\PersonLib(AssemblySample)(example4).csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ClassLibrary1WcfServiceLibrary1\obj\Debug\ClassLibrary1WcfServiceLibrary1.dll
+D:\git\LeushinskyDZ\systemProgramming\Lesson1\ClassLibrary1WcfServiceLibrary1\obj\Debug\ClassLibrary1WcfServiceLibrary1.pdb
