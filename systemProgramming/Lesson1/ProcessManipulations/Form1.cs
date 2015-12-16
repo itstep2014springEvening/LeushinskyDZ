@@ -56,9 +56,9 @@ namespace ProcessManipulations
             
             process.Exited += Process_Exited;
             SetChildWindowText(process.MainWindowHandle, "Child process #" + (++Counter));
-            if (!listBox2.Items.Contains(process.ProcessName))
+            if (!listBox1.Items.Contains(process.ProcessName))
             {
-                listBox2.Items.Add(process.ProcessName);
+                listBox1.Items.Add(process.ProcessName);
             }
             listBox1.Items.Remove(listBox2.SelectedItem);
         }
@@ -82,6 +82,7 @@ namespace ProcessManipulations
 
         public void Process_Exited(object sender, EventArgs e)
         {
+            System.Windows.Forms.Control.CheckForIllegalCrossThreadCalls = false;
             Process process = sender as Process;
             listBox1.Items.Remove(process.ProcessName);
             listBox2.Items.Add(process.ProcessName);

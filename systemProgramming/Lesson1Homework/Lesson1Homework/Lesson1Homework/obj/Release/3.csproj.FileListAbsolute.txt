@@ -1,0 +1,5 @@
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\Lesson1Homework\bin\Release\Lesson1Homework.exe.config
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\Lesson1Homework\bin\Release\Lesson1Homework.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\Lesson1Homework\bin\Release\Lesson1Homework.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\Lesson1Homework\obj\Release\Lesson1Homework.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\Lesson1Homework\obj\Release\Lesson1Homework.pdb

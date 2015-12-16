@@ -7,3 +7,12 @@ D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\Pro
 D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.csproj.GenerateResource.Cache
 D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.exe
 D:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.exe.config
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\bin\Debug\ProcessManipulations.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.Form1.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.Properties.Resources.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson1\ProcessManipulations\obj\Debug\ProcessManipulations.csproj.GenerateResource.Cache
