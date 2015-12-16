@@ -1,0 +1,6 @@
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\bin\Debug\2.exe.config
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\bin\Debug\2.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\bin\Debug\2.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\obj\Debug\2.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\obj\Debug\2.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson1Homework\Lesson1Homework\2\obj\Debug\2.csprojResolveAssemblyReference.cache
