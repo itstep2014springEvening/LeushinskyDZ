@@ -1,0 +1,6 @@
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\bin\Debug\itnerlockTEST.exe.config
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\bin\Debug\itnerlockTEST.exe
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\bin\Debug\itnerlockTEST.pdb
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\obj\Debug\itnerlockTEST.csprojResolveAssemblyReference.cache
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\obj\Debug\itnerlockTEST.exe
+D:\git\LeushinskyDZ\systemProgramming\itnerlockTEST\itnerlockTEST\obj\Debug\itnerlockTEST.pdb
