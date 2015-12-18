@@ -6,3 +6,6 @@ E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\_2.Properties.
 E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.csproj.GenerateResource.Cache
 E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.exe
 E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.pdb
+D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\bin\Debug\2.exe.config
+D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.exe
+D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.pdb

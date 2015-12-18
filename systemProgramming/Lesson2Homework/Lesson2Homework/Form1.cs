@@ -15,7 +15,7 @@ namespace Lesson2Homework
     public partial class Form1 : Form
     {
         public static SemaphoreSlim s = new SemaphoreSlim(3);
-        public List<Thread> myThreadsList = new List<Thread>();
+        public List<ThreadsAndIncrements> MyThreadsAndIncrements= new List<ThreadsAndIncrements>();
         public static int ThreadCounter = 0;
         public Form1()
         {
@@ -30,7 +30,7 @@ namespace Lesson2Homework
         private void button1_Click(object sender, EventArgs e)
         {
 
-            myThreadsList.Add(new Thread(new ThreadStart(ThreadCreated)));
+            MyThreadsAndIncrements.Add(new ThreadsAndIncrements(ThreadCounter,new Thread(new ThreadStart(Work))));
             
             createdThreads.Items.Add("Поток "+ (++ThreadCounter)+" -> created");
 
@@ -81,7 +81,7 @@ namespace Lesson2Homework
             createdThreads.Items.Remove(createdThreads.SelectedItem);
           //  if(createdThreads.SelectedItem!=null)
 
-            waitingThreads.Items.Add("Поток" + index[1]);
+            waitingThreads.Items.Add("Поток" + index[1]+" -> waiting");
            // index = 0;
 
 
@@ -94,18 +94,19 @@ namespace Lesson2Homework
 
         private void waitingThreads_DoubleClick(object sender, EventArgs e)
         {
-            
             try
             {
-                foreach (var t in myThreadsList)
-                {
-                    MessageBox.Show(Thread.CurrentThread.ManagedThreadId.ToString());
-                }
-            }
-            finally
-            {
+                int index = Int32.Parse(waitingThreads.SelectedIndex.ToString().Split()[1]);
+                MyThreadsAndIncrements[index].Thread.Start();
                 
             }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Something wrong");
+            }
+            
+            
             //while (true)
             //{
             //    if (semaphore.Release(3))
@@ -119,6 +120,16 @@ namespace Lesson2Homework
             //    }
 
             //}
+        }
+
+        public void Work()
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
