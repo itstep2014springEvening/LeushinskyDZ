@@ -14,12 +14,13 @@ namespace Lesson2Homework
     
     public partial class Form1 : Form
     {
+        public static SemaphoreSlim s = new SemaphoreSlim(3);
         public List<Thread> myThreadsList = new List<Thread>();
         public static int ThreadCounter = 0;
         public Form1()
         {
             InitializeComponent();
-            numericUpDown1.Value = 1;
+            numericUpDown1.Value = 3;
             //Semaphore semaphore = new Semaphore((int)numericUpDown1.Value, (int)numericUpDown1.Value, "S");
            
         }
@@ -93,8 +94,31 @@ namespace Lesson2Homework
 
         private void waitingThreads_DoubleClick(object sender, EventArgs e)
         {
-            Semaphore semaphore = new Semaphore((int)numericUpDown1.Value, (int)numericUpDown1.Value, "S");
-            if(semaphore.Sa)
+            
+            try
+            {
+                foreach (var t in myThreadsList)
+                {
+                    MessageBox.Show(Thread.CurrentThread.ManagedThreadId.ToString());
+                }
+            }
+            finally
+            {
+                
+            }
+            //while (true)
+            //{
+            //    if (semaphore.Release(3))
+            //    {
+
+            //        catch (Exception)
+            //        {
+
+            //        }
+
+            //    }
+
+            //}
         }
     }
 }

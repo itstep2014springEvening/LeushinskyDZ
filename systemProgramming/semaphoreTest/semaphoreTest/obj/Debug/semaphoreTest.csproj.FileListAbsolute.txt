@@ -1,0 +1,6 @@
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\bin\Debug\semaphoreTest.exe.config
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\bin\Debug\semaphoreTest.exe
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\bin\Debug\semaphoreTest.pdb
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\obj\Debug\semaphoreTest.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\obj\Debug\semaphoreTest.exe
+E:\git\LeushinskyDZ\systemProgramming\semaphoreTest\semaphoreTest\obj\Debug\semaphoreTest.pdb

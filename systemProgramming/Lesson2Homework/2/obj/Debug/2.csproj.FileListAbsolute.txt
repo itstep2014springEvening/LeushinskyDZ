@@ -1,0 +1,8 @@
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\bin\Debug\2.exe.config
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\bin\Debug\2.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\bin\Debug\2.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\_2.Form1.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\_2.Properties.Resources.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.csproj.GenerateResource.Cache
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\2\obj\Debug\2.pdb

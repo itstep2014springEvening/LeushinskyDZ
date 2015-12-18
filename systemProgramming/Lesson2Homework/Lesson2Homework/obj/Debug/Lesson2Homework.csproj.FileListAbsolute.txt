@@ -7,3 +7,12 @@ D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\
 D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.csproj.GenerateResource.Cache
 D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.exe
 D:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\bin\Debug\Lesson2Homework.exe.config
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\bin\Debug\Lesson2Homework.exe
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\bin\Debug\Lesson2Homework.pdb
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.csprojResolveAssemblyReference.cache
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.Form1.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.Properties.Resources.resources
+E:\git\LeushinskyDZ\systemProgramming\Lesson2Homework\Lesson2Homework\obj\Debug\Lesson2Homework.csproj.GenerateResource.Cache
