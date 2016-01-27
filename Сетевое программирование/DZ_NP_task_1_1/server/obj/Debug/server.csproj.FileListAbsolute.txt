@@ -1,0 +1,13 @@
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.exe.config
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.exe
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.pdb
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.dll
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.xml
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.exe
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.pdb
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.Migrations.InitialCreate.resources
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.csproj.GenerateResource.Cache
+C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.Migrations.first.resources

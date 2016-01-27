@@ -41,3 +41,4 @@ D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Migrations._7771.resources
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Migrations._7772.resources
 D:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\obj\Debug\banksearchapp_Ivan.Migrations._7773.resources
+E:\git\LeushinskyDZ\winforms\!WINFORMSEXAM\banksearchapp_Ivan\banksearchapp_Ivan\bin\Debug\banksearchapp_Ivan.exe.config
