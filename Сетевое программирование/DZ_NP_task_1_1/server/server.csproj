@@ -52,13 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201601261657087_InitialCreate.cs" />
-    <Compile Include="Migrations\201601261657087_InitialCreate.Designer.cs">
-      <DependentUpon>201601261657087_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201601261707139_first.cs" />
-    <Compile Include="Migrations\201601261707139_first.Designer.cs">
-      <DependentUpon>201601261707139_first.cs</DependentUpon>
+    <Compile Include="Migrations\201601270730281_m1.cs" />
+    <Compile Include="Migrations\201601270730281_m1.Designer.cs">
+      <DependentUpon>201601270730281_m1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -72,11 +68,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201601261657087_InitialCreate.resx">
-      <DependentUpon>201601261657087_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201601261707139_first.resx">
-      <DependentUpon>201601261707139_first.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201601270730281_m1.resx">
+      <DependentUpon>201601270730281_m1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

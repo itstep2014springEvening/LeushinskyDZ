@@ -13,6 +13,7 @@ namespace server
         {
             //?
         }
-        public DbSet<Index> Streets { get; set; }
+        public DbSet<Index> Indexes { get; set; }
+        public DbSet<Street> Streets { get; set; }
     }
 }

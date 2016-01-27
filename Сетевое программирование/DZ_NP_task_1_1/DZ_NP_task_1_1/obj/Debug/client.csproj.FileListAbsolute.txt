@@ -1,0 +1,12 @@
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\DZ_NP_task_1_1.exe.config
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\DZ_NP_task_1_1.exe
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\DZ_NP_task_1_1.pdb
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\obj\Debug\DZ_NP_task_1_1.Form1.resources
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\obj\Debug\DZ_NP_task_1_1.Properties.Resources.resources
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\obj\Debug\client.csproj.GenerateResource.Cache
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\obj\Debug\DZ_NP_task_1_1.exe
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\DZ_NP_task_1_1\obj\Debug\DZ_NP_task_1_1.pdb

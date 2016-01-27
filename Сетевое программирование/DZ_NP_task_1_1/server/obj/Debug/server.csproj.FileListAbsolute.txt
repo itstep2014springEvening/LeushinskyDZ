@@ -11,3 +11,14 @@ C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP
 C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.Migrations.InitialCreate.resources
 C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.csproj.GenerateResource.Cache
 C:\Users\somax_000\Desktop\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.Migrations.first.resources
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.exe.config
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.exe
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.pdb
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.exe
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\server.pdb
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.dll
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.xml
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.Migrations.m1.resources
+D:\git\LeushinskyDZ\Сетевое программирование\DZ_NP_task_1_1\server\obj\Debug\server.csproj.GenerateResource.Cache

@@ -11,6 +11,7 @@ namespace server
     {
         [Key]
         public long StreetId { get; set; }
+        public string StreetName { get; set; }
         public virtual Index Index { get; set; }
     }
 }
