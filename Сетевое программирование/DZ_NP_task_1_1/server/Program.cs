@@ -50,14 +50,14 @@ namespace server
 
 
                 Index ind1 = new Index() { IndexId = 1, Streets = new List<Street>() };
-                Street st1 = new Street() { StreetName = "Baker Street" };
+                Street st1 = new Street() { StreetName = "Baker_Street" };
                 Street st2 = new Street() { StreetName = "Spenser" };
                 Street st3 = new Street() { StreetName = "Aprobos" };
 
                 Index ind2 = new Index() { IndexId = 2, Streets = new List<Street>() };
                 Street st4 = new Street() { StreetName = "Saridat" };
                 Street st5 = new Street() { StreetName = "Uno" };
-                Street st6 = new Street() { StreetName = "Marylebone Road" };
+                Street st6 = new Street() { StreetName = "Marylebone_Road" };
 
                 ind1.Streets.AddRange(new List<Street>() { st1, st2, st3 });
                 ind2.Streets.AddRange(new List<Street>() { st4, st5, st6 });
@@ -77,32 +77,41 @@ namespace server
 
             serverSocket.Bind(ep);
             serverSocket.Listen(3);
-            char[] buf = new char[1024];
-            List<string> s = db.Streets.Where(i=>i.Index.IndexId==2).Select(street => street.StreetName).ToList();
+            byte[] buf = new byte[1024];
+            string streets = " ";
+          //List<string> s = db.Streets.ToList();
+            int l = 0;
 
             try
             {
                 while (true)
                 {
                     Socket newServerSocket = serverSocket.Accept();
+                    l = newServerSocket.Receive(buf);
+                    string incomingIndex = System.Text.Encoding.ASCII.GetString(buf, 0, l);
                     
-                        newServerSocket.Send(System.Text.Encoding.ASCII.GetBytes("Hello user"+Environment.NewLine+"Enter index: "));
-                        
-                    
-                    Console.WriteLine(newServerSocket.RemoteEndPoint.ToString());
-                    //foreach (var street in s)
-                    //{
-                    //    newServerSocket.Send(System.Text.Encoding.ASCII.GetBytes(street));
-                    //}
-                    
+                    foreach (var street in db.Streets.Include(i=>i.Index))
+                    {
+                        if (street.Index.IndexId.ToString()==incomingIndex)
+                        {
+                          
+                            newServerSocket.Send(System.Text.Encoding.ASCII.GetBytes(street.StreetName+"|"+Environment.NewLine));
+                        }
 
-                    newServerSocket.Shutdown(SocketShutdown.Both);
+                    }
+                    newServerSocket.Shutdown(SocketShutdown.Send);
                 }
             }
             catch (Exception ex)
             {
-                
+
                 Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                serverSocket.Shutdown(SocketShutdown.Both);
+                //   clientSocket.Close();
+                // listBox2.Items.Add("Connection Shutdown");
             }
 
             Console.Read();
